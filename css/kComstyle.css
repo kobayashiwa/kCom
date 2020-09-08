@@ -26,3 +26,6 @@ ul, li {
 	padding-top: 60px;
 	margin-top:-60px;
 }
+header .container {
+	max-width: 1440px;
+}
