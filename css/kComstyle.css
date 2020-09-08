@@ -51,6 +51,7 @@ nav {
 }
 nav a.textLink {
 	padding: 24px 12px;
+	color: rgba(255,255,255,0.7);
 }
 #main {
 	padding-top: 70px;
