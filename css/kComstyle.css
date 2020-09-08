@@ -40,6 +40,9 @@ header .container {
 .header-left {
 	float: left;
 }
+.header-left img {
+	width: 100px;
+}
 .header-right {
 	float: right;
 }
