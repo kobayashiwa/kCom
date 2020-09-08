@@ -29,3 +29,6 @@ ul, li {
 header .container {
 	max-width: 1440px;
 }
+header {
+	width: 100%;
+}
