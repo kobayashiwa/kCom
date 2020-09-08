@@ -47,9 +47,10 @@ header .container {
 nav {
 	float: right;
 	line-height: 70px;
-}
-nav {
 	font-size: 13px;
+}
+nav a.textLink {
+	padding: 24px 12px;
 }
 #main {
 	padding-top: 70px;
