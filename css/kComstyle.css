@@ -48,6 +48,7 @@ header .container {
 	float: right;
 }
 #main {
+	padding-top: 70px;
 	background: url(../images/banner_bg.png);
 	height: 800px;
 }
