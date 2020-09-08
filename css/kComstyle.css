@@ -26,9 +26,6 @@ ul, li {
 	padding-top: 60px;
 	margin-top:-60px;
 }
-header .container {
-	max-width: 1440px;
-}
 header {
 	width: 100%;
 	height: 70px;
@@ -36,6 +33,15 @@ header {
 	top: 0;
 	left: 0;
 	z-index: 10;
+}
+header .container {
+	max-width: 1140px;
+}
+.header-left {
+	float: left;
+}
+.header-right {
+	float: right;
 }
 #main {
 	background: url(../images/banner_bg.png);
