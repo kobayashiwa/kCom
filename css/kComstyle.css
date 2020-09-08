@@ -42,6 +42,7 @@ header .container {
 }
 .header-left img {
 	width: 100px;
+	padding-top: 20px;
 }
 .header-right {
 	float: right;
