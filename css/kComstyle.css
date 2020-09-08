@@ -59,6 +59,7 @@ nav a.textLink:hover {
 }
 nav a.btn {
 	font-size: 14px;
+	padding: 12px 24px;
 }
 #main {
 	padding-top: 70px;
