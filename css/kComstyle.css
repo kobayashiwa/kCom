@@ -46,6 +46,7 @@ header .container {
 }
 nav {
 	float: right;
+	line-height: 70px;
 }
 nav {
 	font-size: 13px;
