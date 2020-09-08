@@ -57,6 +57,9 @@ nav a.textLink:hover {
 	color: #fff;
 	transition: all 0.3s ease 0s;
 }
+nav a.btn {
+	font-size: 14px;
+}
 #main {
 	padding-top: 70px;
 	background: url(../images/banner_bg.png);
