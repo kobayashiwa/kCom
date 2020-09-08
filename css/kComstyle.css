@@ -53,6 +53,10 @@ nav a.textLink {
 	padding: 24px 12px;
 	color: rgba(255,255,255,0.7);
 }
+nav a.textLink:hover {
+	color: #fff;
+	transition: all 0.3s ease 0s;
+}
 #main {
 	padding-top: 70px;
 	background: url(../images/banner_bg.png);
