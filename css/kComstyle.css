@@ -44,8 +44,11 @@ header .container {
 	width: 100px;
 	padding-top: 20px;
 }
-.header-right {
+nav {
 	float: right;
+}
+nav {
+	font-size: 13px;
 }
 #main {
 	padding-top: 70px;
