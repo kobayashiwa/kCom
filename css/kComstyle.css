@@ -37,3 +37,10 @@ header {
 	left: 0;
 	z-index: 10;
 }
+#main {
+	background: url(../images/banner_bg.png);
+	height: 800px;
+}
+
+
+
