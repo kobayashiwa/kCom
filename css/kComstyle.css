@@ -81,5 +81,35 @@ nav a.btn:hover {
 }
 .main_wrapper{
 	background: url(../images/banner_bg.png) no-repeat;
-	min-height: 965px;
+    background-position: 0;
+    min-height: 965px;
+    background-size: cover;
+    width: auto;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
+#main .row {
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#main .row .heading {
+	flex: 0 0 60%;
+    max-width: 60%;
+}
+
+#main .row .imgbox {
+	flex: 0 0 50%;
+    max-width: 100%;
+    margin-left: -480px;
+}
+
+
+
+
+
+
+
