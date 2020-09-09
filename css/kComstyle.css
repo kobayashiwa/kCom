@@ -58,8 +58,17 @@ nav a.textLink:hover {
 	transition: all 0.3s ease 0s;
 }
 nav a.btn {
+	color: #fff;
 	font-size: 14px;
+	margin-left: 24px;
 	padding: 12px 24px;
+	border: 1px solid #fff;
+	border-radius: 30px;
+}
+nav a.btn:hover {
+	color: #E9446A;
+	background-color: #fff;
+	transition: all 0.3s ease 0s;
 }
 #main {
 	padding-top: 70px;
