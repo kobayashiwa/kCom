@@ -114,6 +114,9 @@ nav a.btn:hover {
 #main .row .heading h1 .letterspace1 {
 	margin-left: -0.5em;
 }
+#main .row .heading h1 .letterspace2 {
+	margin-left: -1em;
+}
 #main .row .imgbox {
 	flex: 0 0 40%;
 	max-width: 100%;
