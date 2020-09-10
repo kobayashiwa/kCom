@@ -1,6 +1,7 @@
 html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
+	font-family: 'Rubik', sans-serif;
 }
 * {
 	box-sizing: border-box;
@@ -106,6 +107,9 @@ nav a.btn:hover {
 	font-size: 40px;
 	line-height: 64px;
 	letter-spacing: .1em;
+}
+#main .row .heading h1 span {
+	font-weight: 100;
 }
 #main .row .imgbox {
 	flex: 0 0 40%;
