@@ -118,6 +118,10 @@ nav a.btn:hover {
 #main .row .heading h1 .letterspace2 {
 	margin-left: -1em;
 }
+#main .row .heading h2 {
+	letter-spacing: .2em;
+	padding: .5em 0 1em 0;
+}
 #main .row .imgbox {
 	flex: 0 0 40%;
 	max-width: 100%;
@@ -130,6 +134,10 @@ nav a.btn:hover {
 #main .row .imgbox .bnr img{
 	width: 320%;
 }
+
+
+
+    
 
 
 
