@@ -1,5 +1,6 @@
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 * {
 	box-sizing: border-box;
@@ -10,6 +11,7 @@ html {
     box-sizing: border-box;
 }
 body {
+	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
 }
@@ -21,6 +23,7 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
+
 .container {
 	width: 100%;
 	max-width: 1140px;
@@ -37,6 +40,7 @@ ul, li {
 	transition: all 0.5s ease;
 }
 .hidden {
+	width: 100%;
 	background: none;
 	transition: all 0.5s ease;
 }
@@ -90,22 +94,27 @@ nav a.btn:hover {
     z-index: -1;
 }
 #main .row {
-    display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
 }
 #main .row .heading {
 	flex: 0 0 60%;
     max-width: 60%;
+	color: #fff;
+}
+#main .row .imgbox {
+	flex: 0 0 40%;
+	max-width: 100%;
+    margin-left: -480px;
+	position: relative;
+}
+#main .row .imgbox .bnr {
+	position: absolute;
+}
+#main .row .imgbox .bnr img{
+	width: 320%;
 }
 
-#main .row .imgbox {
-	flex: 0 0 50%;
-    max-width: 100%;
-    margin-left: -480px;
-}
 
 
 
