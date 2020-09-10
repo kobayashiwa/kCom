@@ -102,6 +102,11 @@ nav a.btn:hover {
     max-width: 60%;
 	color: #fff;
 }
+#main .row .heading h1 {
+	font-size: 40px;
+	line-height: 64px;
+	letter-spacing: .1em;
+}
 #main .row .imgbox {
 	flex: 0 0 40%;
 	max-width: 100%;
@@ -114,6 +119,10 @@ nav a.btn:hover {
 #main .row .imgbox .bnr img{
 	width: 320%;
 }
+
+
+
+
 
 
 
