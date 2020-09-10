@@ -86,7 +86,7 @@ nav a.btn:hover {
 }
 .main_wrapper{
 	background: url(../images/banner_bg.png) no-repeat;
-    background-position: 0;
+    background-position: 0 -80px;
     min-height: 965px;
     background-size: cover;
     width: auto;
