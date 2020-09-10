@@ -120,9 +120,17 @@ nav a.btn:hover {
 }
 #main .row .heading h2 {
 	letter-spacing: .2em;
-	padding: .5em 0 1em 0;
+	padding: .5em 0 2em 0;
 	font-size: 16px;
     line-height: 30px;
+}
+#main .row .heading a.btn {
+	color: #E9446A;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 16px 48px;
+	background: #fff;
+	border-radius: 30px;
 }
 #main .row .imgbox {
 	flex: 0 0 40%;
