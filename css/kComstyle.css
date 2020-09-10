@@ -15,6 +15,7 @@ body {
 	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
+	color: #222;
 }
 a {
 	text-decoration: none;
@@ -158,6 +159,9 @@ nav a.btn:hover {
 	font-size: 48px;
 	line-height: 63px;
 }
+
+
+
 
 
 
