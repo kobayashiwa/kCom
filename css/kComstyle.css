@@ -132,6 +132,12 @@ nav a.btn:hover {
 	background: #fff;
 	border-radius: 30px;
 }
+#main .row .heading a.btn:hover {
+	color: #fff;
+	background: none;
+	border: 1px solid #fff;
+	transition: all 0.3s ease 0s;
+}
 #main .row .imgbox {
 	flex: 0 0 40%;
 	max-width: 100%;
