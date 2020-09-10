@@ -108,8 +108,11 @@ nav a.btn:hover {
 	line-height: 64px;
 	letter-spacing: .1em;
 }
-#main .row .heading h1 span {
+#main .row .heading h1 .thin {
 	font-weight: 100;
+}
+#main .row .heading h1 .letterspace1 {
+	margin-left: -0.5em;
 }
 #main .row .imgbox {
 	flex: 0 0 40%;
@@ -123,8 +126,6 @@ nav a.btn:hover {
 #main .row .imgbox .bnr img{
 	width: 320%;
 }
-
-
 
 
 
