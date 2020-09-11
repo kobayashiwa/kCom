@@ -151,7 +151,7 @@ nav a.btn:hover {
 #main .row .imgbox .bnr img{
 	width: 320%;
 }
-#about, #feature, #choose, #voice, #price {
+#about, #feature, #choose, #voice, #price, #faq, #contact-form {
 	padding-top: 80px;
 }
 #about h3{
@@ -171,6 +171,7 @@ nav a.btn:hover {
 #about .row .heading ul {
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 48px;
 }
 #about .row .heading ul li {
 	width: 25%;
