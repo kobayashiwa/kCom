@@ -214,6 +214,9 @@ nav a.btn:hover {
 #about .row .imgbox img{
 	width: 100%;
 }
+#about .about02 {
+	padding-top: 80px;
+}
 #about .about02 .imgbox img {
 	width: 80%;
 }
