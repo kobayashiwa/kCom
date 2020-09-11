@@ -176,6 +176,16 @@ nav a.btn:hover {
 #about .row .heading ul li {
 	width: 25%;
 }
+.circle {
+	display: inline-block;
+    width: 85px;
+    height: 85px;
+    background: #eee;
+    text-align: center;
+    line-height: 85px;
+    border-radius: 100%;
+    position: relative;
+}
 #about .row .heading ul li h4 {
 	font-size: 14px;
 	line-height: 1.5;
@@ -188,7 +198,6 @@ nav a.btn:hover {
 #about .row .imgbox img{
 	width: 100%;
 }
-
 
 
 
