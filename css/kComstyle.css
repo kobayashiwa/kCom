@@ -196,6 +196,9 @@ nav a.btn:hover {
     border-radius: 100%;
     position: relative;
 }
+#about02 .circle {
+    background: #fff;
+}
 .circle i:before{
 	font-size: 40px;
     vertical-align: middle;
@@ -228,6 +231,7 @@ nav a.btn:hover {
 #about02 .about02 .imgbox img {
 	width: 80%;
 }
+
 
 
 
