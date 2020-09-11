@@ -160,8 +160,9 @@ nav a.btn:hover {
 }
 #about .row .heading {
 	width: 50%;
+	padding-right: 32px;
 }
-#about .row .heading p{
+#about .row .heading p {
 	font-size: 15px;
     font-weight: 300;
     line-height: 25px;
