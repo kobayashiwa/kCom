@@ -244,9 +244,11 @@ nav a.btn:hover {
 #feature ul {
 	display: flex;
 	flex-wrap: wrap;
+	margin-left: -32px;
 }
 #feature ul li {
 	width: 25%;
+	padding-left: 32px;
 }
 
 
