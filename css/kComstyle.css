@@ -53,7 +53,7 @@ ul, li {
 .single-heading h3 {
 	font-weight: 600; 
 	font-size: 40px;
-	padding-top: 100px;
+	padding-top: 40px;
 }
 .single-heading p {
 	padding-top: 25px;
@@ -246,6 +246,7 @@ nav a.btn:hover {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: -32px;
+	margin-bottom: 80px;
 }
 #feature ul li {
 	width: 25%;
@@ -276,6 +277,12 @@ nav a.btn:hover {
     font-size: 14px;
     line-height: 1.5;
 }
+#choose {
+	background: linear-gradient(314.42deg, #FB4B38 6.38%, #F43F74 82.44%);
+}
+
+
+
 
 
 
