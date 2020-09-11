@@ -241,6 +241,14 @@ nav a.btn:hover {
 #about02 .about02 .imgbox img {
 	width: 80%;
 }
+#feature ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+#feature ul li {
+	width: 25%;
+}
+
 
 
 
