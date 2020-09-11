@@ -186,6 +186,13 @@ nav a.btn:hover {
     border-radius: 100%;
     position: relative;
 }
+.circle i:before{
+	font-size: 40px;
+    vertical-align: middle;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(260deg, #fe5e34 0%, #e235eb 100%);
+}
 #about .row .heading ul li h4 {
 	font-size: 14px;
 	line-height: 1.5;
@@ -198,6 +205,9 @@ nav a.btn:hover {
 #about .row .imgbox img{
 	width: 100%;
 }
+
+
+
 
 
 
