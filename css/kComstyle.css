@@ -176,12 +176,29 @@ nav a.btn:hover {
 #about .row .heading ul li {
 	width: 25%;
 }
+#about .row .heading ul li h4 {
+	font-size: 14px;
+	line-height: 1.5;
+	padding-top: 12px;
+	font-weight: 300;
+}
 #about .row .imgbox {
 	width: 50%;
 }
 #about .row .imgbox img{
 	width: 100%;
 }
+
+
+
+
+
+    
+
+
+    
+
+    
 
 
 
