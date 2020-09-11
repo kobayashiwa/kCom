@@ -164,6 +164,9 @@ nav a.btn:hover {
 #about .row .imgbox {
 	width: 50%;
 }
+#about .row .imgbox img{
+	width: 100%;
+}
 
 
 
