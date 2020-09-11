@@ -49,6 +49,10 @@ ul, li {
 .single-heading {
 	text-align: center;
 }
+.single-heading h3 {
+	font-weight: 600; 
+    font-size: 40px;
+}
 .header {
 	position: fixed;
 	top: 0;
