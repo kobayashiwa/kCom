@@ -255,6 +255,12 @@ nav a.btn:hover {
 	font-size: 18px;
     line-height: 22px;
 }
+#feature ul li p {
+	padding-top: 1em;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 
 
 
