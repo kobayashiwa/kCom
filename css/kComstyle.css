@@ -161,12 +161,23 @@ nav a.btn:hover {
 #about .row .heading {
 	width: 50%;
 }
+#about .row .heading p{
+	font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: 25px;
+}
 #about .row .imgbox {
 	width: 50%;
 }
 #about .row .imgbox img{
 	width: 100%;
 }
+
+
+
+
+
 
 
 
