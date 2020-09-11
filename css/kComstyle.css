@@ -46,6 +46,9 @@ ul, li {
 .letterspace2 {
 	margin-left: -1em;
 }
+.single-heading {
+	text-align: center;
+}
 .header {
 	position: fixed;
 	top: 0;
@@ -151,35 +154,35 @@ nav a.btn:hover {
 #main .row .imgbox .bnr img{
 	width: 320%;
 }
-#about, #feature, #choose, #voice, #price, #faq, #contact-form {
+#about01, #feature, #choose, #voice, #price, #faq, #contact-form {
 	padding-top: 80px;
 }
-#about h3{
+#about01 h3, #about02 h3{
 	font-size: 48px;
 	line-height: 63px;
 	margin-top: 48px;
 }
-#about .row {
+#about01 .row, #about02 .row {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: -16px;
 }
-#about .row .heading {
+#about01 .row .heading, #about02 .row .heading {
 	width: 50%;
 	padding: 0 16px;
 }
-#about .row .heading p {
+#about01 .row .heading p, #about02 .row .heading p {
 	font-size: 15px;
     font-weight: 300;
     line-height: 25px;
     padding-top: 25px;
 }
-#about .row .heading ul {
+#about01 .row .heading ul, #about02 .row .heading ul {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 48px;
 }
-#about .row .heading ul li {
+#about01 .row .heading ul li, #about02 .row .heading ul li {
 	width: 25%;
 	text-align: center;
 }
@@ -200,24 +203,29 @@ nav a.btn:hover {
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(260deg, #fe5e34 0%, #e235eb 100%);
 }
-#about .row .heading ul li h4 {
+#about01 .row .heading ul li h4, #about02 .row .heading ul li h4 {
 	font-size: 14px;
 	line-height: 1.5;
 	padding-top: 12px;
 	font-weight: 300;
 	text-align: center;
 }
-#about .row .imgbox {
+#about01 .row .imgbox, #about02 .row .imgbox {
 	width: 50%;
 	padding: 0 16px;
 }
-#about .row .imgbox img{
+#about01 .row .imgbox img, #about02 .row .imgbox img{
 	width: 100%;
 }
-#about .about02 {
+#about02 {
 	padding-top: 80px;
+    background: url(../images/inbox.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 720px;
+    z-index: -1;
 }
-#about .about02 .imgbox img {
+#about02 .about02 .imgbox img {
 	width: 80%;
 }
 
