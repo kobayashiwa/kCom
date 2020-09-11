@@ -25,6 +25,10 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
 .container {
 	width: 100%;
 	max-width: 1140px;
@@ -41,10 +45,6 @@ ul, li {
 }
 .letterspace2 {
 	margin-left: -1em;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
 }
 .header {
 	position: fixed;
@@ -159,9 +159,14 @@ nav a.btn:hover {
 	line-height: 63px;
 	margin-top: 48px;
 }
+#about .row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -16px;
+}
 #about .row .heading {
 	width: 50%;
-	padding-right: 32px;
+	padding: 0 16px;
 }
 #about .row .heading p {
 	font-size: 15px;
@@ -204,10 +209,15 @@ nav a.btn:hover {
 }
 #about .row .imgbox {
 	width: 50%;
+	padding: 0 16px;
 }
 #about .row .imgbox img{
 	width: 100%;
 }
+#about .about02 .imgbox img {
+	width: 80%;
+}
+
 
 
 
