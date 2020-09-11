@@ -175,6 +175,7 @@ nav a.btn:hover {
 }
 #about .row .heading ul li {
 	width: 25%;
+	text-align: center;
 }
 .circle {
 	display: inline-block;
@@ -198,6 +199,7 @@ nav a.btn:hover {
 	line-height: 1.5;
 	padding-top: 12px;
 	font-weight: 300;
+	text-align: center;
 }
 #about .row .imgbox {
 	width: 50%;
