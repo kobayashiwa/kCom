@@ -298,11 +298,16 @@ nav a.btn:hover {
     padding: 60px 10px;
     border-radius: 10px;
 }
-
-
-
-
-
+#choose ul li .icon i {
+	padding: 40px;   
+}
+#choose ul li .icon i:before{
+	font-size: 80px;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	background-image: linear-gradient(260deg, #fe5e34 0%, #e235eb 100%);
+    vertical-align: middle;
+}
 
 
 
