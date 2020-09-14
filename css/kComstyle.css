@@ -283,6 +283,10 @@ nav a.btn:hover {
 #choose h3 {
 	color: #fff;
 }
+#choose ul {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 
 
