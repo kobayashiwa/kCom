@@ -309,6 +309,9 @@ nav a.btn:hover {
 	background-image: linear-gradient(260deg, #fe5e34 0%, #e235eb 100%);
     vertical-align: middle;
 }
+#choose .choose-list {
+	padding: 0 16px;
+}
 
 
 
