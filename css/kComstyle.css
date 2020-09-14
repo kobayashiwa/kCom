@@ -313,6 +313,9 @@ nav a.btn:hover {
 #choose .choose-list {
 	padding: 0 16px;
 }
+#choose .choose-list h4 {
+	padding: 16px 0;
+}
 
 
 
