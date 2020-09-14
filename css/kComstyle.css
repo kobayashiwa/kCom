@@ -55,6 +55,9 @@ ul, li {
 	font-size: 40px;
 	padding-top: 40px;
 }
+h4 {
+	font-size: 18px;
+}
 .single-heading p {
 	padding-top: 25px;
     line-height: 30px;
