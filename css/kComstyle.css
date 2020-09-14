@@ -292,6 +292,7 @@ nav a.btn:hover {
 	width: 33.33%;
 	padding-left: 32px;
 	color: #fff;
+	text-align: center;
 }
 #choose .icon {
 	background: #fff;
