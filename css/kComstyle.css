@@ -280,6 +280,9 @@ nav a.btn:hover {
 #choose {
 	background: linear-gradient(314.42deg, #FB4B38 6.38%, #F43F74 82.44%);
 }
+#choose h3 {
+	color: #fff;
+}
 
 
 
