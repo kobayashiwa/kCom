@@ -287,6 +287,9 @@ nav a.btn:hover {
 	display: flex;
 	flex-wrap: wrap;
 }
+#choose ul li {
+	width: 33.33%;
+}
 
 
 
