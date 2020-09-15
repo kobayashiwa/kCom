@@ -341,6 +341,9 @@ nav a.btn:hover {
 	font-size: 13px;
     padding-top: 1em;
 }
+#voice .customer-name {
+	text-align: center;
+}
 #voice img {
 	width: 70px;
 	height: 70px;
