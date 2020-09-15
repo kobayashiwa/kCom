@@ -356,6 +356,15 @@ nav a.btn:hover {
     opacity: 1;
     background: #222;
 }
+.swiper-slide-next, .swiper-slide-prev {
+	opacity: 0.6;
+    transform: scale(0.92);
+    transition: all 0.5s;
+}
+                            
+
+
+
 
 
     
