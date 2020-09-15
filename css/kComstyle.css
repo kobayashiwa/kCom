@@ -323,7 +323,7 @@ nav a.btn:hover {
 	padding-top: 40px;
 }
 #voice .swiper-wrapper {
-	
+	height: 360px;
 }
 #voice .swiper-slide {
 	padding: 8px 12px;	
