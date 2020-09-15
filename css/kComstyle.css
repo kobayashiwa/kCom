@@ -280,7 +280,7 @@ nav a.btn:hover {
     font-size: 14px;
     line-height: 1.5;
 }
-#choose {
+#choose, #price {
 	background: linear-gradient(314.42deg, #FB4B38 6.38%, #F43F74 82.44%);
 }
 #choose h3 {
