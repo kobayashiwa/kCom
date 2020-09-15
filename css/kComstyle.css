@@ -389,6 +389,14 @@ nav a.btn:hover {
     font-weight: 400;
     vertical-align: 0.08em;
 }
+#price .pricebox {
+	margin: 0 auto;
+    max-width: 560px;
+}
+
+
+
+
 
 
 
