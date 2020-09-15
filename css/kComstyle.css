@@ -66,7 +66,7 @@ h4 {
 .header {
 	position: fixed;
 	top: 0;
-	z-index: 1;
+	z-index: 10;
 	width: 100%;
 	background: linear-gradient(314.42deg, #FB4B38 6.38%, #F43F74 82.44%);
 	transition: all 0.5s ease;
