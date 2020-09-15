@@ -351,6 +351,10 @@ nav a.btn:hover {
 	border-radius: 100%;
 	display: inline-block;
 }
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #222;
+}
 
 
     
