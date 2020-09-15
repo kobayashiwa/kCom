@@ -365,6 +365,13 @@ nav a.btn:hover {
 #price h3 {
 	font-size: 32px;
 }
+#price h4 {
+	padding: 0.3em 0 0 0.5em;
+    color: #fff;
+    font-family: "Rubik", Sans-serif;
+    font-size: 72px;
+    font-weight: 500;
+}
                             
 
 
