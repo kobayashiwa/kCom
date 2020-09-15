@@ -282,6 +282,7 @@ nav a.btn:hover {
 }
 #choose, #price {
 	background: linear-gradient(314.42deg, #FB4B38 6.38%, #F43F74 82.44%);
+	color: #fff;
 }
 #choose h3 {
 	color: #fff;
@@ -294,7 +295,6 @@ nav a.btn:hover {
 #choose ul li {
 	width: 33.33%;
 	padding-left: 32px;
-	color: #fff;
 	text-align: center;
 }
 #choose .icon {
