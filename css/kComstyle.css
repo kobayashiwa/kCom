@@ -337,12 +337,19 @@ nav a.btn:hover {
 	font-size: 15px;
     padding-top: 5px;
 }
+#voice .customer p {
+	font-size: 13px;
+    padding-top: 1em;
+}
 #voice img {
 	width: 70px;
 	height: 70px;
 	border-radius: 100%;
 	display: inline-block;
 }
+
+
+    
 
 
 
