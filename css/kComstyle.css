@@ -326,10 +326,11 @@ nav a.btn:hover {
 	
 }
 #voice .swiper-slide {
-	padding: 24px;	
+	padding: 0 24px;	
 }
 #voice .customer {
 	background: #fff;
+	padding: 24px;
     /**box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.25882352941176473);**/
 }
 #voice img {
