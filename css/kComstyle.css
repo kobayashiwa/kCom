@@ -400,6 +400,18 @@ nav a.btn:hover {
 	padding-top: 25px;
     line-height: 30px;
 }
+#price .pricebox .pricebox-note {
+	padding-top: 1em;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+
+
+
 
 
 
