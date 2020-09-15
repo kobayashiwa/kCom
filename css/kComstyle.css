@@ -401,10 +401,24 @@ nav a.btn:hover {
     line-height: 30px;
 }
 #price .pricebox .pricebox-note {
-	padding-top: 1em;
+	padding: 1em 0 4em 0;
     line-height: 1.5;
     font-size: 12px;
     font-weight: 400;
+}
+#price .pricebox a.btn {
+	color: #E9446A;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 16px 48px;
+	background: #fff;
+	border-radius: 30px;
+}
+#price .pricebox a.btn:hover {
+	color: #fff;
+	background: none;
+	border: 1px solid #fff;
+	transition: all 0.3s ease 0s;
 }
 
 
