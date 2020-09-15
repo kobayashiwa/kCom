@@ -362,6 +362,9 @@ nav a.btn:hover {
     transform: scale(0.92);
     transition: all 0.5s;
 }
+#price {
+	text-align: center;
+}
 #price h3 {
 	font-size: 32px;
 }
