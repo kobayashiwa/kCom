@@ -357,6 +357,12 @@ if (y > 0) { // 変数yの値が0よりも
 } ) ;
 
 var mySwiper = new Swiper('.swiper-container', {
+    autoplay: {
+		delay: 3000,
+		stopOnLastSlide: false,
+		disableOnInteraction: false,
+		reverseDirection: false
+	},
     loop: true,
 	centeredSlides: true,
 	slidesPerView: 3,
