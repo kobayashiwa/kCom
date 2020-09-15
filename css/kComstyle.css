@@ -378,6 +378,15 @@ nav a.btn:hover {
     font-size: 72px;
     font-weight: 500;
 }
+#price h4 .price-yen {
+	font-size: 56px;
+    font-weight: 600;
+    vertical-align: 0.08em;
+}
+
+
+
+
                             
 
 
