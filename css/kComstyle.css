@@ -11,7 +11,7 @@ html {
 *, ::after, ::before {
     box-sizing: border-box;
 }
-body {
+body {　
 	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
@@ -25,6 +25,9 @@ ul, li {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+header {
+	position: fixed;
 }
 
 
