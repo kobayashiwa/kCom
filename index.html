@@ -197,57 +197,9 @@
 
 <script src="js/jquery-3.3.1.min.js"></script>
 
-<script src="js/accordion.min.js"></script>
 <script>
-// スクロールイベント
-window.addEventListener( "scroll", function() {
-
-var headerElement = document.getElementById( "header" ) ; // `#header`セレクタを取得
-var rect = headerElement.getBoundingClientRect() ; // 
-var y = rect.top + window.pageYOffset ; // Y方向 (縦)にスクロール量を取得（pageYOffset：windowオブジェクト。現在表示位置のY座標を取得）
-if (y > 0) { // 変数yの値が0よりも
-  headerElement.classList.remove('hidden'); // 大きければhiddensセレクタを削除する
-} else {
-  headerElement.classList.add('hidden'); // そうでなければhiddensセレクタを追加する
-}
-} ) ;
-
-var mySwiper = new Swiper('.swiper-container', {
-    autoplay: {
-		delay: 3000,
-		stopOnLastSlide: false,
-		disableOnInteraction: false,
-		reverseDirection: false
-	},
-    loop: true,
-	centeredSlides: true,
-	slidesPerView: 3,
-	pagination: {
-		el: '.swiper-pagination',
-		type: 'bullets',
-		clickable: true
-	}
-});
-
-var accordion = new Accordion('.accordion-container',{
- 
- // hides all answers
- hideAll: false,
-
- // shows all answers
- showAll: false,
-
- // shows the first answer
-
- showFirst: false,
-
- // panel ID you want to show at first time
-
- panelId: null
-
-});
-
 </script>
+
 </body>
 
 </html>
