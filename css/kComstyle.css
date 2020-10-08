@@ -11,11 +11,10 @@ html {
 *, ::after, ::before {
     box-sizing: border-box;
 }
-body {　
+body {
 	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
-	color: #222;
 	background: #fff;
 }
 a {
@@ -28,6 +27,7 @@ ul, li {
 }
 header {
 	position: fixed;
+	width: 100%;
 }
 
 
