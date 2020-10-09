@@ -1,13 +1,6 @@
-
-body {
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Verdana, Meiryo, sans-serif;
-    font-feature-settings: "palt";
-	letter-spacing: .8px;
-}
 html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
-	font-family: 'Rubik', sans-serif;
 }
 * {
 	box-sizing: border-box;
@@ -21,7 +14,11 @@ body {
 	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
+	color: #354341;
 	background: #fff;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Verdana, Meiryo, sans-serif;
+    font-feature-settings: "palt";
+	letter-spacing: .8px;
 }
 a {
 	text-decoration: none;
