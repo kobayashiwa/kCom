@@ -30,6 +30,7 @@ header {
 	top: 0;
 	z-index: 999;
 	width: 100%;
+	background: #fff;
 }
 
 
@@ -82,8 +83,6 @@ h4 {
 }
 .header {
 
-
-	z-index: 10;
 
 	background: linear-gradient(314.42deg, #FB4B38 6.38%, #F43F74 82.44%);
 	transition: all 0.5s ease;
