@@ -34,7 +34,7 @@
         <!-- header -->
 
         <!-- scroll -->
-        <div id="fixContactBtn" class="scroll"><img src="images/scroll.svg"></div>
+        <div id="fixArrow" class="scroll"><img src="images/scroll.svg"></div>
         <!-- scroll -->
 
         <!-- main -->
@@ -42,7 +42,7 @@
             <article>
 
                 <!-- top -->
-                <section>
+                <section class="top">
                     <div class="container">
                         <h1>口コミサイトの<br>「監視」「運用」「分析」を<br>これ一つで。</h1>
                         <h2>口コミコムは<br>Googleマップなどの口コミサイトでの<br>改ざん・悪評監視、運用管理、口コミ分析ができる<br>統合管理ツールです。</h2>
@@ -219,7 +219,7 @@
 <script>
     /* fixContact */
 $(function() {
-   var fixContact = $('#fixContactBtn');
+    var fixContact = $('#fixArrow');
    $(window).bind("scroll", function() {
     scrollHeight = $(document).height();
     scrollPosition = $(window).height() + $(window).scrollTop();
