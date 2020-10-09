@@ -67,6 +67,14 @@ nav {
 nav li a {
 	font-size: 14px;
 }
+.btn-head {
+	display: inline-block;
+	background: #E44C6F;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 24px;
+	border-radius: 4px;
+}
 h1 {
 	font-size: 64px;
 	line-height: 140%;
@@ -76,6 +84,14 @@ h2 {
 	font-size: 40px;
 	line-height: 140%;
 	font-weight: 700;
+}
+.top h2 {
+	margin: 0 auto;
+	font-size: 48px;
+	text-align: center;
+}
+.top h2 span {
+	font-size: 24px;
 }
 h3 {
 	font-size: 40px;
@@ -90,9 +106,6 @@ h4 {
 .gray {
 	background: #F8F9F9;
 }
-
-
-
 
 
 
