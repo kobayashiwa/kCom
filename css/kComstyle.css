@@ -177,6 +177,9 @@ h4 {
 	max-width: 1320px;
 	margin: 0 auto;
 }
+.smb-top {
+	text-align: center;
+}
 .smb-top .cover {
 	width: 100%;
 }
@@ -191,6 +194,7 @@ h4 {
 }
 
 
+/** service **/
 
 
 .service .num {
