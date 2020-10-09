@@ -45,6 +45,21 @@ ul, li {
 	box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
 }
 
+.gray {
+	background: #F8F9F9;
+}
+main {
+	padding-top: 72px;
+}
+.round-bg {
+	display: inline-block;
+	background: #354341;
+	color: #fff;
+	font-size: 18px;
+	padding: 8px 120px;
+	border-radius: 40px;
+}
+
 /** scroll **/
 
 .scroll {
@@ -154,20 +169,7 @@ h4 {
 
 
 
-.gray {
-	background: #F8F9F9;
-}
-main {
-	padding-top: 72px;
-}
-.round-bg {
-	display: inline-block;
-	background: #354341;
-	color: #fff;
-	font-size: 18px;
-	padding: 8px 120px;
-	border-radius: 40px;
-}
+
 
 /** top **/
 
@@ -186,6 +188,14 @@ main {
 }
 .solution-list li div {
 	width: 240px;
+}
+
+
+
+
+.service .num {
+	font-weight: 100;
+	font-size: 72px;
 }
 
 
