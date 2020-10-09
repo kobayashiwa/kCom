@@ -71,6 +71,7 @@ nav li a {
 	font-size: 14px;
 }
 .btn-head {
+	margin-left: 40px;
 	display: inline-block;
 	background: #E44C6F;
 	color: #fff;
