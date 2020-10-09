@@ -101,7 +101,6 @@ h2 {
 }
 .solution h2 {
 	font-size: 36px;
-	text-align: center;
 }
 .top h2 span {
 	font-size: 24px;
@@ -134,6 +133,10 @@ main {
 
 /** top **/
 
+/** solution **/
+.solution {
+	text-align: center;
+}
 
 
 
