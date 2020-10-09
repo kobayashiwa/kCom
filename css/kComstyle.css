@@ -96,6 +96,7 @@ h1 {
 	font-size: 64px;
 	line-height: 140%;
 	font-weight: 700;
+	text-align: center;
 }
 h2 {
 	font-size: 40px;
@@ -126,7 +127,7 @@ h4 {
 	background: #F8F9F9;
 }
 main {
-	padding-top: 80px;
+	padding-top: 72px;
 }
 .round-bg {
 	display: inline-block;
