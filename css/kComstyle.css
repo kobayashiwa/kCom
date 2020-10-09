@@ -87,9 +87,7 @@ nav li a:hover {
 	background: rgba(20, 53, 60, 0.05);
 }
 
-
-
-
+/** btn **/
 
 .btn {
 	border: 2px solid #E44C6F;
@@ -114,6 +112,9 @@ nav li a:hover {
 	padding: 12px 56px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
+
+
+
 
 h1 {
 	font-size: 64px;
@@ -164,6 +165,16 @@ main {
 }
 
 /** top **/
+
+.top {
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.smb-top img {
+	width: 100%;
+}
+
 
 /** solution **/
 .solution {
