@@ -60,6 +60,7 @@ main {
 	border-radius: 40px;
 }
 
+
 /** scroll **/
 
 .scroll {
@@ -72,6 +73,7 @@ main {
 .scroll img {
 	text-align: center;
 }
+
 
 /** header **/
 
@@ -103,7 +105,8 @@ nav li a:hover {
 	background: rgba(20, 53, 60, 0.05);
 }
 
-/** btn **/
+
+/** btn link **/
 
 .btn {
 	border: 2px solid #E44C6F;
@@ -128,6 +131,12 @@ nav li a:hover {
 	padding: 12px 56px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
+.text-link {
+	font-size: 14px;
+	color: #E44C6F;
+	text-decoration: underline;
+}
+
 
 /** Typo **/
 
@@ -166,11 +175,6 @@ h4 {
 }
 
 
-
-
-
-
-
 /** top **/
 
 .top {
@@ -186,6 +190,7 @@ h4 {
 
 
 /** solution **/
+
 .solution {
 	text-align: center;
 }
@@ -195,7 +200,6 @@ h4 {
 
 
 /** service **/
-
 
 .service .num {
 	font-weight: 100;
