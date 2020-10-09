@@ -78,12 +78,19 @@ nav li a:hover {
 }
 .btn-head {
 	margin-left: 40px;
-	display: inline-block;
+	border: 2px solid #E44C6F;
+	cursor:pointer;
+	transition:200ms ease all;
 	background: #E44C6F;
 	color: #fff;
 	font-size: 14px;
-	padding: 10px 24px;
+	padding: 8px 22px;
 	border-radius: 4px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.btn-head:hover {
+	opacity: 0.75;
+	box-shadow: none;
 }
 h1 {
 	font-size: 64px;
