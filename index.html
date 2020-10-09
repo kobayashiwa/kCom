@@ -30,7 +30,7 @@
         <!-- header -->
 
         <!-- scroll -->
-        <div class="scroll"><img src="images/scroll.svg"></div>
+        <div id="fixContactBtn" class="scroll"><img src="images/scroll.svg"></div>
         <!-- scroll -->
 
         <!-- main -->
@@ -202,8 +202,20 @@
         <!-- footer -->
 
 <script src="js/jquery-3.3.1.min.js"></script>
-
 <script>
+    /* fixContact */
+$(function() {
+   var fixContact = $('#fixContactBtn');
+   $(window).bind("scroll", function() {
+    scrollHeight = $(document).height();
+    scrollPosition = $(window).height() + $(window).scrollTop();
+    if ( (scrollHeight - scrollPosition) / scrollHeight <= 0.05) {
+            fixContact.fadeOut();
+    } else {
+            fixContact.fadeIn();
+    }
+});
+});
 </script>
 
 </body>

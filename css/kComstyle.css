@@ -29,9 +29,9 @@ ul, li {
 	padding: 0;
 }
 .container {
-	max-width: 1160px;
+	max-width: 1320px;
 	margin: 0 auto;
-	padding: 0 16px;
+	padding: 0 80px;
 }
 .flex {
 	display: flex;
@@ -39,8 +39,13 @@ ul, li {
 }
 .scroll {
 	position: fixed;
-	width: 14px;
+	width: 80px;
 	z-index: 1000;
+    top: 50vh;
+    left: 32px;
+}
+.scroll img {
+	text-align: center;
 }
 header {
 	position: fixed;
