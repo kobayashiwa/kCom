@@ -27,6 +27,7 @@ ul, li {
 }
 .container {
 	max-width: 1160px;
+	padding: 0 24px;
 }
 header {
 	position: fixed;
