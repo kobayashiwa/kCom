@@ -41,6 +41,9 @@ ul, li {
 	flex-wrap: wrap;
 	align-items: center;
 }
+.shadow-box {
+	box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
 
 /** scroll **/
 
@@ -55,7 +58,7 @@ ul, li {
 	text-align: center;
 }
 
-
+/** header **/
 
 header {
 	position: fixed;
@@ -83,6 +86,11 @@ nav li a {
 nav li a:hover {
 	background: rgba(20, 53, 60, 0.05);
 }
+
+
+
+
+
 .btn {
 	border: 2px solid #E44C6F;
 	cursor:pointer;
@@ -133,6 +141,9 @@ h3 {
 	font-size: 40px;
 	line-height: 140%;
 }
+.solution-list h3 {
+	font-size: 16px;
+}
 h4 {
 	font-size: 24px;
 	line-height: 140%;
@@ -157,6 +168,9 @@ main {
 /** solution **/
 .solution {
 	text-align: center;
+}
+.solution-list li div {
+	width: 240px;
 }
 
 
