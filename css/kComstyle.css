@@ -166,9 +166,13 @@ nav li a:hover {
 .btnWrap {
 	text-align: center;
 }
+.btnWrap div {
+	font-size: 18px;
+}
 .btn-page {
 	font-size: 24px;
-	padding: 16px 160px;
+	margin: 16px 0;
+	padding: 16px 180px;
 	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 .text-link {
