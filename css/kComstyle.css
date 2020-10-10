@@ -289,7 +289,13 @@ h4 {
 }
 .performance-list li {
 	padding: 24px 0;
+	border-bottom: 1px solid #E4E7EB;
 }
+.performance-list li:last-child {
+	border-bottom: none;
+}
+
+
 .performance-list h3 {
 	display: flex;
 	justify-content: space-between;
