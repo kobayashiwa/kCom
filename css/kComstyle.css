@@ -47,6 +47,7 @@ ul, li {
 
 .gray {
 	background: #F8F9F9;
+	width: 100%;
 }
 main {
 	padding-top: 72px;
@@ -58,6 +59,14 @@ main {
 	font-size: 18px;
 	padding: 8px 120px;
 	border-radius: 40px;
+}
+.withArrow {
+	position: relative;
+}
+.arrow {
+	position: absolute;
+	left: 50vw;
+	bottom: -50px;
 }
 
 
@@ -178,7 +187,6 @@ h4 {
 /** top **/
 
 .top {
-	max-width: 1320px;
 	margin: 0 auto;
 }
 .smb-top {
