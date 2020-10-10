@@ -290,6 +290,7 @@ h4 {
 
 .performance-list {
 	max-width: 720px;
+	margin: 0 auto;
 }
 .performance-list li {
 	padding: 24px 0;
