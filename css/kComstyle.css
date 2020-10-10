@@ -52,6 +52,9 @@ ul, li {
 main {
 	padding-top: 72px;
 }
+.heading {
+	text-align: center;
+}
 .round-bg {
 	display: inline-block;
 	background: #354341;
@@ -254,7 +257,7 @@ h4 {
 	font-weight: 100;
 	font-size: 72px;
 }
-.headingBox {
+.textBox {
 	width: 40%;
 	padding: 0 40px;
 }
