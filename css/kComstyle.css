@@ -72,6 +72,17 @@ main {
 	left: 50vw;
 	bottom: -50px;
 }
+.textBox {
+	width: 50%;
+	padding: 0 40px;
+}
+.screenBox {
+	width: 50%;
+	padding: 0 16px;
+}
+.screenBox img {
+	width: 100%;	
+}
 
 
 /** scroll **/
@@ -257,17 +268,7 @@ h4 {
 	font-weight: 100;
 	font-size: 72px;
 }
-.textBox {
-	width: 40%;
-	padding: 0 40px;
-}
-.screenBox {
-	width: 60%;
-	padding: 0 16px;
-}
-.screenBox img {
-	width: 100%;	
-}
+
 
 
 
