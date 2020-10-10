@@ -222,6 +222,10 @@ h4 {
 	font-size: 24px;
 	line-height: 140%;
 }
+.heading p {
+	font-size: 18px;
+	text-align: center;
+}
 
 
 /** top **/
@@ -326,10 +330,7 @@ h4 {
 
 
 /**
-.row {
-	display: flex;
-	flex-wrap: wrap;
-}
+
 .container {
 	width: 100%;
 	max-width: 1140px;
