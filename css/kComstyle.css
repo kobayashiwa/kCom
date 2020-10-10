@@ -329,30 +329,25 @@ h4 {
 
 
 
+@media (max-width: 1000px) {
+	.header-right a.textLink {
+		display: none;
+	}
+}
+
+
+
+
 
 /**
 
-.container {
-	width: 100%;
-	max-width: 1140px;
-	margin: 0 auto;
-	padding: 0 24px;
-	padding-top: 60px;
-	margin-top:-60px;
-}
+
 .thin {
 	font-weight: 100;
 }
-.letterspace1 {
-	margin-left: -0.5em;
-}
-.letterspace2 {
-	margin-left: -1em;
-}
-.single-heading {
-	text-align: center;
-	padding-bottom: 60px;
-}
+
+
+
 .single-heading h3 {
 	font-weight: 600; 
 	font-size: 40px;
