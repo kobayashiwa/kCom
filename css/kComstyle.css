@@ -278,6 +278,9 @@ h4 {
 .performance-list {
 	max-width: 720px;
 }
+.performance-list li {
+	padding: 24px 0;
+}
 .performance-list h3 {
 	display: flex;
 	justify-content: space-between;
