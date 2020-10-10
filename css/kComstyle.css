@@ -230,8 +230,18 @@ h4 {
 .solution {
 	text-align: center;
 }
-.solution-list li div {
-	width: 240px;
+.solution-list ul {
+	margin: 0 auto;
+	max-width: 960px;
+	justify-content: space-around;
+}
+.solution-list li {
+	padding: 40px 24px;
+	max-width: 240px;
+	width: 100%;
+}
+.solution-list li h3 {
+	padding-top: 24px;
 }
 
 
