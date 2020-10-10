@@ -240,6 +240,9 @@ h4 {
 	max-width: 240px;
 	width: 100%;
 }
+.solution-list li img {
+	width: 80px;
+}
 .solution-list li h3 {
 	padding-top: 24px;
 }
