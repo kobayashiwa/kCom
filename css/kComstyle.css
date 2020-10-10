@@ -182,12 +182,8 @@ h1 {
 	text-align: center;
 }
 h2 {
-	font-size: 40px;
-	line-height: 140%;
-}
-.top h2 {
 	font-size: 48px;
-	text-align: center;
+	line-height: 140%;
 }
 .solution h2 {
 	font-size: 36px;
