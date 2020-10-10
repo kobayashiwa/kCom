@@ -202,7 +202,11 @@ h4 {
 	text-align: center;
 }
 .smb-top .cover {
-	width: 90%;
+	margin: 40px auto 0 auto;
+	max-width: 1160px;
+}
+.smb-top .cover img {
+	width: 100%;
 }
 
 
