@@ -294,8 +294,6 @@ h4 {
 .performance-list li:last-child {
 	border-bottom: none;
 }
-
-
 .performance-list h3 {
 	display: flex;
 	justify-content: space-between;
