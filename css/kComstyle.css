@@ -254,6 +254,17 @@ h4 {
 	font-weight: 100;
 	font-size: 72px;
 }
+.headingBox {
+	width: 40%;
+	padding: 0 40px;
+}
+.screenBox {
+	width: 60%;
+	padding: 0 16px;
+}
+.screenBox img {
+	width: 100%;	
+}
 
 
 
