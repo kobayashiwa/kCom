@@ -282,6 +282,9 @@ h4 {
 .performance {
 	color: #E44C6F;
 }
+.performance span {
+	font-size: 56px;
+}
 
 
 
