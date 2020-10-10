@@ -42,7 +42,6 @@ ul, li {
 }
 .flex {
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
 }
 .shadow-box {
@@ -300,6 +299,16 @@ h4 {
 }
 .performance span {
 	font-size: 56px;
+}
+
+/** worry **/
+.avatar {
+	width: 48px;
+	margin-right: 16px;
+}
+.voice h3 {
+	font-size: 20px;
+	flex: 1;
 }
 
 
