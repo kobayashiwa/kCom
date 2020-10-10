@@ -335,6 +335,12 @@ h4 {
 	}
 }
 
+@media (max-width: 670px) {
+	.header-right a.textLink {
+		display: none;
+	}
+}
+
 
 
 
@@ -348,14 +354,6 @@ h4 {
 
 
 
-.single-heading h3 {
-	font-weight: 600; 
-	font-size: 40px;
-	padding-top: 40px;
-}
-h4 {
-	font-size: 18px;
-}
 .single-heading p {
 	padding-top: 25px;
     line-height: 30px;
