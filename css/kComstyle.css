@@ -76,6 +76,9 @@ main {
 	width: 40%;
 	padding: 0 40px;
 }
+.textBox h3 {
+	padding: 10px 0 24px 0;
+}
 .screenBox {
 	width: 50%;
 	padding: 0 16px;
