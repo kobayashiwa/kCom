@@ -273,8 +273,11 @@ h4 {
 }
 
 
+/** performance **/
 
-
+.performance-list {
+	max-width: 720px;
+}
 .performance-list h3 {
 	display: flex;
 	justify-content: space-between;
