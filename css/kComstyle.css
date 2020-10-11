@@ -257,6 +257,22 @@ h4 {
 .smb-top .cover img {
 	width: 100%;
 }
+.enter-top .container {
+	padding-bottom: 0;
+}
+.enter-top .cover .container {
+	padding: 0 0 0 80px;
+}
+.enter-top .textBox {
+	padding: 0;
+	max-width: 240px;
+	width: 100%;
+}
+.enter-top .screenBox {
+	flex: 1;
+}
+
+
 
 
 /** solution **/
@@ -367,42 +383,6 @@ h4 {
 }
 
 
-
-
-
-#choose, #price {
-	background: linear-gradient(314.42deg, #FB4B38 6.38%, #F43F74 82.44%);
-	color: #fff;
-}
-#choose h3 {
-	color: #fff;
-}
-#choose ul {
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: -32px;
-}
-#choose ul li {
-	width: 33.33%;
-	padding-left: 32px;
-	text-align: center;
-}
-#choose .icon {
-	background: #fff;
-    padding: 40px 16px;
-	border-radius: 10px;
-	display: inline-block;
-}
-#choose ul li .icon i {
-	padding: 40px;   
-}
-#choose ul li .icon i:before{
-	font-size: 80px;
-	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-	background-image: linear-gradient(260deg, #fe5e34 0%, #e235eb 100%);
-    vertical-align: middle;
-}
 #choose .choose-list {
 	padding: 0 16px;
 }
