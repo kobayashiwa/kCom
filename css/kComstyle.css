@@ -319,6 +319,9 @@ h4 {
 	width: 48px;
 	margin-right: 16px;
 }
+.IcoSolution {
+	margin-right: 24px;
+}
 .worry .client h3 {
 	font-size: 20px;
 	flex: 1;
@@ -361,19 +364,8 @@ h4 {
 
 
 
-#about01, #feature, #choose, #voice, #price, #faq, #contact-form {
-	padding-bottom: 80px;
-}
-#about01 h3, #about02 h3{
-	font-size: 48px;
-	line-height: 63px;
-	margin-top: 48px;
-}
-#about01 .row, #about02 .row {
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: -16px;
-}
+
+
 #about01 .row .heading, #about02 .row .heading {
 	width: 50%;
 	padding: 0 16px;
