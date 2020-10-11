@@ -392,6 +392,7 @@ h4 {
 .price {
 	max-width: 640px;
 	margin: 0 auto;
+	background: #fff;
 }
 
 /** intro **/
@@ -432,9 +433,6 @@ h4 {
 
 
 
-.os_index3_input_box_wrapper textarea {
-    margin-top: 0;
-}
 .os_index6_form_main_wrapper:after {
     min-height: 1040px;
 }
