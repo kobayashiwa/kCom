@@ -138,6 +138,9 @@ nav li a:hover {
 	background: rgba(20, 53, 60, 0.05);
 }
 
+/** footer **/
+
+
 
 /** btn link **/
 
@@ -398,23 +401,7 @@ h4 {
 
 
 
-#price h4 .price-month {
-	padding-left: 0.5em;
-    font-size: 24px;
-    font-weight: 400;
-    vertical-align: 0.08em;
-}
-#price .pricebox {
-	margin: 0 auto;
-    max-width: 560px;
-}
-#price .pricebox p {
-	font-weight: 600;
-	letter-spacing: 0.1em;
-	text-align: left;
-	padding-top: 25px;
-    line-height: 30px;
-}
+
 #price .pricebox .pricebox-note {
 	padding: 1em 0 4em 0;
     line-height: 1.5;
