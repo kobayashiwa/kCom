@@ -139,6 +139,9 @@ nav li a:hover {
 }
 
 /** footer **/
+footer {
+	font-size: 14px;
+}
 
 
 
@@ -425,19 +428,6 @@ h4 {
 
 
 
-
-
-
-#contact-form label{
-	color: #10b3e9;
-}
-#contact-form input {
-	margin-top: 0;
-	height: 48px;
-}
-#contact-form .os_heading_wraper{
-	padding-bottom: 40px;
-}
 #contact-form label{
 	width: 100%;
 	padding-top: 2em;
