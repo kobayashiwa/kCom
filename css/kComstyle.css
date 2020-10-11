@@ -337,6 +337,8 @@ h4 {
 .voice {
 	align-items: flex-start;
 	margin-bottom: 16px;
+	width: max-content;
+	max-width: 1160px;
 }
 .avatar {
 	width: 48px;
@@ -350,6 +352,7 @@ h4 {
 	flex: 1;
 	background: #354341;
 	color: #fff;
+	
 }
 .worry .kcom p {
 	flex: 1;
@@ -391,12 +394,6 @@ h4 {
 
 
 
-#voice .customer {
-	background: #fff;
-	padding: 24px;
-	border-radius: 10px;
-    box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.25882352941176473);
-}
 #voice .customer h4 {
 	font-size: 15px;
     padding-top: 5px;
