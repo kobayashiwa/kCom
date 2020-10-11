@@ -10,7 +10,7 @@
 
         <link rel="stylesheet" type="text/css" href="css/kComstyle.css" />
         <link rel="stylesheet" type="text/css" href="css/aos.css" />
-        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/flickity.css" />
 
 
     </head>
@@ -330,29 +330,49 @@
         </footer>
         <!-- footer -->
 
-<script src="js/jquery-3.3.1.min.js"></script>
-<script>
-    /* fixContact */
-$(function() {
-   var fixContact = $('#fixArrow');
-   $(window).bind("scroll", function() {
-    scrollHeight = $(document).height();
-    scrollPosition = $(window).height() + $(window).scrollTop();
-    if ( (scrollHeight - scrollPosition) / scrollHeight <= 0.02) {
-            fixContact.fadeOut();
-    } else {
-            fixContact.fadeIn();
-    }
-});
-});
-
-AOS.init({
-    duration: 800,
-    easing: 'ease-in-sine',
-    anchorPlacement: 'center-bottom',
-});
-
-</script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.0/flickity.pkgd.min.js"></script>
+        <script>
+            /* fixContact */
+        $(function() {
+            var fixContact = $('#fixArrow');
+           $(window).bind("scroll", function() {
+            scrollHeight = $(document).height();
+            scrollPosition = $(window).height() + $(window).scrollTop();
+            if ( (scrollHeight - scrollPosition) / scrollHeight <= 0.02) {
+                    fixContact.fadeOut();
+            } else {
+                    fixContact.fadeIn();
+            }
+        });
+        });
+        
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-sine',
+            anchorPlacement: 'center-bottom',
+        });
+        
+        var flkty = new Flickity( '.main-carousel', {
+          // options
+        });
+        
+        </script>
+        
+        <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-sine',
+            anchorPlacement: 'center-bottom',
+        });
+        </script>
+        
+        <script>
+            var flkty = new Flickity( '.main-carousel', {
+          // options
+        });
+        </script>
 
 </body>
 
