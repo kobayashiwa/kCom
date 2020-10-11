@@ -354,30 +354,7 @@ h4 {
 }
 
 
-.hidden {
-	width: 100%;
-	background: none;
-	transition: all 0.5s ease;
-}
-header .container {
-	max-width: 1140px;
-}
-.header-left {
-	float: left;
-}
-.header-left img {
-	width: 100px;
-	padding-top: 20px;
-}
-nav {
-	float: right;
-	line-height: 70px;
-	font-size: 13px;
-}
-nav a.textLink {
-	padding: 24px 12px;
-	color: rgba(255,255,255,0.7);
-}
+
 nav a.textLink:hover {
 	color: #fff;
 	transition: all 0.3s ease 0s;
