@@ -428,16 +428,7 @@ h4 {
 
 
 
-#contact-form label{
-	width: 100%;
-	padding-top: 2em;
-	text-align: center;
-	font-size: 14px;
-	color: #333;
-}
-.os_index6_form_main_wrapper {
-    padding-bottom: 60px;
-}
+
 .os_index6_form_main_wrapper:after {
 	background: url(../images/contact_shape.png) center repeat-x;
 	width: 100%;
