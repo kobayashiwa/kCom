@@ -191,7 +191,7 @@ nav li a:hover {
 /** Typo **/
 
 h1 {
-	font-size: 72px;
+	font-size: 64px;
 	line-height: 130%;
 	text-align: center;
 }
@@ -246,7 +246,9 @@ h4 {
 }
 .smb-top .cover {
 	margin: 0 auto;
-	width: 100%;	
+	width: 100%;
+	position: relative;
+	z-index: 996;	
 }
 .cover-container {
 	max-width: 1160px;
@@ -387,16 +389,8 @@ h4 {
 }
 
 
-#voice, #faq {
-	padding-top: 40px;
-	margin-bottom: 80px;
-}
-#voice .swiper-wrapper {
-	height: 360px;
-}
-#voice .swiper-slide {
-	padding: 8px 12px;	
-}
+
+
 #voice .customer {
 	background: #fff;
 	padding: 24px;
