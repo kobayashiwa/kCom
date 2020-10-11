@@ -191,7 +191,7 @@ nav li a:hover {
 /** Typo **/
 
 h1 {
-	font-size: 64px;
+	font-size: 68px;
 	line-height: 130%;
 	text-align: center;
 }
@@ -216,10 +216,10 @@ h3 {
 	font-size: 40px;
 	line-height: 140%;
 }
-.solution-list h3 {
+.solution-box h3 {
 	font-size: 16px;
 }
-.performance-list h3 {
+.performance-box h3 {
 	font-size: 24px;
 }
 h4 {
@@ -311,18 +311,18 @@ h4 {
 
 /** performance **/
 
-.performance-list {
+.performance-box {
 	max-width: 720px;
 	margin: 0 auto;
 }
-.performance-list li {
+.performance-box li {
 	padding: 24px 0;
 	border-bottom: 1px solid #E4E7EB;
 }
-.performance-list li:last-child {
+.performance-box li:last-child {
 	border-bottom: none;
 }
-.performance-list h3 {
+.performance-box h3 {
 	display: flex;
 	justify-content: space-between;
 }
@@ -352,7 +352,6 @@ h4 {
 	flex: 1;
 	background: #354341;
 	color: #fff;
-	
 }
 .worry .kcom p {
 	flex: 1;
@@ -393,25 +392,6 @@ h4 {
 
 
 
-
-#voice .customer h4 {
-	font-size: 15px;
-    padding-top: 5px;
-}
-#voice .customer p {
-	font-size: 13px;
-    padding-top: 1em;
-}
-#voice .customer-name {
-	text-align: center;
-}
-#voice img {
-	margin: 16px 0;
-	width: 70px;
-	height: 70px;
-	border-radius: 100%;
-	display: inline-block;
-}
 .swiper-pagination-bullet-active {
     opacity: 1;
     background: #222;
