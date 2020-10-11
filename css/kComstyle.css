@@ -362,6 +362,11 @@ h4 {
 	width: max-content;
 }
 
+/** price **/
+.price {
+	max-width: 640px;
+}
+
 
 
 
@@ -392,24 +397,8 @@ h4 {
 
 
 
-.swiper-pagination-bullet-active {
-    opacity: 1;
-    background: #222;
-}
-.swiper-slide-next, .swiper-slide-prev {
-	opacity: 0.6;
-    transform: scale(0.92);
-    transition: all 0.5s;
-}
-#price {
-	text-align: center;
-}
-#price h3 {
-	font-size: 32px;
-}
-#price .single-heading  {
-	padding-bottom: 0;
-}
+
+
 #price h4 {
 	padding: 0.3em 0 0 0.5em;
     color: #fff;
