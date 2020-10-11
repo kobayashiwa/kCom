@@ -150,6 +150,9 @@ footer ul {
 footer li {
 	padding-left: 40px;
 }
+footer li a:hover{
+	text-decoration: underline;
+}
 
 
 
