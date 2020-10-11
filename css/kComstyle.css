@@ -360,12 +360,7 @@ h4 {
 
 
 
-#main .row .imgbox .bnr {
-	position: absolute;
-}
-#main .row .imgbox .bnr img{
-	width: 320%;
-}
+
 #about01, #feature, #choose, #voice, #price, #faq, #contact-form {
 	padding-bottom: 80px;
 }
