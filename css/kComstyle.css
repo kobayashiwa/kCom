@@ -393,6 +393,7 @@ h4 {
 	font-weight: 300;
 	line-height: 160%;
 	flex: 1;
+	background: #fff;
 	border:1px solid #354341;
 }
 .point {
