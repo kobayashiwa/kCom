@@ -366,52 +366,10 @@ h4 {
 
 
 
-#about01 .row .heading, #about02 .row .heading {
-	width: 50%;
-	padding: 0 16px;
-}
-#about01 .row .heading p, #about02 .row .heading p {
-	font-size: 15px;
-    font-weight: 300;
-    line-height: 25px;
-    padding-top: 25px;
-}
-#about01 .row .heading ul, #about02 .row .heading ul {
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 48px;
-}
-#about01 .row .heading ul li, #about02 .row .heading ul li {
-	width: 25%;
-	text-align: center;
-}
-.circle {
-	display: inline-block;
-    width: 85px;
-    height: 85px;
-    background: #eee;
-    text-align: center;
-    line-height: 85px;
-    border-radius: 100%;
-    position: relative;
-}
-#about02 .circle {
-    background: #fff;
-}
-.circle i:before{
-	font-size: 40px;
-    vertical-align: middle;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(260deg, #fe5e34 0%, #e235eb 100%);
-}
-#about01 .row .heading ul li h4, #about02 .row .heading ul li h4 {
-	font-size: 14px;
-	line-height: 1.5;
-	padding-top: 12px;
-	font-weight: 300;
-	text-align: center;
-}
+
+
+
+
 #about01 .row .imgbox, #about02 .row .imgbox {
 	width: 50%;
 	padding: 0 16px;
