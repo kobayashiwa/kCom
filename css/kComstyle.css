@@ -141,6 +141,13 @@ nav li a:hover {
 /** footer **/
 footer {
 	font-size: 14px;
+	font-weight: 300;
+}
+footer ul {
+	margin-left: -40px;
+}
+footer li {
+	padding-left: 40px;
 }
 
 
@@ -433,13 +440,6 @@ h4 {
 
 
 
-.os_index6_form_main_wrapper:after {
-    min-height: 1040px;
-}
-#contact-form .inputbtn{
-	text-align: center;
-	padding-top: 24px;
-}
 #contact-form .submit{
 	color: #fff;
 	background: linear-gradient(314.42deg, #FB4B38 6.38%, #F43F74 82.44%);
