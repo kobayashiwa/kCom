@@ -319,13 +319,16 @@ h4 {
 	width: 48px;
 	margin-right: 16px;
 }
-.voice h3 {
+.worry .client h3 {
 	font-size: 20px;
 	flex: 1;
+	background: #354341;
+	color: #fff;
 }
 .voice p {
 	flex: 1;
 }
+
 
 
 
@@ -355,42 +358,6 @@ h4 {
 
 
 
-nav a.textLink:hover {
-	color: #fff;
-	transition: all 0.3s ease 0s;
-}
-nav a.btn {
-	color: #fff;
-	font-size: 14px;
-	margin-left: 24px;
-	padding: 12px 24px;
-	border: 1px solid #fff;
-	border-radius: 30px;
-}
-nav a.btn:hover {
-	color: #E9446A;
-	background-color: #fff;
-	transition: all 0.3s ease 0s;
-}
-#main {
-	padding-top: 70px;
-}
-.main_wrapper{
-	background: url(../images/banner_bg.png) no-repeat;
-    background-position: 0;
-    min-height: 800px;
-    background-size: cover;
-    width: auto;
-    left: 0;
-    right: 0;
-    z-index: -1;
-}
-#main .row .heading {
-	padding-top: 80px;
-	flex: 0 0 60%;
-    max-width: 60%;
-	color: #fff;
-}
 #main .row .heading h1 {
 	font-size: 40px;
 	line-height: 64px;
