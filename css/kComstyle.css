@@ -236,7 +236,8 @@ h2 {
 	margin-top: 24px;
 }
 .price h2 {
-	font-size: 72px;
+	font-size: 24px;
+	color: #E44C6F;
 }
 h3 {
 	font-size: 40px;
