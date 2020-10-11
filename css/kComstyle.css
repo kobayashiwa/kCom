@@ -325,9 +325,11 @@ h4 {
 	background: #354341;
 	color: #fff;
 }
-.voice p {
+.worry .kcom p {
 	flex: 1;
+	border:1px solid #354341;
 }
+
 
 
 
@@ -358,38 +360,6 @@ h4 {
 
 
 
-#main .row .heading h1 {
-	font-size: 40px;
-	line-height: 64px;
-	letter-spacing: .1em;
-	color: #fff;
-}
-#main .row .heading h2 {
-	letter-spacing: .2em;
-	padding: .5em 0 2em 0;
-	font-size: 16px;
-    line-height: 30px;
-}
-#main .row .heading a.btn {
-	color: #E9446A;
-	font-size: 14px;
-	font-weight: 600;
-	padding: 16px 48px;
-	background: #fff;
-	border-radius: 30px;
-}
-#main .row .heading a.btn:hover {
-	color: #fff;
-	background: none;
-	border: 1px solid #fff;
-	transition: all 0.3s ease 0s;
-}
-#main .row .imgbox {
-	flex: 0 0 40%;
-	max-width: 100%;
-    margin-left: -480px;
-	position: relative;
-}
 #main .row .imgbox .bnr {
 	position: absolute;
 }
