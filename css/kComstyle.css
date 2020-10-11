@@ -234,6 +234,9 @@ h2 {
 	text-align: left;
 	margin-top: 24px;
 }
+.price h2 {
+	font-size: 72px;
+}
 h3 {
 	font-size: 40px;
 	line-height: 140%;
