@@ -89,6 +89,10 @@ main {
 .screenBox img {
 	width: 100%;	
 }
+.notes {
+	font-size: 12px;
+	font-weight: 300;
+}
 
 
 /** scroll **/
@@ -370,49 +374,6 @@ h4 {
 
 
 
-#about01 .row .imgbox, #about02 .row .imgbox {
-	width: 50%;
-	padding: 0 16px;
-}
-#about01 .row .imgbox img, #about02 .row .imgbox img{
-	width: 100%;
-}
-#about02 {
-	padding-top: 80px;
-    background: url(../images/inbox.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 720px;
-    z-index: -1;
-}
-#about02 .about02 .imgbox img {
-	width: 80%;
-}
-#feature ul {
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: -32px;
-	margin-bottom: 80px;
-}
-#feature ul li {
-	width: 25%;
-	padding-left: 32px;
-}
-#feature ul li .shadow-box {
-	border: none;
-	box-shadow: 0 0 0 1px rgba(0,0,0,.02), 0 8px 16px 0 rgba(0,0,0,.1);
-	margin-top: 20px;
-	text-align: center;
-	border-radius: 10px;
-	padding-top: 48px;
-	padding-bottom: 48px;
-}
-#feature ul li .icon i:before{
-	font-size: 56px;
-	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(260deg, #fe5e34 0%, #e235eb 100%);
-}
 #feature ul li h4 {
 	padding-top: 1em;
 	font-size: 18px;
