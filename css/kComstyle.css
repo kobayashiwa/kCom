@@ -318,6 +318,7 @@ h4 {
 /** worry **/
 .voice {
 	align-items: flex-start;
+	margin-bottom: 16px;
 }
 .avatar {
 	width: 48px;
@@ -369,21 +370,6 @@ h4 {
 
 
 
-
-
-
-
-
-#feature ul li h4 {
-	padding-top: 1em;
-	font-size: 18px;
-    line-height: 22px;
-}
-#feature ul li p, #choose ul li p {
-	padding-top: 1em;
-    font-size: 14px;
-    line-height: 1.5;
-}
 #choose, #price {
 	background: linear-gradient(314.42deg, #FB4B38 6.38%, #F43F74 82.44%);
 	color: #fff;
