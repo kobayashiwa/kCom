@@ -359,8 +359,9 @@ h4 {
 	line-height: 160%;
 	flex: 1;
 	background: #354341;
+	border-radius: 16px;
 	color: #fff;
-	padding: 16px 32px;
+	padding: 14px 28px;
 }
 .worry .kcom p {
 	flex: 1;
@@ -415,14 +416,7 @@ h4 {
 
 
 
-#contact-form .contact {
-	margin: 0 auto;
-	max-width: 560px;
-}
 
-#contact-form .mailto{
-	text-decoration: underline;
-}
 #contact-form label{
 	color: #10b3e9;
 }
