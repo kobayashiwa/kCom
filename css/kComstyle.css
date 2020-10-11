@@ -377,6 +377,8 @@ h4 {
 	border-right:16px solid #354341;
 }
 .worry .kcom p {
+	font-weight: 300;
+	line-height: 160%;
 	flex: 1;
 	border:1px solid #354341;
 }
@@ -429,10 +431,7 @@ h4 {
 
 
 
-.os_index6_form_main_wrapper:after {
-	background: url(../images/contact_shape.png) center repeat-x;
-	width: 100%;
-}
+
 .os_index3_input_box_wrapper textarea {
     margin-top: 0;
 }
