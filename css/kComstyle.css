@@ -369,6 +369,12 @@ h4 {
 	max-width: 640px;
 }
 
+/** intro **/
+.intro {
+	max-width: 1160px;
+	margin: 0 auto;
+}
+
 
 
 
@@ -402,35 +408,6 @@ h4 {
 
 
 
-#price .pricebox .pricebox-note {
-	padding: 1em 0 4em 0;
-    line-height: 1.5;
-    font-size: 12px;
-    font-weight: 400;
-}
-#price .pricebox a.btn {
-	color: #E9446A;
-	font-size: 14px;
-	font-weight: 600;
-	padding: 16px 48px;
-	background: #fff;
-	border-radius: 30px;
-}
-#price .pricebox a.btn:hover {
-	color: #fff;
-	background: none;
-	border: 1px solid #fff;
-	transition: all 0.3s ease 0s;
-}
-.accordion-container {
-	width: 100%;
-}
-.accordion-container .panel {
-	margin: 0 auto 20px auto;
-    color: #222;
-	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.03);
-	border-bottom: none;
-}
 .accordion-container .panel .heading {
 	font-size: 16px;
 	color: #222;
