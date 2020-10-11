@@ -188,6 +188,14 @@ nav li a:hover {
 .text-link:hover {
 	text-decoration: none;
 }
+.gray-bottom {
+	background: linear-gradient(to bottom, #fff 0%, #fff 50%, #F8F9F9 50%, #F8F9F9 100%);
+	width: 100%;	
+}
+.gray-top {
+	background: linear-gradient(to bottom, #F8F9F9 0%, #F8F9F9 50%, #fff 50%, #fff 100%);
+	width: 100%;	
+}
 
 
 /** Typo **/
@@ -242,10 +250,6 @@ h4 {
 .smb-top {
 	text-align: center;
 }
-.gray-bottom {
-	background: linear-gradient(to bottom, #fff 0%, #fff 50%, #F8F9F9 50%, #F8F9F9 100%);
-	width: 100%;	
-}
 .smb-top .cover {
 	margin: 0 auto;
 	width: 100%;
@@ -298,6 +302,7 @@ h4 {
 	width: 80px;
 }
 .solution-list li h3 {
+	font-size: 16px;
 	padding-top: 24px;
 }
 
@@ -410,28 +415,6 @@ h4 {
 
 
 
-
-
-#faq .more {
-	text-align: center;
-}
-#faq a.btn {
-	color: #fff;
-	font-size: 14px;
-	font-weight: 600;
-	padding: 16px 64px;
-	background: linear-gradient(314.42deg, #FB4B38 6.38%, #F43F74 82.44%);
-	border-radius: 30px;
-}
-#faq a.btn:hover {
-	color: #E9446A;
-	background: none;
-	border: 1px solid #E9446A;
-	transition: all 0.3s ease 0s;
-}
-#contact-form {
-	background: #F8F9FA;
-}
 #contact-form .contact {
 	margin: 0 auto;
 	max-width: 560px;
