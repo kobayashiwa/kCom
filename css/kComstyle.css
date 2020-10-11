@@ -396,6 +396,7 @@ h4 {
 .worry .kcom p {
 	font-weight: 300;
 	line-height: 160%;
+	padding: 20px 24px;
 	flex: 1;
 	background: #fff;
 	border:1px solid #354341;
