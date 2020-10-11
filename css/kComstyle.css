@@ -341,7 +341,7 @@ h4 {
 	margin-right: 16px;
 }
 .IcoSolution {
-	margin-right: 24px;
+	margin-right: 16px;
 }
 .worry .client h3 {
 	font-size: 20px;
@@ -352,6 +352,10 @@ h4 {
 .worry .kcom p {
 	flex: 1;
 	border:1px solid #354341;
+}
+.point {
+	margin: 0 auto;
+	width: max-content;
 }
 
 
@@ -383,12 +387,6 @@ h4 {
 }
 
 
-#choose .choose-list {
-	padding: 0 16px;
-}
-#choose .choose-list h4 {
-	padding: 16px 0;
-}
 #voice, #faq {
 	padding-top: 40px;
 	margin-bottom: 80px;
