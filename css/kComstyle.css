@@ -359,9 +359,19 @@ h4 {
 	line-height: 160%;
 	flex: 1;
 	background: #354341;
-	border-radius: 16px;
+	border-radius: 12px;
 	color: #fff;
-	padding: 14px 28px;
+	padding: 14px 24px;
+	display:inline-block;
+	position:relative;
+}
+.talk h3:before { 
+	content: '';
+	position:absolute;
+	top:12px;
+	left:-20px;
+	border: 12px solid transparent;
+	border-right:16px solid #354341;
 }
 .worry .kcom p {
 	flex: 1;
@@ -371,6 +381,7 @@ h4 {
 	margin: 0 auto;
 	width: max-content;
 }
+
 
 /** price **/
 .price {
