@@ -541,9 +541,15 @@ h4 {
 }
 .carousel-cell .shadow-box {
 	width: 380px;
-	padding: 32px;
+	padding: 48px 32px 32px 32px;
 	height: 100%;
 	position: relative;
+}
+.carousel-cell .shadow-box .name {
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 8px;
 }
 .chargeAvatar {
 	position: absolute;
