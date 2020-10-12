@@ -457,15 +457,23 @@ h4 {
 
 /** intro **/
 .intro {
-	max-width: 1160px;
+	max-width: 1320px;
 	margin: 0 auto;
 	padding-bottom: 60px;
 }
 .intro .shadow-box {
 	padding: 60px 30px;
+	width: 70%;
+	position: relative;
 }
 .intro .shadow-box .textBox {
+	width: 70%;
 	padding: 0 30px;
+}
+.intro .shadow-box .screenBox {
+	position: absolute;
+	left: 65%;
+	width: 80%;
 }
 .intro p {
 	font-size: 14px;
