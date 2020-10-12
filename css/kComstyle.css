@@ -523,6 +523,9 @@ h4 {
 
 
 @media (max-width: 1000px) {
+	.container {
+		padding: 40px;
+	}
 	.textBox h3 br {
 		display: none;
 	}
