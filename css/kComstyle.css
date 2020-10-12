@@ -543,6 +543,13 @@ h4 {
 	.container {
 		padding: 40px;
 	}
+	.scroll {
+		width: 40px;
+		left: 12px;
+	}
+	nav {
+		padding: 16px 24px;
+	}
 	.textBox h3 br {
 		display: none;
 	}
@@ -556,3 +563,4 @@ h4 {
 		display: none;
 	}
 }
+
