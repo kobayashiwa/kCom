@@ -496,16 +496,27 @@ h4 {
 }
 
 /** recommend **/
+.recommend .container {
+	padding: 80px;
+}
 .main-carousel {
 	padding: 40px;
 	height: auto;
 }
 .carousel-cell {
+	opacity: .8;
 	padding: 40px;
 	height: auto;
+	margin-top: 24px;
+	transform: scale(0.9, 0.9);
+}
+.is-selected {
+	opacity: unset;
+	margin-top: 0;
+	transform: none;
 }
 .carousel-cell .shadow-box {
-	width: 360px;
+	width: 400px;
 	padding: 24px;
 	height: 100%;
 }
