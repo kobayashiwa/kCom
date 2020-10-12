@@ -394,13 +394,17 @@ h4 {
 }
 .talk h3:before { 
 	content: '';
-	position:absolute;
-	top:12px;
-	left:-20px;
-	border: 12px solid transparent;
-	border-right:16px solid #354341;
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	left: -9px;
+	top: 12px;
+	border-right: 9px solid #354341;
+	border-top: 7px solid transparent;
+	border-bottom: 9px solid transparent;
 }
-.worry .kcom p {
+.kcom p {
 	font-weight: 300;
 	line-height: 160%;
 	padding: 20px 24px;
@@ -408,7 +412,33 @@ h4 {
 	background: #fff;
 	border-radius: 12px;
 	border:1px solid #354341;
+	display:inline-block;
+	position:relative;
 }
+.kcom p:before { 
+	content: '';
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	left: -9px;
+	top: 12px;
+	border-right: 9px solid #354341;
+	border-top: 7px solid transparent;
+	border-bottom: 9px solid transparent;
+}
+.kcom p::after{
+	content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+	height: 0;
+	left: -8px;
+	top: 12px;
+	border-right: 9px solid #fff;
+	border-top: 7px solid transparent;
+	border-bottom: 9px solid transparent;
+  }
 .point {
 	margin: 0 auto;
 	width: max-content;
@@ -439,6 +469,7 @@ h4 {
 }
 .carousel-cell .shadow-box {
 	width: 320px;
+	padding: 24px;
 	height: 100%;
 }
 
@@ -447,15 +478,15 @@ h4 {
 	text-align: center;
 }
 
-/** client **/
-.client {
+/** introduction **/
+.introduction {
 	margin: 0 auto;
 }
-.client .container {
+.introduction .container {
 	width: max-content;
 	text-align: center;
 }
-.client p {
+.introduction p {
 	text-align: left;
 }
 
