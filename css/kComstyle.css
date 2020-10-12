@@ -500,7 +500,7 @@ h4 {
 
 
 @media (max-width: 1000px) {
-	.header-right a.textLink {
+	.textBox h3 br {
 		display: none;
 	}
 }
