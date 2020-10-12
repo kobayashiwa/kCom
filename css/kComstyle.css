@@ -242,6 +242,9 @@ h2 {
 	font-size: 24px;
 	color: #E44C6F;
 }
+.price h2 span {
+	font-size: 72px;
+}
 h3 {
 	font-size: 40px;
 	line-height: 140%;
