@@ -348,17 +348,6 @@
             }
         });
         });
-        
-        AOS.init({
-            duration: 800,
-            easing: 'ease-in-sine',
-            anchorPlacement: 'center-bottom',
-        });
-        
-        var flkty = new Flickity( '.main-carousel', {
-          // options
-        });
-        
         </script>
         
         <script>
@@ -370,9 +359,9 @@
         </script>
         
         <script>
-            var flkty = new Flickity( '.main-carousel', {
-          // options
-        });
+            new Flickity( element , {
+	wrapAround: true ,
+} ) ;
         </script>
 
 </body>

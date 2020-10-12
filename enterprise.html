@@ -103,7 +103,7 @@
                         <div class="arrow item" data-aos="fade-down"><img src="images/arrow.svg"></div>
                     </div>
                     <div class="container item" data-aos="fade-up">
-                        <div class="main-carousel" flex data-flickity='{ "autoPlay": true }'>
+                        <div id="main-carousel" flex data-flickity='{ "autoPlay": true, "wrapAround": true }'>
                             <div class="carousel-cell">
                               <div class="shadow-box">
                                   <div><img src="images/chargeAvatar01.svg"></div>
@@ -136,7 +136,6 @@
                                   <p>店舗数が多いとGoogleマップの運用にとにかく時間がかかる。<br>ユーザーが店舗データを改ざんしてしまうので常に正しい情報に修正し続けなければいけないし、投稿運用にも時間がかかる。</p>
                               </div>
                             </div>
-                            <div class="carousel-cell"></div>
                           </div>
                         </div>
                 </section>
@@ -331,17 +330,6 @@ $(function() {
     }
 });
 });
-
-AOS.init({
-    duration: 800,
-    easing: 'ease-in-sine',
-    anchorPlacement: 'center-bottom',
-});
-
-var flkty = new Flickity( '.main-carousel', {
-  // options
-});
-
 </script>
 
 <script>
@@ -352,11 +340,6 @@ AOS.init({
 });
 </script>
 
-<script>
-    var flkty = new Flickity( '.main-carousel', {
-  // options
-});
-</script>
 
 
 </body>
