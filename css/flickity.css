@@ -23,6 +23,7 @@ https://flickity.metafizzy.co
 /* draggable */
 
 .flickity-enabled.is-draggable {
+  height: 100%;
   -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
      -moz-user-select: none;

@@ -428,6 +428,23 @@ h4 {
 	margin: 0 auto;
 }
 
+/** recommend **/
+.main-carousel {
+	padding: 40px;
+	height: auto;
+}
+.carousel-cell {
+	padding: 40px;
+	height: auto;
+}
+.carousel-cell .shadow-box {
+	width: 320px;
+	height: 100%;
+}
+
+
+
+
 
 
 
@@ -453,27 +470,10 @@ h4 {
 
 /* flickity.css */
 
-.carousel {
-  background: #EEE;
-}
 
-.carousel-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
 
-}
 
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}
+
 
 
 
