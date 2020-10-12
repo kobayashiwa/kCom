@@ -497,6 +497,9 @@ h4 {
 .intro .right {
 	margin: 0 0 0 auto;
 }
+.intro .right .textBox {
+	margin: 0 0 0 auto;
+}
 .intro .right .screenBox {
 	position: absolute;
 	right: 70%;
