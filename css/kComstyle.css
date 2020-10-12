@@ -574,6 +574,9 @@ h4 {
 
 
 @media (max-width: 1000px) {
+	body {
+		font-size: 14px;
+	}
 	.container {
 		padding: 40px;
 	}
