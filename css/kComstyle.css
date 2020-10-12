@@ -238,12 +238,12 @@ h2 {
 	text-align: left;
 	margin-top: 24px;
 }
-.price h2 {
+.price h2, .client h2 {
 	font-size: 24px;
 	color: #E44C6F;
 }
-.price h2 span {
-	font-size: 72px;
+.price h2 span, .client h2 span {
+	font-size: 80px;
 }
 h3 {
 	font-size: 40px;
@@ -445,6 +445,18 @@ h4 {
 /** function **/
 .function {
 	text-align: center;
+}
+
+/** client **/
+.client {
+	margin: 0 auto;
+}
+.client .container {
+	width: max-content;
+	text-align: center;
+}
+.client p {
+	text-align: left;
 }
 
 
