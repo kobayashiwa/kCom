@@ -239,6 +239,7 @@ h2 {
 .price h2, .introduction h2 {
 	font-size: 24px;
 	color: #E44C6F;
+	margin-bottom: 24px;
 }
 .price h2 span, .introduction h2 span {
 	font-size: 80px;
