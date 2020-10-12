@@ -497,6 +497,14 @@ h4 {
 .intro .right {
 	margin: 0 0 0 auto;
 }
+.intro .right .screenBox {
+	position: absolute;
+	right: 70%;
+	width: 80%;
+	top: 50%;
+	transform: translate(0, -45%);
+	text-align: center;
+}
 .intro p {
 	font-size: 14px;
 	font-weight: 300;
@@ -527,6 +535,13 @@ h4 {
 	width: 380px;
 	padding: 32px;
 	height: 100%;
+	position: relative;
+}
+.chargeAvatar {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 .recommend h3 {
 	display: inline-block;
