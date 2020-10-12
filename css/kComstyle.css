@@ -228,10 +228,7 @@ h2 {
 	font-size: 36px;
 	margin-bottom: 60px;
 }
-.solution-list h2 {
-	font-size: 24px;
-}
-.top h2 span {
+.solution-list h2, .top h2 span {
 	font-size: 24px;
 }
 .enter-top h2 {
@@ -239,12 +236,13 @@ h2 {
 	text-align: left;
 	margin-top: 24px;
 }
-.price h2, .client h2 {
+.price h2, .introduction h2 {
 	font-size: 24px;
 	color: #E44C6F;
 }
-.price h2 span, .client h2 span {
+.price h2 span, .introduction h2 span {
 	font-size: 80px;
+	padding-left: 40px;
 }
 h3 {
 	font-size: 40px;
