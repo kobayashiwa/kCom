@@ -524,33 +524,13 @@ h4 {
 	.textBox h3 br {
 		display: none;
 	}
+	.enterpriseLink {
+		display: none;
+	}
 }
 
 @media (max-width: 670px) {
 	.header-right a.textLink {
 		display: none;
 	}
-}
-
-
-
-
-
-
-
-/* flickity.css */
-
-
-
-
-
-
-
-
-
-/**
-
-
-.thin {
-	font-weight: 100;
 }
