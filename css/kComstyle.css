@@ -456,6 +456,11 @@ h4 {
 	max-width: 1160px;
 	margin: 0 auto;
 }
+.intro p {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 180%;
+}
 
 /** recommend **/
 .main-carousel {
