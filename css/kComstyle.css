@@ -456,6 +456,12 @@ h4 {
 	max-width: 1160px;
 	margin: 0 auto;
 }
+.intro .shadow-box {
+	padding: 60px 30px;
+}
+.intro .shadow-box .textBox {
+	padding: 0 30px;
+}
 .intro p {
 	font-size: 14px;
 	font-weight: 300;
