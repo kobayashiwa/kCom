@@ -620,6 +620,9 @@ h4 {
 	.enterpriseLink {
 		display: none;
 	}
+	h1 {
+		font-size: 56px;
+	}
 }
 
 @media (max-width: 670px) {
