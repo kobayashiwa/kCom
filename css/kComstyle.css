@@ -470,10 +470,13 @@ h4 {
 	width: 70%;
 	padding: 0 30px;
 }
-.intro .shadow-box .screenBox {
+.intro .left .screenBox {
 	position: absolute;
-	left: 65%;
+	left: 70%;
 	width: 80%;
+}
+.intro .left {
+	margin: 0 auto 0 0;
 }
 .intro p {
 	font-size: 14px;
@@ -508,6 +511,12 @@ h4 {
 /** function **/
 .function {
 	text-align: center;
+}
+.function ul {
+	flex-wrap: wrap;
+}
+.function ul li {
+	width: 20%;
 }
 
 /** introduction **/
