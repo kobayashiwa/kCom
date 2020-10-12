@@ -252,7 +252,7 @@ h3 {
 .solution-box h3 {
 	font-size: 16px;
 }
-.performance-box h3 {
+.performance-box h3, .intro h3 {
 	font-size: 24px;
 }
 h4 {
@@ -452,7 +452,6 @@ h4 {
 
 
 /* flickity.css */
-body { font-family: sans-serif; }
 
 .carousel {
   background: #EEE;
