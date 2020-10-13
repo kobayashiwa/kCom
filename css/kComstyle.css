@@ -643,6 +643,9 @@ h4 {
 		font-size: 32px;
 		margin-bottom: 40px;
 	}
+	.solution-list h2, .top h2 span {
+		font-size: 24px;
+	}
 	.enter-top h2 {
 		font-size: 18px;
 		max-width: 52%;
