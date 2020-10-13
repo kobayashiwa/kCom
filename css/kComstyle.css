@@ -757,6 +757,9 @@ h4 {
 	nav li a {
 		font-size: 12px;
 	}
+	span br {
+		display: block;
+	}
 	/** typo **/
 	.smb-top h1 {
 		font-size: 10vmin;
