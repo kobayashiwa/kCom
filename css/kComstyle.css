@@ -739,6 +739,12 @@ h4 {
 		font-size: 20px;
 		line-height: 140%;
 	}
+	/** btn **/
+	.btn-head {
+		margin-left: 8px;
+		font-size: 12px;
+		padding: 8px 16px;
+	}
 }
 
 
