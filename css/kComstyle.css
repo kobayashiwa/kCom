@@ -723,6 +723,12 @@ h4 {
 	.arrow img {
 		height: 80px;
 	}
+	.round-bg {
+		font-size: 18px;
+		padding: 12px 24px;
+		border-radius: 18px;
+		line-height: 160%;
+	}
 	/** scroll **/
 	.scroll {
 		width: 10px;
