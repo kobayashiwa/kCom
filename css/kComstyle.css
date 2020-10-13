@@ -629,6 +629,9 @@ h4 {
 	.textBox h3 br {
 		display: none;
 	}
+	.round-bg {
+		font-size: 20px;
+	}
 	h1 {
 		font-size: 56px;
 	}
