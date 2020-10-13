@@ -617,11 +617,11 @@ h4 {
 		font-size: 14px;
 	}
 	.container {
-		padding: 40px;
+		padding:  64px;
 	}
 	.scroll {
 		width: 40px;
-		left: 12px;
+		left: 24px;
 	}
 	nav {
 		padding: 16px 24px;
