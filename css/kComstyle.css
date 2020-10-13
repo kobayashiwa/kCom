@@ -660,6 +660,9 @@ h4 {
 	h3 {
 		font-size: 32px;
 	}
+	.performance-box h3, .intro h3 {
+		font-size: 20px;
+	}
 	h4 {
 		font-size: 20px;
 	}
