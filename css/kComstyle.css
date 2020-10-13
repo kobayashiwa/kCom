@@ -786,10 +786,14 @@ h4 {
 	.solution h2 span br {
 		display: none;
 	}
-	.solution-list h2, .top h2 span {
+	.top h2 span {
 		display: inline-block;
 		font-size: 15px;
 		line-height: 140%;
+	}
+	.solution-list h2 {
+		font-size: 18px;
+		text-align: center;
 	}
 	/** btn **/
 	.btn-head {
