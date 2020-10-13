@@ -668,11 +668,16 @@ h4 {
 		display: none;
 	}
 	/** scroll **/
-.scroll {
-}
-.scroll img {
-	width: 10px;
-}
+	.scroll {
+		
+	}
+	.scroll img {
+		width: 10px;
+	}
+	/** header **/
+	header img {
+		width: 80px;
+	}
 }
 
 
