@@ -632,6 +632,7 @@ h4 {
 	.round-bg {
 		font-size: 20px;
 	}
+	/** font **/
 	h1 {
 		font-size: 56px;
 	}
@@ -641,9 +642,12 @@ h4 {
 	.solution h2 {
 		font-size: 32px;
 	}
+	/** top **/
 	.cover-container {
 		margin: -20px auto -60px auto;
-	
+	}
+	.enter-top .screenBox img {
+		padding-left: 10%;
 	}
 }
 
