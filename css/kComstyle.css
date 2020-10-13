@@ -678,6 +678,9 @@ h4 {
 	header img {
 		width: 80px;
 	}
+	nav li a {
+		font-size: 12px;
+	}
 }
 
 
