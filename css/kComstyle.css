@@ -216,6 +216,9 @@ h1 {
 	line-height: 130%;
 	text-align: center;
 }
+h1 span br {
+	display: none;
+}
 h2 {
 	font-size: 48px;
 	line-height: 140%;
@@ -740,6 +743,9 @@ h4 {
 	/** font **/
 	h1 {
 		font-size: 32px;
+	}
+	h1 span br {
+		display: block;
 	}
 	.solution-list h2, .top h2 span {
 		display: inline-block;
