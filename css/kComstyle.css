@@ -667,6 +667,12 @@ h4 {
 	.enterpriseLink {
 		display: none;
 	}
+	/** scroll **/
+.scroll {
+}
+.scroll img {
+	width: 10px;
+}
 }
 
 
