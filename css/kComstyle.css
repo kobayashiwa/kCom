@@ -234,6 +234,7 @@ h2 {
 }
 .enter-top h2 {
 	font-size: 20px;
+	line-height: 160%;
 	text-align: left;
 	margin-top: 24px;
 }
