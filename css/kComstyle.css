@@ -647,6 +647,9 @@ h4 {
 	.enter-top h2 br {
 		display: none;
 	}
+	h3 {
+		font-size: 32px;
+	}
 	/** top **/
 	.cover-container {
 		margin: -20px auto -60px auto;
