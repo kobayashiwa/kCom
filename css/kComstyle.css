@@ -732,6 +732,12 @@ h4 {
 		border-radius: 18px;
 		line-height: 160%;
 	}
+	.textBox {
+		width: 100%;
+	}
+	.screenBox {
+		width: 100%;
+	}
 	/** scroll **/
 	.scroll {
 		width: 10px;
@@ -808,9 +814,6 @@ h4 {
 	/** service **/
 	.service .container {
 		flex-direction: column;
-	}
-	.service .textBox {
-		width: 100%;
 	}
 }
 
