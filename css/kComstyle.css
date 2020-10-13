@@ -96,7 +96,6 @@ main {
 	font-weight: 300;
 }
 
-
 /** scroll **/
 
 .scroll {
@@ -109,7 +108,6 @@ main {
 .scroll img {
 	text-align: center;
 }
-
 
 /** header **/
 
@@ -155,8 +153,6 @@ footer li {
 footer li a:hover{
 	text-decoration: underline;
 }
-
-
 
 /** btn link **/
 
@@ -212,7 +208,6 @@ footer li a:hover{
 	background: linear-gradient(to bottom, #F8F9F9 0%, #F8F9F9 50%, #fff 50%, #fff 100%);
 	width: 100%;	
 }
-
 
 /** Typo **/
 
@@ -270,7 +265,6 @@ h4 {
 	text-align: center;
 }
 
-
 /** top **/
 
 .top {
@@ -313,9 +307,6 @@ h4 {
 	margin-top: -120px;
 }
 
-
-
-
 /** solution **/
 
 .solution {
@@ -339,7 +330,6 @@ h4 {
 	padding-top: 24px;
 }
 
-
 /** service **/
 
 .service .num {
@@ -347,7 +337,6 @@ h4 {
 	font-size: 72px;
 	line-height: 1;
 }
-
 
 /** performance **/
 
@@ -674,8 +663,8 @@ h4 {
 	}
 }
 
-@media (max-width: 670px) {
-	.header-right a.textLink {
+@media (max-width: 700px) {
+	.enterpriseLink {
 		display: none;
 	}
 }
