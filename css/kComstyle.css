@@ -690,6 +690,9 @@ h4 {
 	.enterpriseLink {
 		display: none;
 	}
+	.container {
+		padding:  64px 24px;
+	}
 	/** scroll **/
 	.scroll {
 		width: 10px;
