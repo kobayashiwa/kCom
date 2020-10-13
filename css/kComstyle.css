@@ -714,6 +714,11 @@ h4 {
 	h1 {
 		font-size: 32px;
 	}
+	.solution-list h2, .top h2 span {
+		display: inline-block;
+		font-size: 20px;
+		line-height: 140%;
+	}
 }
 
 
