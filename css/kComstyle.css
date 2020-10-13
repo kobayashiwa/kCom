@@ -714,6 +714,9 @@ h4 {
 }
 
 @media (max-width: 700px) {
+	p {
+		font-weight: 300;
+	}
 	.enterpriseLink {
 		display: none;
 	}
@@ -805,6 +808,9 @@ h4 {
 	/** service **/
 	.service .container {
 		flex-direction: column;
+	}
+	.service .textBox {
+		width: 100%;
 	}
 }
 
