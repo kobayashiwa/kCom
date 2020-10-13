@@ -785,6 +785,16 @@ h4 {
 	.smb-top .cover {
 		margin: 0 auto 40px 0;	
 	}
+	.cover-container {
+		position: relative;	
+		margin: -40px auto -60px auto;
+	}
+	.smb-top .cover img {
+		width: 600px;
+		position: relative;
+		left: -40px;
+	}
+    
 	/** solution **/
 	.solution-list ul {
 		flex-direction: column;
