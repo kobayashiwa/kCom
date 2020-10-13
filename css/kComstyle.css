@@ -820,6 +820,9 @@ h4 {
 	.solution-list ul {
 		flex-direction: column;
 	}
+	.solution-list ul li {
+		max-width: 320px;
+	}
 	.solution-list li div {
 		display: flex;
 	}
