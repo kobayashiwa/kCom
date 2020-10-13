@@ -379,6 +379,9 @@ h4 {
 	width: 48px;
 	margin-right: 16px;
 }
+.avatar img {
+	width: 100%;
+}
 .IcoSolution {
 	margin-right: 16px;
 }
@@ -716,6 +719,7 @@ h4 {
 @media (max-width: 700px) {
 	p {
 		font-weight: 300;
+		line-height: 160%;
 	}
 	.enterpriseLink {
 		display: none;
@@ -841,6 +845,10 @@ h4 {
 	/** service **/
 	.service .container {
 		flex-direction: column;
+	}
+	/** worry **/
+	.avatar {
+		width: 32px;
 	}
 }
 
