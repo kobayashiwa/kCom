@@ -799,6 +799,9 @@ h4 {
 	.solution-list ul {
 		flex-direction: column;
 	}
+	.solution-list li div {
+		display: flex;
+	}
 	/** service **/
 	.service .container {
 		flex-direction: column;
