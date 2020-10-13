@@ -632,6 +632,9 @@ h4 {
 	.round-bg {
 		font-size: 20px;
 	}
+	.textBox {
+		width: 50%;
+	}
 	/** font **/
 	h1 {
 		font-size: 56px;
