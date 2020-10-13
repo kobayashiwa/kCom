@@ -763,6 +763,13 @@ h4 {
 	h2 span br {
 		display: none;
 	}
+	.solution h2 {
+		font-size: 24px;
+		margin-bottom: 32px;
+	}
+	.solution h2 span br {
+		display: none;
+	}
 	.solution-list h2, .top h2 span {
 		display: inline-block;
 		font-size: 16px;
