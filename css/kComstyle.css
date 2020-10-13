@@ -720,10 +720,12 @@ h4 {
 	.container {
 		padding:  64px 24px;
 	}
+	.arrow img {
+		height: 80px;
+	}
 	/** scroll **/
 	.scroll {
 		width: 10px;
-		z-index: 1000;
 		top: 80vh;
 		left: 12px;
 	}
