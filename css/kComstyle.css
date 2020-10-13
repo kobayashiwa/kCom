@@ -638,6 +638,9 @@ h4 {
 	h2 {
 		font-size: 40px;
 	}
+	.solution h2 {
+		font-size: 32px;
+	}
 	.cover-container {
 		margin: -20px auto -60px auto;
 	
