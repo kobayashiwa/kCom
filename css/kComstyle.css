@@ -736,9 +736,11 @@ h4 {
 	.textBox {
 		width: 100%;
 		padding: 0 16px;
+		order:1;
 	}
 	.screenBox {
 		width: 100%;
+		order:2;
 	}
 	/** scroll **/
 	.scroll {
