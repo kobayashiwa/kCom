@@ -586,9 +586,14 @@ h4 {
 	margin-top: 40px;
 }
 .function ul li div {
-	padding: 32px;
+	padding: 16px;
 	background: #F8F9F9;
 	border-radius: 4px;
+	width: 100%;
+}
+.function ul li div img {
+	max-width: 64px;
+	width: 100%;
 }
 
 /** introduction **/
