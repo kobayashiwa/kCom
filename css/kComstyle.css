@@ -878,6 +878,9 @@ h4 {
 	.IcoSolution img {
 		width: 40px;
 	}
+	.worry .answer {
+		flex-direction: column;
+	}
 }
 
 
