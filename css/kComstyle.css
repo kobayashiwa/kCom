@@ -838,11 +838,11 @@ h4 {
 	}
 	.solution-list ul li {
 		max-width: 320px;
+		padding: 16px 32px;
 	}
 	.solution-list li div {
 		display: flex;
 	}
-	/** solution **/
 	.solution-list li img {
 		width: 40px;
 	}
