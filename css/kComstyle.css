@@ -801,6 +801,11 @@ h4 {
 	h2 span br {
 		display: none;
 	}
+	.enter-top h2 {
+		font-size: 16px;
+		max-width: 100%;
+		padding: 0;
+	}
 	.solution h2 {
 		font-size: 24px;
 		margin-bottom: 32px;
