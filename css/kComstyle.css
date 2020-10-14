@@ -802,6 +802,9 @@ h4 {
 	h3 {
 		font-size: 28px;
 	}
+	.service h3 {
+		text-align: center;
+	}
 	.heading p {
 		font-size: 14px;
 		text-align: left;
