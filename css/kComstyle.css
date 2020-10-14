@@ -873,6 +873,9 @@ h4 {
 	.solution-list li img {
 		width: 48px;
 	}
+	.IcoSolution {
+		margin-right: 10px;
+	}
 	/** service **/
 	.service .container {
 		flex-direction: column;
