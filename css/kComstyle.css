@@ -718,8 +718,9 @@ h4 {
 
 @media (max-width: 700px) {
 	p {
+		font-size: 15px;
 		font-weight: 300;
-		line-height: 160%;
+		line-height: 180%;
 	}
 	.enterpriseLink {
 		display: none;
@@ -869,8 +870,13 @@ h4 {
 		padding: 12px 20px;
 	}
 	.kcom p {
-		line-height: 140%;
 		padding: 12px 20px;
+	}
+	.IcoSolution {
+		width: 40px;
+	}
+	.IcoSolution img {
+		width: 40px;
 	}
 }
 
