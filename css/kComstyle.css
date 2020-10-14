@@ -864,6 +864,9 @@ h4 {
 	.avatar {
 		width: 32px;
 	}
+	.worry .client h3 {
+		font-size: 16px;
+	}
 }
 
 
