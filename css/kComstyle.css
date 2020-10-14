@@ -944,6 +944,10 @@ h4 {
 	.intro .flex {
 		flex-direction: column;
 	}
+	/** recommend **/
+	.flickity-viewport {
+		overflow: visible;
+	}
 }
 
 
