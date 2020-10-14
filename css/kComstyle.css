@@ -93,7 +93,7 @@ main {
 .notes {
 	padding-top: 16px;
 	font-size: 12px;
-	font-weight: 300;
+	font-weight: normal;
 }
 
 /** scroll **/
@@ -141,7 +141,7 @@ nav li a:hover {
 /** footer **/
 footer {
 	font-size: 14px;
-	font-weight: 300;
+	font-weight: normal;
 }
 footer ul {
 	margin-left: -40px;
@@ -409,7 +409,7 @@ h4 {
 	border-bottom: 9px solid transparent;
 }
 .kcom p {
-	font-weight: 300;
+	font-weight: normal;
 	line-height: 160%;
 	padding: 20px 24px;
 	flex: 1;
@@ -521,7 +521,7 @@ h4 {
 
 .intro p {
 	font-size: 14px;
-	font-weight: 300;
+	font-weight: normal;
 	line-height: 180%;
 }
 
@@ -573,7 +573,7 @@ h4 {
 	margin-bottom: 24px;
 }
 .carousel-cell p {
-	font-weight: 300;
+	font-weight: normal;
 	line-height: 160%;
 }
 
@@ -719,7 +719,7 @@ h4 {
 @media (max-width: 700px) {
 	p {
 		font-size: 15px;
-		font-weight: 300;
+		font-weight: normal;
 		line-height: 180%;
 	}
 	.enterpriseLink {
@@ -749,6 +749,9 @@ h4 {
 	}
 	.top-clear {
 		padding-top: 0;
+	}
+	.text-link {
+		font-weight: normal;
 	}
 	/** scroll **/
 	.scroll {
