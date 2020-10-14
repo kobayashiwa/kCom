@@ -766,6 +766,9 @@ h4 {
 	nav li a {
 		font-size: 12px;
 	}
+	h4 br {
+		display: none;
+	}
 	span br {
 		display: block;
 	}
