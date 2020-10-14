@@ -889,6 +889,9 @@ h4 {
 		position: relative;
 		left: -40px;
 	}
+	.enter-top .cover .container {
+		flex-direction: column;
+	}
     
 	/** solution **/
 	.solution-list ul {
