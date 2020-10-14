@@ -747,6 +747,9 @@ h4 {
 		width: 100%;
 		order:2;
 	}
+	.top-clear {
+		padding-top: 0;
+	}
 	/** scroll **/
 	.scroll {
 		width: 10px;
