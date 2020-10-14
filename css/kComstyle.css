@@ -803,6 +803,9 @@ h4 {
 	h3 {
 		font-size: 28px;
 	}
+	.textBox h3 {
+		padding: 10px 0 16px 0;
+	}
 	.solution-list li h3 {
 		padding: 0;
 	}
