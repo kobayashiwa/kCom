@@ -1029,6 +1029,9 @@ h4 {
 	.flickity-viewport {
 		overflow: visible;
 	}
+	.recommend .heading {
+		padding: 64px 24px;
+	}
 
 	/** feature **/
 	.feature .flex {
