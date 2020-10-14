@@ -861,13 +861,14 @@ h4 {
 	.solution-list ul li {
 		max-width: 320px;
 		padding: 16px 32px;
+		margin-bottom: 24px;
 	}
 	.solution-list li div {
 		display: flex;
 		align-items: center;
 	}
 	.solution-list li img {
-		width: 40px;
+		width: 48px;
 	}
 	/** service **/
 	.service .container {
