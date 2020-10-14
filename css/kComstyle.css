@@ -898,6 +898,7 @@ h4 {
 		padding: 0;
 		max-width: unset;
 		width: 100%;
+		text-align: center;
 	}
 	.enter-top .screenBox {
 		flex: 1;
