@@ -48,7 +48,6 @@ ul, li {
 	box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 }
-
 .gray {
 	background: #F8F9F9;
 	width: 100%;
@@ -97,7 +96,6 @@ main {
 }
 
 /** scroll **/
-
 .scroll {
 	position: fixed;
 	width: 80px;
@@ -155,7 +153,6 @@ footer li a:hover{
 }
 
 /** btn link **/
-
 .btn {
 	border: 2px solid #E44C6F;
 	cursor:pointer;
@@ -210,7 +207,6 @@ footer li a:hover{
 }
 
 /** Typo **/
-
 h1 {
 	font-size: 68px;
 	line-height: 130%;
@@ -272,7 +268,6 @@ h4 {
 }
 
 /** top **/
-
 .top {
 	margin: 0 auto;
 }
@@ -314,7 +309,6 @@ h4 {
 }
 
 /** solution **/
-
 .solution {
 	text-align: center;
 }
@@ -337,7 +331,6 @@ h4 {
 }
 
 /** service **/
-
 .service .num {
 	font-weight: 100;
 	font-size: 72px;
@@ -345,7 +338,6 @@ h4 {
 }
 
 /** performance **/
-
 .performance-box {
 	max-width: 720px;
 	margin: 0 auto;
@@ -518,7 +510,6 @@ h4 {
 	box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 }
-
 .intro p {
 	font-size: 14px;
 	font-weight: normal;
@@ -614,14 +605,7 @@ h4 {
 	text-align: left;
 }
 
-
-
-
-
-
-
-
-
+/** max-width: 1000px **/
 @media (max-width: 1000px) {
 	body {
 		font-size: 15px;
@@ -646,6 +630,7 @@ h4 {
 	.textBox {
 		width: 50%;
 	}
+
 	/** typo **/
 	h1 {
 		font-size: 56px;
@@ -677,6 +662,7 @@ h4 {
 	h4 {
 		font-size: 20px;
 	}
+
 	/** top **/
 	.cover-container {
 		margin: -20px auto -60px auto;
@@ -684,6 +670,7 @@ h4 {
 	.enter-top .screenBox img {
 		padding-left: 24px;
 	}
+
 	/** intro **/
 	.intro .shadow-box {
 		padding: 20px;
@@ -698,24 +685,29 @@ h4 {
 	.intro .right .screenBox {
 		right: 80%;
 	}
+
 	/** solution **/
 	.solution-list li img {
 		width: 64px;
 	}
+
 	/** service **/
 	.service .num {
 		font-size: 64px;
 	}
+
 	/** worry **/
 	.worry .client h3 {
 		font-size: 18px;
 	}
+
 	/** recommend **/
 	.recommend .container {
 		padding: 80px 120px;
 	}
 }
 
+/** max-width: 700px **/
 @media (max-width: 700px) {
 	p {
 		font-size: 15px;
@@ -753,6 +745,7 @@ h4 {
 	.text-link {
 		font-weight: normal;
 	}
+
 	/** scroll **/
 	.scroll {
 		width: 10px;
@@ -762,6 +755,7 @@ h4 {
 	.scroll img {
 		width: 10px;
 	}
+
 	/** header **/
 	header img {
 		width: 100px;
@@ -778,6 +772,7 @@ h4 {
 	span br {
 		display: block;
 	}
+
 	/** footer **/
 	footer ul {
 		flex-direction: column;
@@ -789,6 +784,7 @@ h4 {
 	footer p {
 		text-align: center;
 	}
+
 	/** typo **/
 	.smb-top h1 {
 		font-size: 10vmin;
@@ -862,6 +858,7 @@ h4 {
 		text-align: left;
 		padding-left: 16px;
 	}
+
 	/** btn **/
 	.btn-head {
 		margin-left: 8px;
@@ -876,6 +873,7 @@ h4 {
 		font-size: 18px;
 		padding: 12px 48px;
 	}
+
 	/** top **/
 	.smb-top .cover {
 		margin: 0 auto 40px 0;	
@@ -891,6 +889,21 @@ h4 {
 	}
 	.enter-top .cover .container {
 		flex-direction: column;
+	}
+	.enter-top .cover .container {
+		padding: 0;
+		align-items: unset;
+	}
+	.enter-top .textBox {
+		padding: 0;
+		max-width: unset;
+		width: 100%;
+	}
+	.enter-top .screenBox {
+		flex: 1;
+	}
+	.enter-top .screenBox img {
+		margin-top: 0;
 	}
     
 	/** solution **/
@@ -912,6 +925,7 @@ h4 {
 	.IcoSolution {
 		margin-right: 10px;
 	}
+
 	/** service **/
 	.service .container {
 		flex-direction: column;
@@ -920,6 +934,7 @@ h4 {
 		font-size: 56px;
 		text-align: center;
 	}
+
 	/** worry **/
 	.avatar {
 		width: 32px;
@@ -940,6 +955,7 @@ h4 {
 	.worry .answer {
 		flex-direction: column;
 	}
+
 	/** performance **/
 	.performance-box li {
 		padding: 16px;
@@ -956,6 +972,7 @@ h4 {
 	.performance span {
 		font-size: 32px;
 	}
+
 	/** price **/
 	.price {
 		width: 80%;
@@ -965,6 +982,7 @@ h4 {
 		font-weight: 700;
 		line-height: 140%;
 	}
+
 	/** intro **/
 	.intro .flex {
 		flex-direction: column;
@@ -1006,14 +1024,17 @@ h4 {
 		position: unset;
 		text-align: center;
 	}
+
 	/** recommend **/
 	.flickity-viewport {
 		overflow: visible;
 	}
+
 	/** feature **/
 	.feature .flex {
 		flex-direction: column;
 	}
+
 	/** function **/
 	.function ul {
 		margin-left: -24px;
@@ -1030,4 +1051,3 @@ h4 {
 		max-width: 56px;
 	}
 }
-
