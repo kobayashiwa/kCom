@@ -969,6 +969,43 @@ h4 {
 	.intro .flex {
 		flex-direction: column;
 	}
+	.intro .container {
+		padding: 40px 16px;
+	}
+	.intro .shadow-box {
+		padding: 24px;
+		width: 100%;
+	}
+	.intro .shadow-box .textBox {
+		width: 100%;
+		padding: 0;
+	}
+	.intro .left {
+		margin: 0;
+	}
+	.intro .left .screenBox {
+		position: unset;
+		text-align: center;
+	}
+	.intro .left .screenBox p {
+		display: inline-block;
+		background: #354341;
+		color: #fff;
+		font-size: 12px;
+		font-weight: 700;
+		padding: 8px 20px;
+		border-radius: 40px;
+	}
+	.intro .right {
+		margin: 0;
+	}
+	.intro .right .textBox {
+		margin: 0;
+	}
+	.intro .right .screenBox {
+		position: unset;
+		text-align: center;
+	}
 	/** recommend **/
 	.flickity-viewport {
 		overflow: visible;
@@ -993,10 +1030,4 @@ h4 {
 		max-width: 56px;
 	}
 }
-
-
-
-
-
-
 
