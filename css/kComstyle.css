@@ -859,20 +859,6 @@ h4 {
 		text-align: left;
 		padding-left: 16px;
 	}
-	/** btn **/
-	.btn-head {
-		margin-left: 8px;
-		font-size: 12px;
-		padding: 8px 16px;
-	}
-	.btnWrap div {
-		font-size: 14px;
-		text-align: center;
-	}
-	.btn-page {
-		font-size: 18px;
-		padding: 12px 48px;
-	}
 	/** top **/
 	.smb-top .cover {
 		margin: 0 auto 40px 0;	
@@ -985,6 +971,20 @@ h4 {
 	}
 	.function ul li div img {
 		max-width: 56px;
+	}
+	/** btn **/
+	.btn-head {
+		margin-left: 8px;
+		font-size: 12px;
+		padding: 8px 16px;
+	}
+	.btnWrap div {
+		font-size: 14px;
+		text-align: center;
+	}
+	.btn-page {
+		font-size: 18px;
+		padding: 12px 48px;
 	}
 }
 
