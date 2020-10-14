@@ -803,6 +803,9 @@ h4 {
 	h3 {
 		font-size: 28px;
 	}
+	.solution-list li h3 {
+		padding: 0;
+	}
 	.service h3 {
 		text-align: center;
 	}
@@ -855,6 +858,7 @@ h4 {
 	}
 	.solution-list li div {
 		display: flex;
+		align-items: center;
 	}
 	.solution-list li img {
 		width: 40px;
