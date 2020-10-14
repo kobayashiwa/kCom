@@ -807,7 +807,7 @@ h4 {
 		padding: 10px 0 16px 0;
 	}
 	.solution-list li h3 {
-		padding: 0;
+		padding: 0 0 0 16px;
 	}
 	.service h3 {
 		text-align: center;
