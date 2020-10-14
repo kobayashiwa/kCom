@@ -902,10 +902,16 @@ h4 {
 	}
 	.enter-top .screenBox {
 		flex: 1;
+		position: relative;
 	}
 	.enter-top .screenBox img {
 		margin-top: 0;
+		padding-left: 0;
+		position: relative;
+		left: -30px;
+		width: 150%;
 	}
+
     
 	/** solution **/
 	.solution-list ul {
