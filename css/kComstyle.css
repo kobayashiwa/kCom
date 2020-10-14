@@ -837,6 +837,9 @@ h4 {
 	.performance-box h3, .intro h3 {
 		font-size: 16px;
 	}
+	.function h3 {
+		font-size: 14px;
+	}
 	h4 {
 		font-size: 18px;
 	}
@@ -952,11 +955,22 @@ h4 {
 	.feature .flex {
 		flex-direction: column;
 	}
+	/** function **/
+	.function ul {
+		margin-left: -24px;
+	}
+	.function ul li {
+		width: 50%;
+		padding-left: 24px;	
+		margin-top: 24px;
+	}
+	.function ul li div {
+		padding: 16px;
+	}
+	.function ul li div img {
+		max-width: 56px;
+	}
 }
-
-
-
-
 
 
 
