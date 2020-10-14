@@ -937,9 +937,13 @@ h4 {
 		font-size: 32px;
 	}
 	/** price **/
-.price {
-	width: 80%;
-}
+	.price {
+		width: 80%;
+	}
+	/** intro **/
+	.intro .flex {
+		flex-direction: column;
+	}
 }
 
 
