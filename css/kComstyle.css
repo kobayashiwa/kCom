@@ -897,7 +897,28 @@ h4 {
 	.worry .answer {
 		flex-direction: column;
 	}
+	/** performance **/
+	.performance-box li {
+		padding: 16px;
+	}
+	.performance-box h3 {
+		align-items: center;
+	}
+	.performance {
+		width: 100%;
+		text-align: end;
+		padding-left: 14px;
+		line-height: 1;
+	}
+	.performance span {
+		font-size: 32px;
+	}
 }
+
+
+
+
+
 
 
 
