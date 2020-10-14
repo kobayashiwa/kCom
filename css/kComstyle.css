@@ -775,6 +775,14 @@ h4 {
 	span br {
 		display: block;
 	}
+	/** footer **/
+	footer ul {
+		flex-direction: column;
+		align-items: left;
+	}
+	footer li {
+		margin-bottom: 16px;
+	}
 	/** typo **/
 	.smb-top h1 {
 		font-size: 10vmin;
