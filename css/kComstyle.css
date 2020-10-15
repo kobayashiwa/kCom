@@ -1128,3 +1128,6 @@ h4 {
 #about li {
 	margin: 12px 0;
 }
+#about a:hover {
+	text-decoration: underline;
+}
