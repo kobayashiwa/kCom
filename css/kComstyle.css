@@ -1086,6 +1086,7 @@ h4 {
 #about {
 	background: #f8f9f9;
 	padding: 80px 5% 80px;
+	font-weight: normal;
 }
 #about h1 {
 	font-size: 32px;
