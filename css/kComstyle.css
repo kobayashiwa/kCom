@@ -1135,3 +1135,13 @@ h4 {
 #about a:hover {
 	text-decoration: underline;
 }
+#about dl {
+	display: flex;
+}
+#about dt {
+	width: 30%;
+}
+#about dd {
+	width: 70%;
+	padding-left: 32px;
+}
