@@ -1092,3 +1092,7 @@ h4 {
 	font-size: 32px;
 	margin-bottom: 30px;
 }
+#about .container {
+	max-width: 1160px;
+	padding: 80px 5%;
+}
