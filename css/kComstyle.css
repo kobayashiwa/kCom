@@ -1125,3 +1125,6 @@ h4 {
 	font-size: 16px;
 	text-align: right;
 }
+#about li {
+	margin: 12px 0;
+}
