@@ -1081,3 +1081,8 @@ h4 {
 		max-width: 56px;
 	}
 }
+
+/** about **/
+#about {
+	background: #f8f9f9;
+}
