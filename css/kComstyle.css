@@ -1102,9 +1102,9 @@ iframe .exportFormCard {
 }
 #about h2 {
 	font-size: 24px;
-	margin-top: 32px;
+	margin: 40px 0 12px 0;
 }
 #about h3 {
 	font-size: 16px;
-	margin-top: 16px;
+	margin: 16px 0 12px 0;
 }
