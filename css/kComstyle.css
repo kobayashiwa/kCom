@@ -1109,7 +1109,7 @@ h4 {
 }
 #about h1 {
 	font-size: 32px;
-	margin-bottom: 30px;
+	margin-bottom: 48px;
 }
 #about h2 {
 	font-size: 24px;
@@ -1137,9 +1137,13 @@ h4 {
 }
 #about dl {
 	display: flex;
+	margin-top: 40px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #E4E7EB;
 }
 #about dt {
 	width: 30%;
+	font-weight: 700;
 }
 #about dd {
 	width: 70%;
