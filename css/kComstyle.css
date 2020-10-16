@@ -342,6 +342,9 @@ h4 {
 	font-size: 72px;
 	line-height: 1;
 }
+.service .mobile {
+	display: none;
+}
 
 /** performance **/
 .performance-box {
