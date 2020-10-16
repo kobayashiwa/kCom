@@ -1084,20 +1084,30 @@ h4 {
 		min-width: 340px;
 		width: 100%;
 	}
+	.carousel-cell {
+		opacity: 0;
+		margin-top: 0;
+		transition:800ms ease all;
+	}
+	.is-selected {
+		opacity: unset;
+	}
 	.flickity-prev-next-button.previous {
-		position: fixed;
-		left: 2%;
+		position: absolute;
+		left: -48px;
 	}
 	.flickity-prev-next-button.next {
-		position: fixed;
-		right: 2%;
+		position: absolute;
+		right: -48px;
 	}
 	.flickity-prev-next-button {
-		top: 48%;
+		top: 412px;
 		width: 32px;
 		height: 32px;
 		border-radius: 50%;
-		transform: translateY(-48%);
+	}
+	.flickity-page-dots {
+		bottom: -40px;
 	}
 
 	/** feature **/
