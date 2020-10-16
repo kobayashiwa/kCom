@@ -884,6 +884,9 @@ h4 {
 		font-size: 12px;
 		padding: 8px 16px;
 	}
+	.btn-top {
+		margin: 24px 0;
+	}
 	.btnWrap div {
 		font-size: 14px;
 		text-align: center;
@@ -904,7 +907,12 @@ h4 {
 	.smb-top .cover img {
 		width: 600px;
 		position: relative;
+		top: -30px;
 		left: -40px;
+		width: 130%;
+	}
+	.enter-top {
+		margin-top: -10px;
 	}
 	.enter-top .cover .container {
 		flex-direction: column;
@@ -927,8 +935,9 @@ h4 {
 		margin-top: 0;
 		padding-left: 0;
 		position: relative;
-		left: -30px;
-		width: 150%;
+		top: -50px;
+		left: -40px;
+		width: 130%;
 	}
 
     
