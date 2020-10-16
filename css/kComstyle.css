@@ -960,6 +960,13 @@ h4 {
 		font-size: 56px;
 		text-align: center;
 	}
+	.service .mobile {
+		display: inline-block;
+		border: 1px solid #354341;
+		padding: 8px 16px;
+		border-radius: 4px;
+		margin-top: 24px;
+	}
 
 	/** worry **/
 	.avatar {
