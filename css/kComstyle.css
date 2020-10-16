@@ -1080,14 +1080,24 @@ h4 {
 	.recommend .heading {
 		padding: 64px 24px;
 	}
-	.flickity-button {
-		display: none;
-	}
 	.carousel-cell .shadow-box {
-		width: 380px;
-		padding: 48px 15% 32px 15%;
-		height: 100%;
-		position: relative;
+		min-width: 340px;
+		width: 100%;
+	}
+	.flickity-prev-next-button.previous {
+		position: fixed;
+		left: 2%;
+	}
+	.flickity-prev-next-button.next {
+		position: fixed;
+		right: 2%;
+	}
+	.flickity-prev-next-button {
+		top: 48%;
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		transform: translateY(-48%);
 	}
 
 	/** feature **/
