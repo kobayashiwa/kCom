@@ -212,6 +212,9 @@ h1 {
 	line-height: 140%;
 	text-align: center;
 }
+.enter-top h1 {
+	line-height: 130%;
+}
 h1 span br {
 	display: none;
 }
@@ -291,6 +294,9 @@ h4 {
 }
 .enter-top .container {
 	padding-bottom: 0;
+}
+.enter-top {
+	margin-top: -40px;
 }
 .enter-top .cover .container {
 	padding: 0 0 0 80px;
