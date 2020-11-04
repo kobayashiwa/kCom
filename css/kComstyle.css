@@ -768,6 +768,10 @@ input[type="radio"] {
 }
 form .btn {
 	max-width: 240px;
+	height: 56px;
+    width: 100%;
+    padding: 16px;
+    outline: 0;
 }
 .submit {
 	text-align: center;

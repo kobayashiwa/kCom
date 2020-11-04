@@ -320,7 +320,7 @@
                                   <textarea id="content" name="entry.478542307" placeholder="お気軽にお問い合わせください" required></textarea>
                                 </div>
                                 <div class="submit">
-                                    <input class="btn enterpriseSubmit" type="submit" value="送信する" onclick="submitForm()">
+                                    <button class="button btn enterpriseSubmit" type="submit" onclick="submitForm()">送信する</button>
                                 </div>
                             </form>
                               <iframe name="dummyIframe" style="display:none;"></iframe>
@@ -379,6 +379,9 @@ AOS.init({
 });
 </script>
 
+
+        
+
 <script>
     function submitForm(){
         var val=document.getElementsByName("entry.1159373385")[0];
@@ -422,7 +425,6 @@ AOS.init({
         document.getElementById('thxMessage').style.display = 'block';
       }
  </script>
-
 
 </body>
 
