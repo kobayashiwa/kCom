@@ -613,6 +613,169 @@ h4 {
 .introduction p {
 	text-align: left;
 }
+/** contact-form-section **/
+#contact-form-section form {
+	max-width: 720px;
+	margin: -40px auto 0 auto;
+}
+#contact-form-section .container {
+	margin-top: -80px;
+}
+#contact-form-section .heading {
+	margin-top: 0;
+}
+input, button, textarea, select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-family: inherit;
+	border-radius: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	color: inherit;
+}
+label {
+	cursor: pointer;
+	display: block;
+	margin: 24px 0 8px 0;
+	font-weight: 300;
+	font-size: 12px;
+}
+label span{
+	padding-left: 8px;
+	color: #E44C6F;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button,
+input[type="month"]::-webkit-outer-spin-button,
+input[type="month"]::-webkit-inner-spin-button,
+input[type="datetime-local"]::-webkit-outer-spin-button,
+input[type="datetime-local"]::-webkit-inner-spin-button,
+input[type="week"]::-webkit-outer-spin-button,
+input[type="week"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-outer-spin-button,
+input[type="time"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button,
+input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+input[type="number"],
+input[type="month"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="time"],
+input[type="date"] {
+  -moz-appearance: textfield;
+}
+input[type="date"]::-webkit-clear-button,
+input[type="month"]::-webkit-clear-button,
+input[type="datetime-local"]::-webkit-clear-button,
+input[type="time"]::-webkit-clear-button,
+input[type="week"]::-webkit-clear-button {
+  -webkit-appearance: none;
+}
+input {
+	background: #fff;
+	border: 1px solid transparent;
+	transition: border 0.2s ease-out;
+	color: inherit;
+	height: 56px;
+	width: 100%;
+	padding: 16px;
+	outline: 0;
+	border-radius: 4px;
+}
+input:focus, textarea:focus  {
+	border: 1px solid #494949;
+}
+input::placeholder, textarea::placeholder {
+	color: #B9B9BB;
+}
+button:hover, button:focus {
+	opacity: 0.9;
+}
+textarea {
+	padding: 16px;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 32px;
+	border-radius: 4px;
+	resize: none;
+	border: 1px solid transparent;
+	transition: border 0.2s ease-out;
+	outline: none;
+	background-color: #fff;
+  }
+  
+  textarea::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  textarea::-webkit-scrollbar-track {
+	background-color: #fff;
+  }
+  
+  textarea::-webkit-scrollbar-thumb {
+	background-color: #ccc;
+  }
+/* デフォルトのinputを隠す */
+input[type="radio"] {
+	display: none;
+	position: relative;
+	opacity: 0;
+  }
+.radio-input{
+  display: none;
+}
+.radio-input + label{
+  padding-left: 24px;
+  position:relative;
+  margin-right: 32px;
+  font-size: 16px;
+  line-height: 1;
+}
+.radio-input + label::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #999;
+  background: #fff;
+  border-radius: 50%;
+}
+.radio-input:checked + label{
+  color: #E44C6F;
+}
+.radio-input:checked + label::before{
+	border: 1px solid #E44C6F;
+  }
+.radio-input:checked + label::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 11px;
+  height: 11px;
+  background: #E44C6F;
+  border-radius: 50%;
+}
+.radio .flex {
+	margin-top: -16px;
+}
+form .btn {
+	max-width: 240px;
+}
+.submit {
+	text-align: center;
+}
+#thxMessage p {
+	text-align: center;
+	color: #E44C6F;
+}
 
 /** max-width: 1000px **/
 @media (max-width: 1000px) {
@@ -1093,12 +1256,14 @@ h4 {
 		opacity: unset;
 	}
 	.flickity-prev-next-button.previous {
-		position: fixed;
-		left: 2%;
+		position: absolute;
+		left: -24vw;
+		top: 109%;
 	}
 	.flickity-prev-next-button.next {
-		position: fixed;
-		right: 2%;
+		position: absolute;
+		right: -24vw;
+		top: 109%;
 	}
 	.flickity-prev-next-button {
 		top: 50%;
@@ -1142,6 +1307,13 @@ h4 {
 	}
 	.function ul li div img {
 		max-width: 56px;
+	}
+	#contact-form-section form {
+		padding: 8px;
+	}
+	.radio .flex {
+		flex-direction: column;
+		align-items: flex-start;
 	}
 }
 
@@ -1198,3 +1370,4 @@ h4 {
 	width: 70%;
 	padding-left: 32px;
 }
+
