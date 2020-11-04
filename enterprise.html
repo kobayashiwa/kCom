@@ -362,7 +362,7 @@ $(function() {
    $(window).bind("scroll", function() {
     scrollHeight = $(document).height();
     scrollPosition = $(window).height() + $(window).scrollTop();
-    if ( (scrollHeight - scrollPosition) / scrollHeight <= 0.02) {
+    if ( (scrollHeight - scrollPosition) / scrollHeight <= 0.12) {
             fixContact.fadeOut();
     } else {
             fixContact.fadeIn();
