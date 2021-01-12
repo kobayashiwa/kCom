@@ -14,7 +14,7 @@ body {
 	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
-	color: #000;
+	color: #1a1a1a;
 	background: #fff;
 	font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Verdana, Meiryo, sans-serif;
     font-feature-settings: "palt";
@@ -28,7 +28,7 @@ p {
 }
 a {
 	text-decoration: none;
-	color: #354341;
+	color: #1a1a1a;
 }
 ul, li {
 	list-style: none;
