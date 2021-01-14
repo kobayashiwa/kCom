@@ -16,7 +16,7 @@
     </head>
 
     <body>
-        <!-- header -->
+        <!-- header 
         <header>
             <nav class="flex">
                 <div><a href="index.html"><img src="images/kComLogo.svg" alt="口コミコム"></a></div>
@@ -29,7 +29,25 @@
                 </div>
             </nav>
         </header>
-        <!-- header -->
+         header -->　
+
+
+        <header class="header">
+            <div><a href="index.html"><img src="images/kComLogo.svg" alt="口コミコム"></a></div>
+            <a class="nav-button" href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+            <nav class="nav-wrap">
+              <ul class="nav">
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+            </nav>
+        </header>
 
         <!-- scroll -->
         <div id="fixArrow" class="scroll item" data-aos="fade-down"><img src="images/scroll.svg"></div>
@@ -360,6 +378,25 @@
     });
     </script>
     <script>
+        $(function() {
+  $(".nav-button").on("click", function() {
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(".nav-wrap")
+        .addClass("close")
+        .removeClass("open");
+    } else {
+      $(this).addClass("active");
+      $(".nav-wrap")
+        .addClass("open")
+        .removeClass("close");
+    }
+  });
+});
+    </script>
+
+    <!-- 
+    <script>
         var startPos = 0,winScrollTop = 0;
         $(window).on('scroll',function(){
         winScrollTop = $(this).scrollTop();
@@ -373,6 +410,7 @@
         startPos = winScrollTop;
         });
     </script>
+-->
 
 </body>
 
