@@ -129,6 +129,9 @@ main {
 	display: inline-block;
 	margin: 0 10px;
 }
+.nav-wrap.open {
+	display: block;
+}
 
 /** header 
 
