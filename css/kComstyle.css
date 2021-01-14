@@ -132,6 +132,9 @@ main {
 .nav-wrap.open {
 	display: block;
 }
+.nav-wrap.close {
+	display: none;
+}
 
 /** header 
 
