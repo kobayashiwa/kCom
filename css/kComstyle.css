@@ -125,6 +125,10 @@ main {
 	font-size: 14px;
 	color: #448aff;
 }
+.nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
 
 /** header 
 
