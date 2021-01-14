@@ -138,7 +138,10 @@ main {
 @media (min-width: 1001px) {
 	.nav-wrap {
 		display: block !important;
-	}
+	}	
+}
+.content {
+	padding: 20px;
 }
 
 /** header 
