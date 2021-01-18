@@ -258,6 +258,8 @@ main {
 	.nav .btn-login {
 		border: 1px solid #fff;
 		background: #E44C6F;
+		cursor:pointer;
+		display: inline-block;
 		color: #fff;
 		padding: 16px 22px;
 		width: 100%;
@@ -266,6 +268,12 @@ main {
 	.nav .btn-login:hover {
 		border: 1px solid #fff;
 		background: #E44C6F;
+	}
+	.nav .btn-head {
+		padding: 16px 22px;
+		border: 1px solid #fff;
+		background: #fff;
+		color: #E44C6F;
 	}
 	.nav-wrap li a {
 		color: #fff;
@@ -334,10 +342,6 @@ header {
 
 	
 
-
-
-
-	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
 	transition: .5s;
 }
 nav {
