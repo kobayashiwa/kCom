@@ -276,6 +276,7 @@ main {
 		color: #E44C6F;
 		width: 100%;
 		max-width: 240px;
+		margin: 0;
 	}
 	.nav-wrap li a {
 		color: #fff;
@@ -341,7 +342,6 @@ main {
 /** header 
 
 nav {
-	max-width: 1320px;
 	margin: 0 auto;
 	padding: 16px 80px;
 	justify-content: space-between;
@@ -1267,11 +1267,12 @@ form .btn {
 	}
 
 	/** btn **/
+	/**btn-head
 	.btn-head {
 		margin-left: 8px;
 		font-size: 12px;
 		padding: 8px 16px;
-	}
+	} **/
 	.btn-top {
 		margin: 24px 0;
 	}
