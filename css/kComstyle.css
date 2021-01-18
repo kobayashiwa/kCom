@@ -255,7 +255,6 @@ main {
 		margin: 0;
 	}
 	.nav .btn-login {
-		margin-left: 16px;
 		border: 1px solid #fff;
 		background: #E44C6F;
 		color: #fff;
@@ -327,8 +326,10 @@ main {
 header {
 
 	
+
+
 	
-	top: 0;
+	
 	z-index: 999;
 	width: 100%;
 	background: #fff;
