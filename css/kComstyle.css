@@ -274,6 +274,8 @@ main {
 		border: 1px solid #fff;
 		background: #fff;
 		color: #E44C6F;
+		width: 100%;
+		max-width: 240px;
 	}
 	.nav-wrap li a {
 		color: #fff;
@@ -338,12 +340,6 @@ main {
 
 /** header 
 
-header {
-
-	
-
-	transition: .5s;
-}
 nav {
 	max-width: 1320px;
 	margin: 0 auto;
