@@ -330,35 +330,6 @@ main {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-/** header 
-
-nav {
-	margin: 0 auto;
-	padding: 16px 80px;
-	justify-content: space-between;
-}
-nav li {
-	padding-left: 8px;
-}
-nav li a {
-	font-size: 14px;
-	display: inline-block;
-	padding: 10px 16px;
-	border-radius: 4px;
-}
-nav li a:hover {
-	background: rgba(20, 53, 60, 0.05);
-}
-
 /** footer **/
 footer {
 	font-size: 14px;
