@@ -1123,26 +1123,6 @@ form .btn {
 		width: 10px;
 	}
 
-	/** header 
-	header.hide {
-		transform: translateY(-100%);
-	}
-	header img {
-		width: 100px;
-	}
-	nav {
-		padding: 16px;
-	}
-	nav li a {
-		font-size: 12px;
-	}
-	h4 br {
-		display: none;
-	}
-	span br {
-		display: block;
-	}
-
 	/** footer **/
 	footer ul {
 		flex-direction: column;
