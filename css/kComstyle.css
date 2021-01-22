@@ -126,6 +126,12 @@ main {
 	.container {
 		padding:  64px 24px;
 	}
+	.round-bg {
+		font-size: 18px;
+		padding: 12px 24px;
+		border-radius: 18px;
+		font-weight: 700;
+	}
 }
 
 /** header **/
@@ -1092,13 +1098,6 @@ form .btn {
 	}
 	.arrow img {
 		height: 80px;
-	}
-	.round-bg {
-		font-size: 18px;
-		padding: 12px 24px;
-		border-radius: 18px;
-		line-height: 160%;
-		font-weight: 700;
 	}
 	.textBox {
 		width: 100%;
