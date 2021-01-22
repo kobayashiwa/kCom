@@ -124,6 +124,9 @@ main {
 	.arrow {
 		bottom: -40px;
 	}
+	.textBox {
+		width: 50%;
+	}
 }
 @media (max-width: 700px) {
 	.container {
@@ -1016,9 +1019,6 @@ form .btn {
 	}
 	.textBox h3 br {
 		display: none;
-	}
-	.textBox {
-		width: 50%;
 	}
 
 	/** typo **/
