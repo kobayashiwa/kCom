@@ -162,6 +162,11 @@ main {
 	.textBox h3 {
 		padding: 10px 0 16px 0;
 	}
+	.scroll {
+		width: 10px;
+		top: 65vh;
+		left: 12px;
+	}
 }
 
 /** header **/
@@ -1120,11 +1125,6 @@ form .btn {
 	}
 
 	/** scroll **/
-	.scroll {
-		width: 10px;
-		top: 65vh;
-		left: 12px;
-	}
 	.scroll img {
 		width: 10px;
 	}
