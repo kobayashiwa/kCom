@@ -170,6 +170,9 @@ main {
 	.scroll img {
 		width: 10px;
 	}
+	.top-clear {
+		padding-top: 0;
+	}
 }
 
 /** header **/
@@ -1117,9 +1120,6 @@ form .btn {
 
 /** max-width: 700px **/
 @media (max-width: 700px) {
-	.top-clear {
-		padding-top: 0;
-	}
 	.text-link {
 		font-weight: normal;
 	}
