@@ -149,6 +149,9 @@ main {
 		padding: 0 16px 16px 16px;
 		order:1;
 	}
+	.textBox h3 {
+		padding: 10px 0 16px 0;
+	}
 }
 
 /** header **/
@@ -1191,9 +1194,6 @@ form .btn {
 	}
 	h3 {
 		font-size: 28px;
-	}
-	.textBox h3 {
-		padding: 10px 0 16px 0;
 	}
 	.function h3 {
 		font-size: 12px;
