@@ -167,6 +167,9 @@ main {
 		top: 65vh;
 		left: 12px;
 	}
+	.scroll img {
+		width: 10px;
+	}
 }
 
 /** header **/
@@ -1120,12 +1123,6 @@ form .btn {
 	.text-link {
 		font-weight: normal;
 	}
-
-	/** scroll **/
-	.scroll img {
-		width: 10px;
-	}
-
 	/** footer **/
 	footer ul {
 		flex-direction: column;
