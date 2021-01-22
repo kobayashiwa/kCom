@@ -1,3 +1,4 @@
+/** base **/
 html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
@@ -91,6 +92,11 @@ main {
 	padding-top: 16px;
 	font-size: 12px;
 	font-weight: normal;
+}
+@media (max-width: 1000px) {
+	body {
+		font-size: 15px;
+	}	
 }
 
 /** scroll **/
@@ -972,9 +978,6 @@ form .btn {
 
 /** max-width: 1000px **/
 @media (max-width: 1000px) {
-	body {
-		font-size: 15px;
-	}
 	.container {
 		padding:  64px;
 	}
