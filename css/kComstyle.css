@@ -113,6 +113,11 @@ main {
 .scroll img {
 	text-align: center;
 }
+@media (max-width: 1000px) {
+	.container {
+		padding:  64px;
+	}
+}
 
 /** header **/
 .header {
@@ -981,9 +986,6 @@ form .btn {
 
 /** max-width: 1000px **/
 @media (max-width: 1000px) {
-	.container {
-		padding:  64px;
-	}
 	.scroll {
 		width: 40px;
 		left: 24px;
