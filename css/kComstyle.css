@@ -1114,9 +1114,6 @@ form .btn {
 
 /** max-width: 700px **/
 @media (max-width: 700px) {
-	.enterpriseLink {
-		display: none;
-	}
 	.top-clear {
 		padding-top: 0;
 	}
