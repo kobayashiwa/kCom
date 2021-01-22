@@ -130,6 +130,12 @@ main {
 	.textBox h3 br {
 		display: none;
 	}
+	.screenBox {
+		width: 100%;
+		order:2;
+		padding: 0;
+		margin-top: 24px;
+	}
 }
 @media (max-width: 700px) {
 	.container {
@@ -1105,12 +1111,6 @@ form .btn {
 @media (max-width: 700px) {
 	.enterpriseLink {
 		display: none;
-	}
-	.screenBox {
-		width: 100%;
-		order:2;
-		padding: 0;
-		margin-top: 24px;
 	}
 	.top-clear {
 		padding-top: 0;
