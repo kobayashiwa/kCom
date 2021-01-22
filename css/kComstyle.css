@@ -136,6 +136,10 @@ main {
 		padding: 0;
 		margin-top: 24px;
 	}
+	.scroll {
+		width: 40px;
+		left: 24px;
+	}
 }
 @media (max-width: 700px) {
 	.container {
@@ -1027,10 +1031,6 @@ form .btn {
 
 /** max-width: 1000px **/
 @media (max-width: 1000px) {
-	.scroll {
-		width: 40px;
-		left: 24px;
-	}
 	/** typo **/
 	h1 {
 		font-size: 56px;
