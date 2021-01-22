@@ -141,6 +141,11 @@ main {
 	.arrow img {
 		height: 64px;
 	}
+	.textBox {
+		width: 100%;
+		padding: 0 16px 16px 16px;
+		order:1;
+	}
 }
 
 /** header **/
@@ -1101,11 +1106,6 @@ form .btn {
 @media (max-width: 700px) {
 	.enterpriseLink {
 		display: none;
-	}
-	.textBox {
-		width: 100%;
-		padding: 0 16px 16px 16px;
-		order:1;
 	}
 	.screenBox {
 		width: 100%;
