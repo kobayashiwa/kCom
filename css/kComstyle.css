@@ -43,7 +43,7 @@ ul, li {
 	}
 }
 
-
+/** common **/
 .container {
 	max-width: 1320px;
 	margin: 0 auto;
@@ -103,9 +103,6 @@ main {
 	font-size: 12px;
 	font-weight: normal;
 }
-
-
-/** scroll **/
 .scroll {
 	position: fixed;
 	width: 80px;
