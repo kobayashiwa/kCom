@@ -34,6 +34,19 @@ a {
 ul, li {
 	list-style: none;
 }
+@media (max-width: 1000px) {
+	body {
+		font-size: 15px;
+	}	
+}
+@media (max-width: 700px) {
+	p {
+		font-weight: normal;
+		line-height: 180%;
+	}
+}
+
+
 .container {
 	max-width: 1320px;
 	margin: 0 auto;
@@ -93,11 +106,7 @@ main {
 	font-size: 12px;
 	font-weight: normal;
 }
-@media (max-width: 1000px) {
-	body {
-		font-size: 15px;
-	}	
-}
+
 
 /** scroll **/
 .scroll {
@@ -1077,11 +1086,6 @@ form .btn {
 
 /** max-width: 700px **/
 @media (max-width: 700px) {
-	p {
-		font-size: 15px;
-		font-weight: normal;
-		line-height: 180%;
-	}
 	.enterpriseLink {
 		display: none;
 	}
