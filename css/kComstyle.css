@@ -56,14 +56,6 @@ main {
 	padding-top: 78px;
 	background: #D9042B;
 }
-.withArrow {
-	position: relative;
-}
-.arrow {
-	position: absolute;
-	left: 50vw;
-	bottom: -50px;
-}
 .textBox {
 	width: 40%;
 	padding: 0 40px;
@@ -96,9 +88,6 @@ main {
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
-	}
-	.arrow {
-		bottom: -40px;
 	}
 	.textBox {
 		width: 50%;
