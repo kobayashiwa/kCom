@@ -54,9 +54,7 @@ ul, li {
 }
 main {
 	padding-top: 78px;
-}
-.heading {
-	text-align: center;
+	background: #D9042B;
 }
 .round-bg {
 	display: inline-block;
