@@ -73,50 +73,6 @@ if ($(this).hasClass("active")) {
 });
 </script>
 
-<script>
-    function submitForm(){
-        var val=document.getElementsByName("entry.1159373385")[0];
-         if (val.value.length == 0) {
-           alert("会社名が入力されていません");
-           val.focus();
-            return;
-            }
-            var val=document.getElementsByName("entry.585981000")[0];
-         if (val.value.length == 0) {
-           alert("お名前が入力されていません");
-           val.focus();
-            return;
-            }
-            var val=document.getElementsByName("entry.1256016132")[0];
-         if (val.value.length == 0) {
-           alert("メールアドレスが入力されていません");
-           val.focus();
-            return;
-            }
-            var val=document.getElementsByName("entry.1280571130")[0];
-         if (val.value.length == 0) {
-           alert("電話番号が入力されていません");
-           val.focus();
-            return;
-            }
-            var val=document.getElementsByName("entry.2132510867")[0];
-         if (val.value.length == 0) {
-           alert("店舗数を選択してください");
-           val.focus();
-            return;
-            }
-            var val=document.getElementsByName("entry.478542307")[0];
-         if (val.value.length == 0) {
-           alert("お問い合わせ内容が入力されていません");
-           val.focus();
-            return;
-            }
-        document.myForm.submit();
-        document.getElementById('formWrapper').style.display = 'none';
-        document.getElementById('thxMessage').style.display = 'block';
-      }
- </script>
-
 </body>
 
 </html>
