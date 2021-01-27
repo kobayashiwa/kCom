@@ -45,9 +45,9 @@ ul, li {
 
 /** common **/
 .container {
-	max-width: 1320px;
+	max-width: 1024px;
 	margin: 0 auto;
-	padding: 80px;
+	padding: 0;
 }
 .flex {
 	display: flex;
@@ -114,9 +114,6 @@ main {
 	text-align: center;
 }
 @media (max-width: 1000px) {
-	.container {
-		padding:  64px;
-	}
 	.round-bg {
 		font-size: 20px;
 		padding: 8px 80px;
@@ -142,9 +139,6 @@ main {
 	}
 }
 @media (max-width: 700px) {
-	.container {
-		padding:  64px 24px;
-	}
 	.round-bg {
 		font-size: 18px;
 		padding: 12px 24px;
