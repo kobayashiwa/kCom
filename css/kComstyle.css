@@ -188,7 +188,7 @@ main {
 	align-items: center;
 }
 .header .logo {
-	margin-left: 40px;
+	margin: 0 12px;
 }
 .header .logo img {
 	height: 28px;
@@ -201,8 +201,7 @@ main {
 	position: relative;
 	display: inline-block;
 	text-decoration: none;
-	padding: 8px 12px;
-	margin: 0 12px;
+	padding: 8px;
 }
 .nav a.nav-link::after {
 	position: absolute;
@@ -247,7 +246,7 @@ main {
 	background: #E44C6F;
 	color: #fff;
 	border-radius: 4px;
-	margin: 0 16px;
+	margin: 0 12px;
 	font-size: 13px;
 }
 .nav .btn-head:hover {
