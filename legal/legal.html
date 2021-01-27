@@ -113,22 +113,6 @@
 
         <script src="../js/jquery-3.3.1.min.js"></script>
         <script src="../js/aos.js"></script>
-
-        <script>
-            /* fixContact */
-        $(function() {
-            var fixContact = $('#fix w');
-           $(window).bind("scroll", function() {
-            scrollHeight = $(document).height();
-            scrollPosition = $(window).height() + $(window).scrollTop();
-            if ( (scrollHeight - scrollPosition) / scrollHeight <= 0.02) {
-                    fixContact.fadeOut();
-            } else {
-                    fixContact.fadeIn();
-            }
-        });
-        });
-        </script>
         
         <script>
         AOS.init({

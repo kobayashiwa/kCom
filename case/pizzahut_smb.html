@@ -57,22 +57,6 @@
 <script src="../js/aos.js"></script>
 
 <script>
-    /* fixContact */
-$(function() {
-    var fixContact = $('#fixArrow');
-   $(window).bind("scroll", function() {
-    scrollHeight = $(document).height();
-    scrollPosition = $(window).height() + $(window).scrollTop();
-    if ( (scrollHeight - scrollPosition) / scrollHeight <= 0.12) {
-            fixContact.fadeOut();
-    } else {
-            fixContact.fadeIn();
-    }
-});
-});
-</script>
-
-<script>
 AOS.init({
     duration: 800,
     easing: 'ease-in-sine',
