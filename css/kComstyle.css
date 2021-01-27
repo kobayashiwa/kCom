@@ -52,10 +52,6 @@ ul, li {
 .flex {
 	display: flex;
 }
-.gray {
-	background: #F8F9F9;
-	width: 100%;
-}
 main {
 	padding-top: 72px;
 }
