@@ -331,10 +331,7 @@ footer li a:hover{
 
 /** performance **/
 
-.performance-box h3 {
-	display: flex;
-	justify-content: space-between;
-}
+
 .performance {
 	color: #E44C6F;
 }
@@ -830,9 +827,7 @@ form .btn {
 	.service h3 {
 		text-align: center;
 	}
-	.performance-box h3 {
-		font-size: 16px;
-	}
+
 	.intro h3 {
 		font-size: 20px;
 	}
@@ -878,9 +873,7 @@ form .btn {
 	}
 
 	/** performance **/
-	.performance-box h3 {
-		align-items: center;
-	}
+
 	.performance {
 		width: 100%;
 		text-align: end;
