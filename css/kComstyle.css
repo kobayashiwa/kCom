@@ -332,9 +332,6 @@ footer li a:hover{
 /** performance **/
 
 
-.performance {
-	color: #E44C6F;
-}
 .performance span {
 	font-size: 56px;
 }
@@ -874,12 +871,6 @@ form .btn {
 
 	/** performance **/
 
-	.performance {
-		width: 100%;
-		text-align: end;
-		padding-left: 14px;
-		line-height: 1;
-	}
 	.performance span {
 		font-size: 32px;
 	}
