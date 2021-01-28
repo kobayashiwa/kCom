@@ -328,6 +328,11 @@ footer li a:hover{
 	background: #91A663;
 }
 
+/** btnWrap **/
+.btnWrap {
+	background: #5FA0D9;
+}
+
 
 
 
@@ -356,19 +361,6 @@ footer li a:hover{
 
 /** worry **/
 
-
-.talk h3:before { 
-	content: '';
-	position: absolute;
-	display: block;
-	width: 0;
-	height: 0;
-	left: -9px;
-	top: 12px;
-	border-right: 9px solid #354341;
-	border-top: 7px solid transparent;
-	border-bottom: 9px solid transparent;
-}
 .kcom p {
 	font-weight: normal;
 	line-height: 160%;
