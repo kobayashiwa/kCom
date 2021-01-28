@@ -601,11 +601,6 @@ form .btn {
 	
 
 
-	/** service **/
-	.service .container {
-		flex-direction: column;
-	}
-
 	/** worry **/
 	.IcoSolution img {
 		width: 40px;
