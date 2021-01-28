@@ -601,11 +601,7 @@ form .btn {
 	
 
 	/** typo **/
-	.top h2 span {
-		display: inline-block;
-		font-size: 15px;
-		line-height: 140%;
-	}
+
 	.solution-list h2 {
 		font-size: 18px;
 		text-align: center;
