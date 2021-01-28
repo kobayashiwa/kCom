@@ -359,6 +359,11 @@ footer li a:hover{
 	background: #4C428C;
 }
 
+/** feature-enterprise **/
+.feature-enterprise {
+	background: #5FA0D9;
+}
+
 
 
 
@@ -386,10 +391,6 @@ footer li a:hover{
 
 /** price **/
 
-.price section {
-	text-align: center;
-	margin-top: 40px;
-}
 .price section p {
 	text-align: center;
 }
