@@ -409,14 +409,6 @@ footer li a:hover{
 /** intro **/
 
 
-.intro .left .screenBox {
-	position: absolute;
-	left: 70%;
-	width: 80%;
-	top: 50%;
-	transform: translate(0, -45%);
-	text-align: center;
-}
 .intro .left .screenBox p {
 	display: inline-block;
 	background: #354341;
@@ -812,14 +804,7 @@ form .btn {
 	.intro .flex {
 		flex-direction: column;
 	}
-	.intro .left .screenBox {
-		position: unset;
-		text-align: center;
-		top: unset;
-		left: unset;
-		transform: none;
-		width: 100%;
-	}
+
 	.intro .left .screenBox p {
 		display: inline-block;
 		background: #354341;
