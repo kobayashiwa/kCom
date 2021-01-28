@@ -306,9 +306,7 @@ footer li a:hover{
 
 /** btn link **/
 
-.btnWrap div {
-	font-size: 18px;
-}
+
 .btn-page {
 	font-size: 24px;
 	margin: 16px 0;
@@ -1082,10 +1080,6 @@ form .btn {
 	}
 
 	/** btn **/
-	.btnWrap div {
-		font-size: 14px;
-		text-align: center;
-	}
 	.btn-page {
 		font-size: 18px;
 		padding: 12px 48px;
