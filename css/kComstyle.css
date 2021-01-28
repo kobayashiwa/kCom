@@ -371,7 +371,6 @@ footer li a:hover{
 .head-enterprise {
 }
 .head-enterprise .mvWrap {
-	background: #A69898;
 }
 
 /** movie-kcom **/
@@ -607,9 +606,7 @@ form .btn {
 
 
 	/** feature **/
-	.feature .flex {
-		flex-direction: column;
-	}
+
 	.feature .screenBox {
 		margin-top: 0;
 	}
