@@ -327,7 +327,12 @@ footer li a:hover{
 	background-size: cover;
 }
 .head-smb h1 {
-	font-size: 64px;
+	font-size: 4rem;
+}
+@media (max-width: 1000px) {
+	.head-smb h1 {
+		font-size: 3rem;
+	}
 }
 
 /** introduction **/
