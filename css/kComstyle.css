@@ -364,7 +364,6 @@ footer li a:hover{
 
 /** function-enterprise **/
 .function-enterprise {
-	background: #D0ECF2;
 }
 
 /** price-enterprise **/
@@ -394,10 +393,7 @@ footer li a:hover{
 
 /** introduction **/
 
-.introduction .container {
-	width: fit-content;
-	text-align: center;
-}
+
 .introduction p {
 	text-align: left;
 }
