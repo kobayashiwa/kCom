@@ -389,14 +389,6 @@ footer li a:hover{
 
 
 
-
-
-/** introduction **/
-
-
-.introduction p {
-	text-align: left;
-}
 /** contact-form-section **/
 #contact-form-section form {
 	max-width: 720px;
