@@ -298,6 +298,7 @@ main {
 footer {
 	font-size: 14px;
 	font-weight: normal;
+	background: #F5F7F8;
 }
 footer ul {
 	margin-left: -40px;
