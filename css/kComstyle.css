@@ -47,7 +47,7 @@ ul, li {
 .container {
 	max-width: 1024px;
 	margin: 0 auto;
-	padding: 0;
+	padding: 40px 0;
 }
 .flex {
 	display: flex;
@@ -409,12 +409,6 @@ footer li a:hover{
 /** recommend **/
 
 
-.carousel-cell {
-	opacity: .7;
-	padding: 20px;
-	height: auto;
-	margin-top: 24px;
-
 }
 .is-selected {
 	opacity: unset;
@@ -762,11 +756,7 @@ form .btn {
 		min-width: 340px;
 		width: 100%;
 	}
-	.carousel-cell {
-		opacity: 0;
-		margin-top: 0;
-		transition:800ms ease all;
-	}
+
 	.is-selected {
 		opacity: unset;
 	}
