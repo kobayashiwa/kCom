@@ -409,10 +409,6 @@ footer li a:hover{
 /** intro **/
 
 
-.intro .right .screenBox img {
-	box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
-}
 .intro p {
 	font-size: 14px;
 	font-weight: normal;
