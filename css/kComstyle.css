@@ -333,14 +333,6 @@ footer li a:hover{
 
 
 
-/** btn link **/
-
-
-.gray-top {
-	background: linear-gradient(to bottom, #F8F9F9 0%, #F8F9F9 50%, #fff 50%, #fff 100%);
-	width: 100%;	
-}
-
 /** Typo **/
 h1 {
 	font-size: 72px;
