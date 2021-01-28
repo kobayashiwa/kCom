@@ -335,10 +335,6 @@ footer li a:hover{
 
 /** Typo **/
 
-h4 {
-	font-size: 24px;
-	line-height: 140%;
-}
 .heading p {
 	font-size: 18px;
 	text-align: center;
@@ -861,9 +857,6 @@ form .btn {
 	.enter-top h2 br {
 		display: none;
 	}
-	h4 {
-		font-size: 20px;
-	}
 
 	/** top **/
 	.cover-container {
@@ -958,9 +951,6 @@ form .btn {
 	}
 	.intro h3 {
 		font-size: 20px;
-	}
-	h4 {
-		font-size: 18px;
 	}
 	.heading p {
 		font-size: 14px;
