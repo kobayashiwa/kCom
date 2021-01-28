@@ -349,38 +349,34 @@ footer li a:hover{
 	background: #325938;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/** worry **/
-
-.point {
-	margin: 40px auto 24px auto;
-	width: fit-content;
+/** price-smb **/
+.price-smb {
+	background: #BFBFBD;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /** price **/
