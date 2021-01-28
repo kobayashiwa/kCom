@@ -368,7 +368,6 @@ footer li a:hover{
 
 /** price-enterprise **/
 .price-enterprise {
-	background: #395941;
 }
 
 
@@ -557,15 +556,27 @@ form .btn {
 	color: #E44C6F;
 }
 
-/** max-width: 1000px **/
-@media (max-width: 1000px) {
-	/** typo **/
-	.enter-top h2 br {
-		display: none;
-	}
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** max-width: 700px **/
 @media (max-width: 700px) {
