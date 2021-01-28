@@ -603,11 +603,6 @@ form .btn {
 
 
 
-	/** intro **/
-	.intro .flex {
-		flex-direction: column;
-	}
-
 
 	/** recommend **/
 	.flickity-viewport {
