@@ -96,6 +96,7 @@ main {
 	display: inline-block;
 	text-decoration: none;
 	padding: 8px;
+	font-weight: 700;
 }
 .nav a.nav-link::after {
 	position: absolute;
