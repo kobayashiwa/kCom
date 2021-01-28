@@ -339,7 +339,6 @@ footer li a:hover{
 
 /** benefits-top **/
 .benefits-top {
-	background: #395941;
 }
 
 /** faq-top **/
@@ -403,11 +402,6 @@ footer li a:hover{
 
 /** function **/
 
-.function ul {
-	flex-wrap: wrap;
-	align-items: flex-start;
-	margin-left: -40px;
-}
 .function ul li {
 	width: 20%;
 	padding-left: 40px;	
@@ -745,9 +739,7 @@ form .btn {
 		padding: 12px 48px;
 		border-radius: 48px;
 	}
-	.function ul {
-		margin-left: -16px;
-	}
+
 	.function ul li {
 		width: 33.33%;
 		padding-left: 16px;	
