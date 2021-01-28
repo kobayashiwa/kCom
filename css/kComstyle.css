@@ -305,19 +305,6 @@ footer li a:hover{
 }
 
 /** btn link **/
-.btn {
-	border: 2px solid #E44C6F;
-	cursor:pointer;
-	display: inline-block;
-	transition:200ms ease all;
-	background: #E44C6F;
-	color: #fff;
-	border-radius: 4px;
-}
-.btn:hover {
-	opacity: 0.85;
-	box-shadow: none;
-}
 
 .btn-top {
 	margin: 40px 0 24px 0;
