@@ -356,7 +356,6 @@ footer li a:hover{
 
 /** movie-kcom **/
 .movie-kcom {
-	background: #4C428C;
 }
 
 /** feature-enterprise **/
@@ -393,17 +392,6 @@ footer li a:hover{
 
 
 
-
-
-
-
-
-/** function **/
-
-.function ul li div img {
-	max-width: 64px;
-	width: 100%;
-}
 
 /** introduction **/
 .introduction {
@@ -727,9 +715,6 @@ form .btn {
 		border-radius: 48px;
 	}
 
-	.function ul li div img {
-		max-width: 56px;
-	}
 	#contact-form-section form {
 		padding: 8px;
 	}
