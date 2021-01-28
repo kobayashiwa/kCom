@@ -321,7 +321,8 @@ footer li a:hover{
 
 /** trouble **/
 .trouble {
-	background: #36593F;
+	background: #46555F;
+	color: #fff;
 }
 
 /** function-smb **/
@@ -409,12 +410,7 @@ footer li a:hover{
 
 /** recommend **/
 
-.chargeAvatar {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
+
 .recommend h3 {
 	display: inline-block;
 	background: #354341;
