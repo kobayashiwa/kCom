@@ -597,11 +597,6 @@ form .btn {
 	
 
 	/** typo **/
-	h2 {
-		font-size: 24px;
-		text-align: left;
-		padding: 0 16px;
-	}
 	h2 span br {
 		display: none;
 	}
