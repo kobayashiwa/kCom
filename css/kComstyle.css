@@ -608,12 +608,6 @@ form .btn {
 
 
 
-
-	.flickity-prev-next-button.previous {
-		position: absolute;
-		left: -24vw;
-		top: 109%;
-	}
 	.flickity-prev-next-button.next {
 		position: absolute;
 		right: -24vw;
