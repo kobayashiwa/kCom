@@ -369,6 +369,11 @@ footer li a:hover{
 	background: #D0ECF2;
 }
 
+/** price-enterprise **/
+.price-enterprise {
+	background: #395941;
+}
+
 
 
 
@@ -397,10 +402,6 @@ footer li a:hover{
 
 
 /** intro **/
-.intro {
-	max-width: 1320px;
-	margin: 0 auto;
-}
 .intro .container {
 	padding: 40px 80px;
 }
