@@ -335,30 +335,6 @@ footer li a:hover{
 
 /** Typo **/
 
-.price h2 span, .introduction h2 span {
-	font-size: 80px;
-    padding-left: 24px;
-    display: inline-block;
-    line-height: 1;
-}
-h3 {
-	font-size: 40px;
-	line-height: 140%;
-}
-.solution-box h3 {
-	font-size: 16px;
-}
-.performance-box h3, .intro h3 {
-	font-size: 24px;
-}
-.function h3 {
-	font-size: 16px;
-	padding: 16px 16px 16px 24px;
-}
-h4 {
-	font-size: 24px;
-	line-height: 140%;
-}
 .heading p {
 	font-size: 18px;
 	text-align: center;
@@ -881,15 +857,6 @@ form .btn {
 	.enter-top h2 br {
 		display: none;
 	}
-	h3 {
-		font-size: 32px;
-	}
-	.performance-box h3, .intro h3 {
-		font-size: 20px;
-	}
-	h4 {
-		font-size: 20px;
-	}
 
 	/** top **/
 	.cover-container {
@@ -973,17 +940,6 @@ form .btn {
 		font-size: 18px;
 		text-align: center;
 	}
-	.price h2 span, .introduction h2 span {
-		font-size: 48px;
-		padding-left: 8px;
-	}
-	h3 {
-		font-size: 28px;
-	}
-	.function h3 {
-		font-size: 12px;
-		font-weight: normal;
-	}
 	.solution-list li h3 {
 		padding: 0 0 0 16px;
 	}
@@ -995,13 +951,6 @@ form .btn {
 	}
 	.intro h3 {
 		font-size: 20px;
-	}
-	.function h3 {
-		font-size: 12px;
-		padding: 8px;
-	}
-	h4 {
-		font-size: 18px;
 	}
 	.heading p {
 		font-size: 14px;
