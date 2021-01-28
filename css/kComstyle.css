@@ -602,9 +602,7 @@ form .btn {
 
 
 	/** worry **/
-	.IcoSolution img {
-		width: 40px;
-	}
+
 	.worry .answer {
 		flex-direction: column;
 	}
