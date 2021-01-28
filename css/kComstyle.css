@@ -335,9 +335,6 @@ footer li a:hover{
 
 /** Typo **/
 
-h1 span br {
-	display: none;
-}
 h2 {
 	font-size: 48px;
 	line-height: 140%;
@@ -993,9 +990,6 @@ form .btn {
 	/** typo **/
 	.smb-top h1 {
 		font-size: 10vmin;
-	}
-	h1 span br {
-		display: block;
 	}
 	h2 {
 		font-size: 24px;
