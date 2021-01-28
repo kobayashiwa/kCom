@@ -578,30 +578,6 @@ form .btn {
 	text-align: center;
 	color: #E44C6F;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/** max-width: 700px **/
 @media (max-width: 700px) {
 	#contact-form-section form {
 		padding: 8px;
@@ -612,6 +588,25 @@ form .btn {
 	}
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 /** about **/
 #about {
 	background: #f8f9f9;
