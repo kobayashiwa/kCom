@@ -336,12 +336,6 @@ footer li a:hover{
 
 /** top **/
 
-.cover-container {
-	max-width: 1160px;
-	margin: -80px auto -60px auto;
-	position: relative;
-	z-index: 100;
-}
 .smb-top .cover img {
 	width: 100%;
 }
@@ -842,9 +836,6 @@ form .btn {
 	}
 
 	/** top **/
-	.cover-container {
-		margin: -20px auto -60px auto;
-	}
 	.enter-top .screenBox img {
 		padding-left: 24px;
 	}
@@ -937,10 +928,6 @@ form .btn {
 	}
 
 	/** top **/
-	.cover-container {
-		position: relative;	
-		margin: -40px auto -60px auto;
-	}
 	.smb-top .cover img {
 		width: 600px;
 		position: relative;
