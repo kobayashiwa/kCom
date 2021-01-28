@@ -322,12 +322,12 @@ footer li a:hover{
 
 
 /** head-smb **/
-.head-smb {
-	background: ;
-}
 .head-smb .mvWrap {
 	background-image: url(../images/smb-mv-bg.jpg);
 	background-size: cover;
+}
+.head-smb h1 {
+	font-size: 64px;
 }
 
 /** introduction **/
