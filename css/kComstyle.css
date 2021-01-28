@@ -335,12 +335,6 @@ footer li a:hover{
 
 /** Typo **/
 
-.enter-top h2 {
-	font-size: 20px;
-	line-height: 160%;
-	text-align: left;
-	margin-top: 24px;
-}
 .price h2, .introduction h2 {
 	font-size: 24px;
 	color: #E44C6F;
@@ -890,11 +884,6 @@ form .btn {
 /** max-width: 1000px **/
 @media (max-width: 1000px) {
 	/** typo **/
-	.enter-top h2 {
-		font-size: 18px;
-		max-width: 52%;
-		padding-right: 24px;
-	}
 	.enter-top h2 br {
 		display: none;
 	}
@@ -977,11 +966,6 @@ form .btn {
 	}
 	h2 span br {
 		display: none;
-	}
-	.enter-top h2 {
-		font-size: 16px;
-		max-width: 100%;
-		padding: 0;
 	}
 	.solution h2 span br {
 		display: none;
