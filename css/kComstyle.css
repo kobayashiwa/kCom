@@ -309,6 +309,11 @@ footer li a:hover{
 	background: #4C428C;
 }
 
+/** logoWrap **/
+.logoWrap {
+	background: #5FA0D9;
+}
+
 
 
 
@@ -337,10 +342,6 @@ footer li a:hover{
 
 /** worry **/
 
-.avatar {
-	width: 48px;
-	margin-right: 16px;
-}
 .avatar img {
 	width: 100%;
 }
@@ -843,9 +844,6 @@ form .btn {
 	}
 
 	/** worry **/
-	.avatar {
-		width: 32px;
-	}
 	.worry .client h3 {
 		font-size: 16px;
 		padding: 12px 20px;
