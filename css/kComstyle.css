@@ -318,9 +318,11 @@ footer li a:hover{
 
 /** head-smb **/
 .head-smb {
+	background: ;
 }
 .head-smb .mvWrap {
-	background: #4C428C;
+	background-image: url(../images/smb-mv-bg.jpg);
+	background-size: cover;
 }
 
 /** introduction **/
@@ -608,9 +610,6 @@ form .btn {
 
 
 
-	.flickity-button {
-		background: rgba(53, 67, 65, 0.07);
-	}
 	.flickity-button-icon {
 		fill: #354341;
 	}
