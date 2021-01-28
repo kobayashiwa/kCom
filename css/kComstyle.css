@@ -335,8 +335,6 @@ footer li a:hover{
 
 /** case-top **/
 .case-top {
-	background: #070A0D;
-	color: #fff;
 }
 
 /** benefits-top **/
@@ -404,9 +402,7 @@ footer li a:hover{
 
 
 /** function **/
-.function {
-	text-align: center;
-}
+
 .function ul {
 	flex-wrap: wrap;
 	align-items: flex-start;
