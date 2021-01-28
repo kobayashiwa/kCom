@@ -54,7 +54,6 @@ ul, li {
 }
 main {
 	padding-top: 78px;
-	background: #D9042B;
 }
 @media (max-width: 1000px) {
 	main {
@@ -314,6 +313,11 @@ footer li a:hover{
 	background: #5FA0D9;
 }
 
+/** feature-smb **/
+.feature-smb {
+	background: #186B8C;
+}
+
 
 
 
@@ -342,9 +346,6 @@ footer li a:hover{
 
 /** worry **/
 
-.avatar img {
-	width: 100%;
-}
 .IcoSolution {
 	margin-right: 16px;
 }
