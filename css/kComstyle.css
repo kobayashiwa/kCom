@@ -333,6 +333,12 @@ footer li a:hover{
 	background: #5FA0D9;
 }
 
+/** case-top **/
+.case-top {
+	background: #070A0D;
+	color: #fff;
+}
+
 
 
 
@@ -361,17 +367,6 @@ footer li a:hover{
 
 /** worry **/
 
-.kcom p {
-	font-weight: normal;
-	line-height: 160%;
-	padding: 20px 24px;
-	flex: 1;
-	background: #fff;
-	border-radius: 12px;
-	border:1px solid #354341;
-	display:inline-block;
-	position:relative;
-}
 .kcom p:before { 
 	content: '';
 	position: absolute;
@@ -826,9 +821,6 @@ form .btn {
 	}
 
 	/** worry **/
-	.kcom p {
-		padding: 12px 20px;
-	}
 	.IcoSolution img {
 		width: 40px;
 	}
