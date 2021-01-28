@@ -339,6 +339,11 @@ footer li a:hover{
 	color: #fff;
 }
 
+/** benefits-top **/
+.benefits-top {
+	background: #395941;
+}
+
 
 
 
@@ -367,18 +372,6 @@ footer li a:hover{
 
 /** worry **/
 
-.kcom p:before { 
-	content: '';
-	position: absolute;
-	display: block;
-	width: 0;
-	height: 0;
-	left: -9px;
-	top: 12px;
-	border-right: 9px solid #354341;
-	border-top: 7px solid transparent;
-	border-bottom: 9px solid transparent;
-}
 .kcom p::after{
 	content: '';
   position: absolute;
