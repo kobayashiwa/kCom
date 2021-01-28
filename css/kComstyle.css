@@ -334,11 +334,7 @@ footer li a:hover{
 
 
 /** Typo **/
-h1 {
-	font-size: 72px;
-	line-height: 140%;
-	text-align: center;
-}
+
 .enter-top h1 {
 	line-height: 130%;
 }
@@ -911,9 +907,6 @@ form .btn {
 /** max-width: 1000px **/
 @media (max-width: 1000px) {
 	/** typo **/
-	h1 {
-		font-size: 56px;
-	}
 	h2 {
 		font-size: 40px;
 	}
