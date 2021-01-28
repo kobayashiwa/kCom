@@ -336,9 +336,6 @@ footer li a:hover{
 
 /** top **/
 
-.smb-top .cover img {
-	width: 100%;
-}
 .enter-top .container {
 	padding-bottom: 0;
 }
@@ -928,11 +925,6 @@ form .btn {
 	}
 
 	/** top **/
-	.smb-top .cover img {
-		width: 600px;
-		position: relative;
-		left: -40px;
-	}
 	.enter-top {
 		margin-top: -30px;
 	}
