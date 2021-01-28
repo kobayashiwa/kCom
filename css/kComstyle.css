@@ -335,10 +335,6 @@ footer li a:hover{
 
 /** Typo **/
 
-.solution h2 {
-	font-size: 36px;
-	margin-bottom: 60px;
-}
 .solution-list h2, .top h2 span {
 	font-size: 24px;
 }
@@ -897,10 +893,6 @@ form .btn {
 /** max-width: 1000px **/
 @media (max-width: 1000px) {
 	/** typo **/
-	.solution h2 {
-		font-size: 32px;
-		margin-bottom: 40px;
-	}
 	.solution-list h2, .top h2 span {
 		font-size: 24px;
 	}
@@ -996,10 +988,6 @@ form .btn {
 		font-size: 16px;
 		max-width: 100%;
 		padding: 0;
-	}
-	.solution h2 {
-		font-size: 24px;
-		margin-bottom: 32px;
 	}
 	.solution h2 span br {
 		display: none;
