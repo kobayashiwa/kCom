@@ -331,15 +331,6 @@ footer li a:hover{
 
 
 
-
-
-
-/** top **/
-
-.enter-top .screenBox img {
-	margin-top: -140px;
-}
-
 /** solution **/
 .solution {
 	text-align: center;
@@ -814,11 +805,6 @@ form .btn {
 		display: none;
 	}
 
-	/** top **/
-	.enter-top .screenBox img {
-		padding-left: 24px;
-	}
-
 	/** intro **/
 	.intro .shadow-box {
 		padding: 20px;
@@ -905,19 +891,6 @@ form .btn {
 	.intro h3 {
 		font-size: 20px;
 	}
-
-	/** top **/
-
-	.enter-top .screenBox img {
-		margin-top: 0;
-		padding-left: 0;
-		position: relative;
-		top: -50px;
-		left: -40px;
-		width: 130%;
-	}
-
-    
 	/** solution **/
 	.solution-list ul {
 		flex-direction: column;
