@@ -331,10 +331,6 @@ footer li a:hover{
 
 /** performance **/
 
-
-.performance-box li:last-child {
-	border-bottom: none;
-}
 .performance-box h3 {
 	display: flex;
 	justify-content: space-between;
