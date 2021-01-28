@@ -62,9 +62,6 @@ main {
 	}
 }
 @media (max-width: 700px) {
-	.arrow img {
-		height: 64px;
-	}
 	.top-clear {
 		padding-top: 0;
 	}
