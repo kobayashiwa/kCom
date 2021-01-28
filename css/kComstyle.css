@@ -330,11 +330,7 @@ footer li a:hover{
 
 
 /** service **/
-.service .num {
-	font-weight: 100;
-	font-size: 72px;
-	line-height: 1;
-}
+
 .service .mobile {
 	display: none;
 }
@@ -797,10 +793,6 @@ form .btn {
 	}
 
 
-	/** service **/
-	.service .num {
-		font-size: 64px;
-	}
 
 	/** worry **/
 	.worry .client h3 {
