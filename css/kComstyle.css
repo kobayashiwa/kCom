@@ -332,9 +332,7 @@ footer li a:hover{
 
 
 /** solution **/
-.solution {
-	text-align: center;
-}
+
 .solution-list ul {
 	margin: 0 auto;
 	max-width: 960px;
