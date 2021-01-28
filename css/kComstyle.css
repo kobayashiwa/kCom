@@ -336,11 +336,6 @@ footer li a:hover{
 /** btn link **/
 
 
-.text-link {
-	font-size: 14px;
-	color: #E44C6F;
-	text-decoration: underline;
-}
 .text-link:hover {
 	text-decoration: none;
 }
@@ -1008,9 +1003,6 @@ form .btn {
 
 /** max-width: 700px **/
 @media (max-width: 700px) {
-	.text-link {
-		font-weight: normal;
-	}
 	/** footer **/
 	footer ul {
 		flex-direction: column;
