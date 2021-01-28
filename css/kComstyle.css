@@ -304,117 +304,44 @@ footer li a:hover{
 	text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/** top **/
-
-
-.enter-top .textBox {
-	padding: 0;
-	max-width: 240px;
-	width: 100%;
-}
-.enter-top .screenBox {
-	flex: 1;
-}
-.enter-top .screenBox img {
-	margin-top: -140px;
+/** head-smb **/
+.head-smb {
+	background: #4C428C;
 }
 
-/** solution **/
-.solution {
-	text-align: center;
-}
-.solution-list ul {
-	margin: 0 auto;
-	max-width: 960px;
-	justify-content: space-around;
-}
-.solution-list li {
-	padding: 40px 24px;
-	max-width: 240px;
-	width: 100%;
-}
-.solution-list li img {
-	width: 80px;
-}
-.solution-list li h3 {
-	font-size: 16px;
-	padding-top: 24px;
+/** logoWrap **/
+.logoWrap {
+	background: #5FA0D9;
 }
 
-/** service **/
-.service .num {
-	font-weight: 100;
-	font-size: 72px;
-	line-height: 1;
-}
-.service .mobile {
-	display: none;
-}
 
-/** performance **/
-.performance-box {
-	max-width: 720px;
-	margin: 0 auto;
-}
-.performance-box li {
-	padding: 24px 0;
-	border-bottom: 1px solid #E4E7EB;
-}
-.performance-box li:last-child {
-	border-bottom: none;
-}
-.performance-box h3 {
-	display: flex;
-	justify-content: space-between;
-}
-.performance {
-	color: #E44C6F;
-}
-.performance span {
-	font-size: 56px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** worry **/
-.voice {
-	align-items: flex-start;
-	margin-bottom: 16px;
-	width: fit-content;
-	max-width: 1160px;
-}
-.avatar {
-	width: 48px;
-	margin-right: 16px;
-}
+
 .avatar img {
 	width: 100%;
 }
@@ -823,11 +750,6 @@ form .btn {
 		display: none;
 	}
 
-	/** top **/
-	.enter-top .screenBox img {
-		padding-left: 24px;
-	}
-
 	/** intro **/
 	.intro .shadow-box {
 		padding: 20px;
@@ -843,15 +765,7 @@ form .btn {
 		right: 80%;
 	}
 
-	/** solution **/
-	.solution-list li img {
-		width: 64px;
-	}
 
-	/** service **/
-	.service .num {
-		font-size: 64px;
-	}
 
 	/** worry **/
 	.worry .client h3 {
@@ -902,44 +816,15 @@ form .btn {
 		font-size: 18px;
 		text-align: center;
 	}
-	.solution-list li h3 {
-		padding: 0 0 0 16px;
-	}
 	.service h3 {
 		text-align: center;
 	}
-	.performance-box h3 {
-		font-size: 16px;
-	}
+
 	.intro h3 {
 		font-size: 20px;
 	}
-
-	/** top **/
-	.enter-top .textBox {
-		padding: 0;
-		max-width: unset;
-		width: 100%;
-		text-align: center;
-	}
-	.enter-top .screenBox {
-		flex: 1;
-		position: relative;
-	}
-	.enter-top .screenBox img {
-		margin-top: 0;
-		padding-left: 0;
-		position: relative;
-		top: -50px;
-		left: -40px;
-		width: 130%;
-	}
-
-    
 	/** solution **/
-	.solution-list ul {
-		flex-direction: column;
-	}
+
 	.solution-list ul li {
 		max-width: 320px;
 		padding: 16px 32px;
@@ -949,9 +834,6 @@ form .btn {
 		display: flex;
 		align-items: center;
 	}
-	.solution-list li img {
-		width: 48px;
-	}
 	.IcoSolution {
 		margin-right: 10px;
 	}
@@ -960,22 +842,8 @@ form .btn {
 	.service .container {
 		flex-direction: column;
 	}
-	.service .num {
-		font-size: 56px;
-		text-align: center;
-	}
-	.service .mobile {
-		display: inline-block;
-		border: 1px solid #354341;
-		padding: 8px 16px;
-		border-radius: 4px;
-		margin-top: 24px;
-	}
 
 	/** worry **/
-	.avatar {
-		width: 32px;
-	}
 	.worry .client h3 {
 		font-size: 16px;
 		padding: 12px 20px;
@@ -993,22 +861,6 @@ form .btn {
 		flex-direction: column;
 	}
 
-	/** performance **/
-	.performance-box li {
-		padding: 16px;
-	}
-	.performance-box h3 {
-		align-items: center;
-	}
-	.performance {
-		width: 100%;
-		text-align: end;
-		padding-left: 14px;
-		line-height: 1;
-	}
-	.performance span {
-		font-size: 32px;
-	}
 
 	/** price **/
 	.price {
