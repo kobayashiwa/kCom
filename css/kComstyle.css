@@ -62,9 +62,6 @@ main {
 	}
 }
 @media (max-width: 700px) {
-	.top-clear {
-		padding-top: 0;
-	}
 }
 
 /** header **/
