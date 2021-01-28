@@ -305,10 +305,26 @@ footer li {
 footer li a:hover{
 	text-decoration: underline;
 }
+@media (max-width: 700px) {
+	footer ul {
+		flex-direction: column;
+		align-items: left;
+	}
+	footer li {
+		margin-bottom: 16px;
+	}
+}
+
 
 /** head-smb **/
 .head-smb {
+}
+.head-smb .mvWrap {
 	background: #4C428C;
+}
+
+/** introduction **/
+.introduction {
 }
 
 /** logoWrap **/
@@ -351,6 +367,8 @@ footer li a:hover{
 
 /** head-enterprise **/
 .head-enterprise {
+}
+.head-enterprise .mvWrap {
 	background: #A69898;
 }
 
@@ -580,86 +598,10 @@ form .btn {
 
 /** max-width: 700px **/
 @media (max-width: 700px) {
-	/** footer **/
-	footer ul {
-		flex-direction: column;
-		align-items: left;
-	}
-	footer li {
-		margin-bottom: 16px;
-	}
-	footer p {
-		text-align: center;
-	}
-
-	/** typo **/
-	.smb-top h1 {
-		font-size: 10vmin;
-	}
-	h2 {
-		font-size: 24px;
-		text-align: left;
-		padding: 0 16px;
-	}
-	h2 span br {
-		display: none;
-	}
-	.solution h2 span br {
-		display: none;
-	}
-	.top h2 span {
-		display: inline-block;
-		font-size: 15px;
-		line-height: 140%;
-	}
-	.solution-list h2 {
-		font-size: 18px;
-		text-align: center;
-	}
-	.service h3 {
-		text-align: center;
-	}
-
-	.intro h3 {
-		font-size: 20px;
-	}
-	/** solution **/
-
-	.solution-list ul li {
-		max-width: 320px;
-		padding: 16px 32px;
-		margin-bottom: 24px;
-	}
-	.solution-list li div {
-		display: flex;
-		align-items: center;
-	}
-
-	/** service **/
-	.service .container {
-		flex-direction: column;
-	}
-
-	/** worry **/
-	.IcoSolution img {
-		width: 40px;
-	}
-	.worry .answer {
-		flex-direction: column;
-	}
+	
 
 
-	/** price **/
-	.price-notes {
-		font-size: 14px;
-		font-weight: 700;
-		line-height: 140%;
-	}
 
-	/** intro **/
-	.intro .flex {
-		flex-direction: column;
-	}
 
 
 	/** recommend **/
