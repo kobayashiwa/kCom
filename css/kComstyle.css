@@ -333,9 +333,6 @@ footer li a:hover{
 
 /** solution **/
 
-.solution-list li img {
-	width: 80px;
-}
 .solution-list li h3 {
 	font-size: 16px;
 	padding-top: 24px;
@@ -808,10 +805,6 @@ form .btn {
 		right: 80%;
 	}
 
-	/** solution **/
-	.solution-list li img {
-		width: 64px;
-	}
 
 	/** service **/
 	.service .num {
@@ -889,9 +882,6 @@ form .btn {
 	.solution-list li div {
 		display: flex;
 		align-items: center;
-	}
-	.solution-list li img {
-		width: 48px;
 	}
 	.IcoSolution {
 		margin-right: 10px;
