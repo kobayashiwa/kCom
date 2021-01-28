@@ -331,10 +331,7 @@ footer li a:hover{
 
 /** performance **/
 
-.performance-box li {
-	padding: 24px 0;
-	border-bottom: 1px solid #E4E7EB;
-}
+
 .performance-box li:last-child {
 	border-bottom: none;
 }
@@ -885,9 +882,6 @@ form .btn {
 	}
 
 	/** performance **/
-	.performance-box li {
-		padding: 16px;
-	}
 	.performance-box h3 {
 		align-items: center;
 	}
