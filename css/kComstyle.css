@@ -46,6 +46,7 @@ ul, li {
 /** common **/
 .container {
 	max-width: 1024px;
+	width: 85vw;
 	margin: 0 auto;
 	padding: 40px 0;
 }
@@ -604,12 +605,6 @@ form .btn {
 
 
 
-
-	/** feature **/
-
-	.feature .screenBox {
-		margin-top: 0;
-	}
 
 	/** function **/
 	.function .round-bg {
