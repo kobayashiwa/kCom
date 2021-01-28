@@ -407,9 +407,7 @@ footer li a:hover{
 
 
 /** recommend **/
-.recommend .container {
-	padding: 80px;
-}
+
 .main-carousel {
 	padding: 40px;
 	height: auto;
@@ -670,12 +668,6 @@ form .btn {
 	}
 
 
-
-
-	/** recommend **/
-	.recommend .container {
-		padding: 80px 120px;
-	}
 }
 
 /** max-width: 700px **/
