@@ -344,6 +344,11 @@ footer li a:hover{
 	background: #395941;
 }
 
+/** faq-top **/
+.faq-top {
+	background: #325938;
+}
+
 
 
 
@@ -372,18 +377,6 @@ footer li a:hover{
 
 /** worry **/
 
-.kcom p::after{
-	content: '';
-  position: absolute;
-  display: block;
-  width: 0;
-	height: 0;
-	left: -8px;
-	top: 12px;
-	border-right: 9px solid #fff;
-	border-top: 7px solid transparent;
-	border-bottom: 9px solid transparent;
-  }
 .point {
 	margin: 40px auto 24px auto;
 	width: fit-content;
