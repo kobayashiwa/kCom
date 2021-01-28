@@ -44,16 +44,17 @@ ul, li {
 }
 
 /** common **/
+main {
+	padding-top: 78px;
+}
 .container {
 	max-width: 1024px;
+	width: 85vw;
 	margin: 0 auto;
 	padding: 40px 0;
 }
 .flex {
 	display: flex;
-}
-main {
-	padding-top: 78px;
 }
 .gray {
 	background: #F5F7F8;
@@ -64,6 +65,9 @@ main {
 	}
 }
 @media (max-width: 700px) {
+	.container {
+		width: calc(100% - 32px);
+	}
 }
 
 /** header **/
@@ -318,9 +322,11 @@ footer li a:hover{
 
 /** head-smb **/
 .head-smb {
+	background: ;
 }
 .head-smb .mvWrap {
-	background: #4C428C;
+	background-image: url(../images/smb-mv-bg.jpg);
+	background-size: cover;
 }
 
 /** introduction **/
@@ -369,7 +375,6 @@ footer li a:hover{
 .head-enterprise {
 }
 .head-enterprise .mvWrap {
-	background: #A69898;
 }
 
 /** movie-kcom **/
@@ -573,86 +578,7 @@ form .btn {
 	text-align: center;
 	color: #E44C6F;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/** max-width: 700px **/
 @media (max-width: 700px) {
-	
-
-
-
-
-
-	/** recommend **/
-	.flickity-viewport {
-		overflow: visible;
-	}
-	.recommend .heading {
-		padding: 64px 24px;
-	}
-
-
-	.flickity-prev-next-button.previous {
-		position: absolute;
-		left: -24vw;
-		top: 109%;
-	}
-	.flickity-prev-next-button.next {
-		position: absolute;
-		right: -24vw;
-		top: 109%;
-	}
-	.flickity-prev-next-button {
-		top: 50%;
-		width: 40px;
-		height: 40px;
-		border-radius: 50%;
-	}
-	.flickity-button {
-		background: rgba(53, 67, 65, 0.07);
-	}
-	.flickity-button-icon {
-		fill: #354341;
-	}
-	.flickity-page-dots {
-		bottom: -40px;
-	}
-
-	/** feature **/
-	.feature .flex {
-		flex-direction: column;
-	}
-	.feature .screenBox {
-		margin-top: 0;
-	}
-
-	/** function **/
-	.function .round-bg {
-		padding: 12px 48px;
-		border-radius: 48px;
-	}
-
 	#contact-form-section form {
 		padding: 8px;
 	}
@@ -662,6 +588,25 @@ form .btn {
 	}
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 /** about **/
 #about {
 	background: #f8f9f9;
