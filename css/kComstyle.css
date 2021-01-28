@@ -608,12 +608,6 @@ form .btn {
 
 
 
-	.flickity-prev-next-button {
-		top: 50%;
-		width: 40px;
-		height: 40px;
-		border-radius: 50%;
-	}
 	.flickity-button {
 		background: rgba(53, 67, 65, 0.07);
 	}
