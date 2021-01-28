@@ -336,12 +336,6 @@ footer li a:hover{
 
 /** top **/
 
-
-.enter-top .textBox {
-	padding: 0;
-	max-width: 240px;
-	width: 100%;
-}
 .enter-top .screenBox {
 	flex: 1;
 }
@@ -916,12 +910,6 @@ form .btn {
 	}
 
 	/** top **/
-	.enter-top .textBox {
-		padding: 0;
-		max-width: unset;
-		width: 100%;
-		text-align: center;
-	}
 	.enter-top .screenBox {
 		flex: 1;
 		position: relative;
