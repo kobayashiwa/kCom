@@ -45,23 +45,134 @@ ul, li {
 
 /** common **/
 .container {
-	max-width: 1024px;
+	max-width: 1320px;
 	margin: 0 auto;
-	padding: 0;
+	padding: 80px;
 }
 .flex {
 	display: flex;
+	align-items: center;
+}
+.shadow-box {
+	box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+.gray {
+	background: #F8F9F9;
+	width: 100%;
 }
 main {
-	padding-top: 78px;
-	background: #D9042B;
+	padding-top: 72px;
+}
+.heading {
+	text-align: center;
+}
+.round-bg {
+	display: inline-block;
+	background: #354341;
+	color: #fff;
+	font-size: 24px;
+	padding: 8px 100px;
+	border-radius: 40px;
+	margin-bottom: 24px;
+}
+.withArrow {
+	position: relative;
+}
+.arrow {
+	position: absolute;
+	left: 50vw;
+	bottom: -50px;
+}
+.textBox {
+	width: 40%;
+	padding: 0 40px;
+}
+.textBox h3 {
+	padding: 10px 0 24px 0;
+}
+.screenBox {
+	width: 50%;
+	padding: 0 16px;
+}
+.screenBox img {
+	width: 100%;	
+}
+.notes {
+	padding-top: 16px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.scroll {
+	position: fixed;
+	width: 80px;
+	z-index: 997;
+    top: 45vh;
+    left: 40px;
+}
+.scroll img {
+	text-align: center;
 }
 @media (max-width: 1000px) {
-	main {
-		padding-top: 71px;
+	.container {
+		padding:  64px;
+	}
+	.round-bg {
+		font-size: 20px;
+		padding: 8px 80px;
+	}
+	.arrow {
+		bottom: -40px;
+	}
+	.textBox {
+		width: 50%;
+	}
+	.textBox h3 br {
+		display: none;
+	}
+	.screenBox {
+		width: 100%;
+		order:2;
+		padding: 0;
+		margin-top: 24px;
+	}
+	.scroll {
+		width: 40px;
+		left: 24px;
 	}
 }
 @media (max-width: 700px) {
+	.container {
+		padding:  64px 24px;
+	}
+	.round-bg {
+		font-size: 18px;
+		padding: 12px 24px;
+		border-radius: 18px;
+		font-weight: 700;
+	}
+	.arrow img {
+		height: 64px;
+	}
+	.textBox {
+		width: 100%;
+		padding: 0 16px 16px 16px;
+		order:1;
+	}
+	.textBox h3 {
+		padding: 10px 0 16px 0;
+	}
+	.scroll {
+		width: 10px;
+		top: 65vh;
+		left: 12px;
+	}
+	.scroll img {
+		width: 10px;
+	}
+	.top-clear {
+		padding-top: 0;
+	}
 }
 
 /** header **/
@@ -304,37 +415,90 @@ footer li a:hover{
 	text-decoration: underline;
 }
 
+/** btn link **/
+.btn {
+	border: 2px solid #E44C6F;
+	cursor:pointer;
+	display: inline-block;
+	transition:200ms ease all;
+	background: #E44C6F;
+	color: #fff;
+	border-radius: 4px;
+}
+.btn:hover {
+	opacity: 0.85;
+	box-shadow: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn-top {
+	margin: 40px 0 24px 0;
+	padding: 12px 56px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btnWrap {
+	text-align: center;
+}
+.btnWrap div {
+	font-size: 18px;
+}
+.btn-page {
+	font-size: 24px;
+	margin: 16px 0;
+	padding: 16px 180px;
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.text-link {
+	font-size: 14px;
+	color: #E44C6F;
+	text-decoration: underline;
+}
+.text-link:hover {
+	text-decoration: none;
+}
+.gray-bottom {
+	background: linear-gradient(to bottom, #fff 0%, #fff 50%, #F8F9F9 50%, #F8F9F9 100%);
+	width: 100%;	
+}
+.gray-top {
+	background: linear-gradient(to bottom, #F8F9F9 0%, #F8F9F9 50%, #fff 50%, #fff 100%);
+	width: 100%;	
+}
 
 /** Typo **/
-
+h1 {
+	font-size: 72px;
+	line-height: 140%;
+	text-align: center;
+}
+.enter-top h1 {
+	line-height: 130%;
+}
+h1 span br {
+	display: none;
+}
+h2 {
+	font-size: 48px;
+	line-height: 140%;
+}
+.solution h2 {
+	font-size: 36px;
+	margin-bottom: 60px;
+}
+.solution-list h2, .top h2 span {
+	font-size: 24px;
+}
+.enter-top h2 {
+	font-size: 20px;
+	line-height: 160%;
+	text-align: left;
+	margin-top: 24px;
+}
+.price h2, .introduction h2 {
+	font-size: 24px;
+	color: #E44C6F;
+	margin-bottom: 24px;
+	text-align: center;
+}
 .price h2 span, .introduction h2 span {
 	font-size: 80px;
     padding-left: 24px;
@@ -878,6 +1042,24 @@ form .btn {
 /** max-width: 1000px **/
 @media (max-width: 1000px) {
 	/** typo **/
+	h1 {
+		font-size: 56px;
+	}
+	h2 {
+		font-size: 40px;
+	}
+	.solution h2 {
+		font-size: 32px;
+		margin-bottom: 40px;
+	}
+	.solution-list h2, .top h2 span {
+		font-size: 24px;
+	}
+	.enter-top h2 {
+		font-size: 18px;
+		max-width: 52%;
+		padding-right: 24px;
+	}
 	.enter-top h2 br {
 		display: none;
 	}
@@ -937,6 +1119,9 @@ form .btn {
 
 /** max-width: 700px **/
 @media (max-width: 700px) {
+	.text-link {
+		font-weight: normal;
+	}
 	/** footer **/
 	footer ul {
 		flex-direction: column;
@@ -953,6 +1138,12 @@ form .btn {
 	.smb-top h1 {
 		font-size: 10vmin;
 	}
+	.enter-top h1 {
+		font-size: 8vmin;
+	}
+	h1 span br {
+		display: block;
+	}
 	h2 {
 		font-size: 24px;
 		text-align: left;
@@ -960,6 +1151,15 @@ form .btn {
 	}
 	h2 span br {
 		display: none;
+	}
+	.enter-top h2 {
+		font-size: 16px;
+		max-width: 100%;
+		padding: 0;
+	}
+	.solution h2 {
+		font-size: 24px;
+		margin-bottom: 32px;
 	}
 	.solution h2 span br {
 		display: none;
@@ -972,6 +1172,10 @@ form .btn {
 	.solution-list h2 {
 		font-size: 18px;
 		text-align: center;
+	}
+	.price h2, .introduction h2 {
+		font-size: 14px;
+		padding: 0px;
 	}
 	.price h2 span, .introduction h2 span {
 		font-size: 48px;
@@ -1007,6 +1211,19 @@ form .btn {
 		font-size: 14px;
 		text-align: left;
 		padding-left: 16px;
+	}
+
+	/** btn **/
+	.btn-top {
+		margin: 24px 0;
+	}
+	.btnWrap div {
+		font-size: 14px;
+		text-align: center;
+	}
+	.btn-page {
+		font-size: 18px;
+		padding: 12px 48px;
 	}
 
 	/** top **/
