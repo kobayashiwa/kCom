@@ -354,6 +354,11 @@ footer li a:hover{
 	background: #BFBFBD;
 }
 
+/** movie-kcom **/
+.movie-kcom {
+	background: #4C428C;
+}
+
 
 
 
@@ -380,11 +385,7 @@ footer li a:hover{
 
 
 /** price **/
-.price {
-	max-width: 640px;
-	margin: 0 auto;
-	background: #fff;
-}
+
 .price section {
 	text-align: center;
 	margin-top: 40px;
@@ -812,9 +813,6 @@ form .btn {
 
 
 	/** price **/
-	.price {
-		width: 80%;
-	}
 	.price-notes {
 		font-size: 14px;
 		font-weight: 700;
