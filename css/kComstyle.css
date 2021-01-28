@@ -329,12 +329,6 @@ footer li a:hover{
 
 
 
-/** performance **/
-
-
-.performance span {
-	font-size: 56px;
-}
 
 /** worry **/
 .voice {
@@ -869,11 +863,6 @@ form .btn {
 		flex-direction: column;
 	}
 
-	/** performance **/
-
-	.performance span {
-		font-size: 32px;
-	}
 
 	/** price **/
 	.price {
