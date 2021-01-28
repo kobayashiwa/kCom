@@ -347,7 +347,6 @@ footer li a:hover{
 
 /** price-smb **/
 .price-smb {
-	background: #BFBFBD;
 }
 
 /** head-enterprise **/
@@ -401,12 +400,6 @@ footer li a:hover{
 
 /** function **/
 
-.function ul li div {
-	padding: 16px;
-	background: #F8F9F9;
-	border-radius: 4px;
-	width: 100%;
-}
 .function ul li div img {
 	max-width: 64px;
 	width: 100%;
@@ -734,9 +727,6 @@ form .btn {
 		border-radius: 48px;
 	}
 
-	.function ul li div {
-		padding: 16px;
-	}
 	.function ul li div img {
 		max-width: 56px;
 	}
