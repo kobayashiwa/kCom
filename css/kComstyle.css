@@ -331,7 +331,6 @@ footer li a:hover{
 
 /** btnWrap **/
 .btnWrap {
-	background: #5FA0D9;
 }
 
 /** case-top **/
@@ -403,17 +402,6 @@ footer li a:hover{
 
 
 
-
-
-
-
-/** recommend **/
-
-
-.carousel-cell p {
-	font-weight: normal;
-	line-height: 160%;
-}
 
 /** function **/
 .function {
