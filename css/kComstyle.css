@@ -308,6 +308,8 @@ footer li a:hover{
 
 /** head-smb **/
 .head-smb {
+}
+.head-smb .mvWrap {
 	background: #4C428C;
 }
 
