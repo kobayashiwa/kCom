@@ -336,9 +336,7 @@ footer li a:hover{
 
 /** top **/
 
-.enter-top {
-	margin-top: -40px;
-}
+
 .enter-top .cover .container {
 	padding: 0 0 0 80px;
 	align-items: flex-start;
@@ -922,9 +920,6 @@ form .btn {
 	}
 
 	/** top **/
-	.enter-top {
-		margin-top: -30px;
-	}
 	.enter-top .cover .container {
 		flex-direction: column;
 	}
