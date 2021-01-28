@@ -336,6 +336,9 @@ footer li a:hover{
 	.head-smb h1 {
 		font-size: 3rem;
 	}
+	.head-smb h1 span {
+		font-size: 1.2rem;
+	}
 }
 @media (max-width: 700px) {
 	.head-smb h1 {
