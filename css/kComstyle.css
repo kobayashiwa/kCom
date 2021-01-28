@@ -335,9 +335,6 @@ footer li a:hover{
 
 /** Typo **/
 
-.performance-box h3, .intro h3 {
-	font-size: 24px;
-}
 .function h3 {
 	font-size: 16px;
 	padding: 16px 16px 16px 24px;
@@ -867,9 +864,6 @@ form .btn {
 	/** typo **/
 	.enter-top h2 br {
 		display: none;
-	}
-	.performance-box h3, .intro h3 {
-		font-size: 20px;
 	}
 	h4 {
 		font-size: 20px;
