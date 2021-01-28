@@ -54,7 +54,6 @@ ul, li {
 }
 main {
 	padding-top: 78px;
-	background: #D9042B;
 }
 @media (max-width: 1000px) {
 	main {
@@ -314,135 +313,97 @@ footer li a:hover{
 	background: #5FA0D9;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/** worry **/
-
-.avatar img {
-	width: 100%;
+/** feature-smb **/
+.feature-smb {
+	background: #186B8C;
 }
-.IcoSolution {
-	margin-right: 16px;
+
+/** trouble **/
+.trouble {
+	background: #36593F;
 }
-.worry .client h3 {
-	font-size: 20px;
-	line-height: 160%;
-	flex: 1;
-	background: #354341;
-	border-radius: 12px;
+
+/** function-smb **/
+.function-smb {
+	background: #91A663;
+}
+
+/** btnWrap **/
+.btnWrap {
+	background: #5FA0D9;
+}
+
+/** case-top **/
+.case-top {
+	background: #070A0D;
 	color: #fff;
-	padding: 14px 24px;
-	display:inline-block;
-	position:relative;
 }
-.talk h3:before { 
-	content: '';
-	position: absolute;
-	display: block;
-	width: 0;
-	height: 0;
-	left: -9px;
-	top: 12px;
-	border-right: 9px solid #354341;
-	border-top: 7px solid transparent;
-	border-bottom: 9px solid transparent;
+
+/** benefits-top **/
+.benefits-top {
+	background: #395941;
 }
-.kcom p {
-	font-weight: normal;
-	line-height: 160%;
-	padding: 20px 24px;
-	flex: 1;
-	background: #fff;
-	border-radius: 12px;
-	border:1px solid #354341;
-	display:inline-block;
-	position:relative;
+
+/** faq-top **/
+.faq-top {
+	background: #325938;
 }
-.kcom p:before { 
-	content: '';
-	position: absolute;
-	display: block;
-	width: 0;
-	height: 0;
-	left: -9px;
-	top: 12px;
-	border-right: 9px solid #354341;
-	border-top: 7px solid transparent;
-	border-bottom: 9px solid transparent;
+
+/** price-smb **/
+.price-smb {
+	background: #BFBFBD;
 }
-.kcom p::after{
-	content: '';
-  position: absolute;
-  display: block;
-  width: 0;
-	height: 0;
-	left: -8px;
-	top: 12px;
-	border-right: 9px solid #fff;
-	border-top: 7px solid transparent;
-	border-bottom: 9px solid transparent;
-  }
-.point {
-	margin: 40px auto 24px auto;
-	width: fit-content;
+
+/** movie-kcom **/
+.movie-kcom {
+	background: #4C428C;
+}
+
+/** feature-enterprise **/
+.feature-enterprise {
+	background: #5FA0D9;
+}
+
+/** function-enterprise **/
+.function-enterprise {
+	background: #D0ECF2;
+}
+
+/** price-enterprise **/
+.price-enterprise {
+	background: #395941;
 }
 
 
-/** price **/
-.price {
-	max-width: 640px;
-	margin: 0 auto;
-	background: #fff;
-}
-.price section {
-	text-align: center;
-	margin-top: 40px;
-}
-.price section p {
-	text-align: center;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** intro **/
-.intro {
-	max-width: 1320px;
-	margin: 0 auto;
-}
-.intro .container {
-	padding: 40px 80px;
-}
-.intro .shadow-box {
-	padding: 60px 30px;
-	width: 70%;
-	position: relative;
-}
-.intro .shadow-box .textBox {
-	width: 70%;
-	padding: 20px 30px;
-}
+
+
 .intro .left {
 	margin: 0 auto 0 0;
 }
@@ -751,12 +712,6 @@ form .btn {
 	}
 
 	/** intro **/
-	.intro .shadow-box {
-		padding: 20px;
-	}
-	.intro .shadow-box .textBox {
-		padding: 20px;
-	}
 	.intro .right .textBox {
 		margin: 0 0 0 auto;
 		width: 80%;
@@ -766,11 +721,6 @@ form .btn {
 	}
 
 
-
-	/** worry **/
-	.worry .client h3 {
-		font-size: 18px;
-	}
 
 	/** recommend **/
 	.recommend .container {
@@ -834,9 +784,6 @@ form .btn {
 		display: flex;
 		align-items: center;
 	}
-	.IcoSolution {
-		margin-right: 10px;
-	}
 
 	/** service **/
 	.service .container {
@@ -844,16 +791,6 @@ form .btn {
 	}
 
 	/** worry **/
-	.worry .client h3 {
-		font-size: 16px;
-		padding: 12px 20px;
-	}
-	.kcom p {
-		padding: 12px 20px;
-	}
-	.IcoSolution {
-		width: 40px;
-	}
 	.IcoSolution img {
 		width: 40px;
 	}
@@ -863,9 +800,6 @@ form .btn {
 
 
 	/** price **/
-	.price {
-		width: 80%;
-	}
 	.price-notes {
 		font-size: 14px;
 		font-weight: 700;
@@ -875,17 +809,6 @@ form .btn {
 	/** intro **/
 	.intro .flex {
 		flex-direction: column;
-	}
-	.intro .container {
-		padding: 40px 16px;
-	}
-	.intro .shadow-box {
-		padding: 24px;
-		width: 100%;
-	}
-	.intro .shadow-box .textBox {
-		width: 100%;
-		padding: 0;
 	}
 	.intro .left {
 		margin: 0;
