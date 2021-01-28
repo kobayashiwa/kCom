@@ -55,6 +55,9 @@ ul, li {
 main {
 	padding-top: 78px;
 }
+.gray {
+	background: #F5F7F8;
+}
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
@@ -408,13 +411,6 @@ footer li a:hover{
 /** recommend **/
 
 
-
-.carousel-cell .shadow-box {
-	width: 380px;
-	padding: 48px 32px 32px 32px;
-	height: 100%;
-	position: relative;
-}
 .carousel-cell .shadow-box .name {
 	font-size: 14px;
 	font-weight: 700;
@@ -745,10 +741,6 @@ form .btn {
 	}
 	.recommend .heading {
 		padding: 64px 24px;
-	}
-	.carousel-cell .shadow-box {
-		min-width: 340px;
-		width: 100%;
 	}
 
 
