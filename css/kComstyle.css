@@ -383,9 +383,18 @@ footer li a:hover{
 }
 
 /** head-enterprise **/
-.head-enterprise {
+.head-enterprise h1 {
+	font-size: 3.2rem;
 }
-.head-enterprise .mvWrap {
+@media (max-width: 1000px) {
+	.head-enterprise h1 {
+		font-size: 2.5rem;
+	}
+}
+@media (max-width: 700px) {
+	.head-enterprise h1 {
+		font-size: 1.5rem;
+	}
 }
 
 /** movie-kcom **/
