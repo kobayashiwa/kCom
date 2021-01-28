@@ -330,10 +330,7 @@ footer li a:hover{
 
 
 /** performance **/
-.performance-box {
-	max-width: 720px;
-	margin: 0 auto;
-}
+
 .performance-box li {
 	padding: 24px 0;
 	border-bottom: 1px solid #E4E7EB;
