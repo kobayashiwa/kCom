@@ -601,9 +601,6 @@ form .btn {
 	
 
 	/** typo **/
-	.solution h2 span br {
-		display: none;
-	}
 	.top h2 span {
 		display: inline-block;
 		font-size: 15px;
