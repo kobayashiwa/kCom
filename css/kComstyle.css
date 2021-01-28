@@ -409,9 +409,6 @@ footer li a:hover{
 /** intro **/
 
 
-.intro .right {
-	margin: 0 0 0 auto;
-}
 .intro .right .textBox {
 	margin: 0 0 0 auto;
 }
@@ -794,9 +791,6 @@ form .btn {
 	/** intro **/
 	.intro .flex {
 		flex-direction: column;
-	}
-	.intro .right {
-		margin: 0;
 	}
 	.intro .right .textBox {
 		margin: 0;
