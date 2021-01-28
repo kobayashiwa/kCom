@@ -360,7 +360,6 @@ footer li a:hover{
 
 /** feature-enterprise **/
 .feature-enterprise {
-	background: #5FA0D9;
 }
 
 /** function-enterprise **/
@@ -394,9 +393,7 @@ footer li a:hover{
 
 
 /** introduction **/
-.introduction {
-	margin: 0 auto;
-}
+
 .introduction .container {
 	width: fit-content;
 	text-align: center;
