@@ -335,12 +335,6 @@ footer li a:hover{
 
 /** Typo **/
 
-.price h2 span, .introduction h2 span {
-	font-size: 80px;
-    padding-left: 24px;
-    display: inline-block;
-    line-height: 1;
-}
 h3 {
 	font-size: 40px;
 	line-height: 140%;
@@ -972,10 +966,6 @@ form .btn {
 	.solution-list h2 {
 		font-size: 18px;
 		text-align: center;
-	}
-	.price h2 span, .introduction h2 span {
-		font-size: 48px;
-		padding-left: 8px;
 	}
 	h3 {
 		font-size: 28px;
