@@ -333,11 +333,6 @@ footer li a:hover{
 
 /** solution **/
 
-.solution-list li {
-	padding: 40px 24px;
-	max-width: 240px;
-	width: 100%;
-}
 .solution-list li img {
 	width: 80px;
 }
