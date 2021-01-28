@@ -333,11 +333,6 @@ footer li a:hover{
 
 /** solution **/
 
-.solution-list ul {
-	margin: 0 auto;
-	max-width: 960px;
-	justify-content: space-around;
-}
 .solution-list li {
 	padding: 40px 24px;
 	max-width: 240px;
@@ -890,9 +885,7 @@ form .btn {
 		font-size: 20px;
 	}
 	/** solution **/
-	.solution-list ul {
-		flex-direction: column;
-	}
+
 	.solution-list ul li {
 		max-width: 320px;
 		padding: 16px 32px;
