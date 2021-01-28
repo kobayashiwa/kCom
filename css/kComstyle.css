@@ -335,10 +335,6 @@ footer li a:hover{
 
 /** Typo **/
 
-h3 {
-	font-size: 40px;
-	line-height: 140%;
-}
 .solution-box h3 {
 	font-size: 16px;
 }
@@ -875,9 +871,6 @@ form .btn {
 	.enter-top h2 br {
 		display: none;
 	}
-	h3 {
-		font-size: 32px;
-	}
 	.performance-box h3, .intro h3 {
 		font-size: 20px;
 	}
@@ -966,9 +959,6 @@ form .btn {
 	.solution-list h2 {
 		font-size: 18px;
 		text-align: center;
-	}
-	h3 {
-		font-size: 28px;
 	}
 	.function h3 {
 		font-size: 12px;
