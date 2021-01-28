@@ -336,9 +336,6 @@ footer li a:hover{
 
 /** top **/
 
-.enter-top .screenBox {
-	flex: 1;
-}
 .enter-top .screenBox img {
 	margin-top: -140px;
 }
@@ -910,10 +907,7 @@ form .btn {
 	}
 
 	/** top **/
-	.enter-top .screenBox {
-		flex: 1;
-		position: relative;
-	}
+
 	.enter-top .screenBox img {
 		margin-top: 0;
 		padding-left: 0;
