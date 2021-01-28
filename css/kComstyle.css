@@ -315,14 +315,6 @@ footer li a:hover{
 	}
 }
 
-/** footer 
-
-footer li {
-	margin-bottom: 16px;
-}
-footer p {
-	text-align: center;
-}
 
 /** head-smb **/
 .head-smb {
@@ -605,9 +597,6 @@ form .btn {
 	
 
 	/** typo **/
-	.smb-top h1 {
-		font-size: 10vmin;
-	}
 	h2 {
 		font-size: 24px;
 		text-align: left;
