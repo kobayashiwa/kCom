@@ -403,11 +403,6 @@ footer li a:hover{
 
 /** intro **/
 
-.intro .shadow-box {
-	padding: 60px 30px;
-	width: 70%;
-	position: relative;
-}
 .intro .shadow-box .textBox {
 	width: 70%;
 	padding: 20px 30px;
@@ -720,9 +715,6 @@ form .btn {
 	}
 
 	/** intro **/
-	.intro .shadow-box {
-		padding: 20px;
-	}
 	.intro .shadow-box .textBox {
 		padding: 20px;
 	}
@@ -823,10 +815,6 @@ form .btn {
 	/** intro **/
 	.intro .flex {
 		flex-direction: column;
-	}
-	.intro .shadow-box {
-		padding: 24px;
-		width: 100%;
 	}
 	.intro .shadow-box .textBox {
 		width: 100%;
