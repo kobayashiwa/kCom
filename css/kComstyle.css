@@ -310,6 +310,9 @@ footer li a:hover{
 		flex-direction: column;
 		align-items: left;
 	}
+	footer li {
+		margin-bottom: 16px;
+	}
 }
 
 /** footer 
