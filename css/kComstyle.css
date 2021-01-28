@@ -329,15 +329,6 @@ footer li a:hover{
 
 
 
-
-
-/** solution **/
-
-.solution-list li h3 {
-	font-size: 16px;
-	padding-top: 24px;
-}
-
 /** service **/
 .service .num {
 	font-weight: 100;
@@ -859,9 +850,6 @@ form .btn {
 	.solution-list h2 {
 		font-size: 18px;
 		text-align: center;
-	}
-	.solution-list li h3 {
-		padding: 0 0 0 16px;
 	}
 	.service h3 {
 		text-align: center;
