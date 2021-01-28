@@ -318,6 +318,11 @@ footer li a:hover{
 	background: #186B8C;
 }
 
+/** trouble **/
+.trouble {
+	background: #36593F;
+}
+
 
 
 
@@ -346,9 +351,7 @@ footer li a:hover{
 
 /** worry **/
 
-.IcoSolution {
-	margin-right: 16px;
-}
+
 .worry .client h3 {
 	font-size: 20px;
 	line-height: 160%;
@@ -835,9 +838,6 @@ form .btn {
 		display: flex;
 		align-items: center;
 	}
-	.IcoSolution {
-		margin-right: 10px;
-	}
 
 	/** service **/
 	.service .container {
@@ -851,9 +851,6 @@ form .btn {
 	}
 	.kcom p {
 		padding: 12px 20px;
-	}
-	.IcoSolution {
-		width: 40px;
 	}
 	.IcoSolution img {
 		width: 40px;
