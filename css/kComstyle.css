@@ -323,6 +323,10 @@ footer li a:hover{
 	background: #4C428C;
 }
 
+/** introduction **/
+.introduction {
+}
+
 /** logoWrap **/
 .logoWrap {
 }
@@ -597,9 +601,6 @@ form .btn {
 	
 
 	/** typo **/
-	h2 span br {
-		display: none;
-	}
 	.solution h2 span br {
 		display: none;
 	}
