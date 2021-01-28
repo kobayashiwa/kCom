@@ -336,9 +336,6 @@ footer li a:hover{
 /** btn link **/
 
 
-.text-link:hover {
-	text-decoration: none;
-}
 .gray-bottom {
 	background: linear-gradient(to bottom, #fff 0%, #fff 50%, #F8F9F9 50%, #F8F9F9 100%);
 	width: 100%;	
