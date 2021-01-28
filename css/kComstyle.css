@@ -406,15 +406,6 @@ footer li a:hover{
 
 
 
-/** intro **/
-
-
-.intro p {
-	font-size: 14px;
-	font-weight: normal;
-	line-height: 180%;
-}
-
 /** recommend **/
 .recommend .container {
 	padding: 80px;
