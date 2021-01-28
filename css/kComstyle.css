@@ -343,7 +343,6 @@ footer li a:hover{
 
 /** faq-top **/
 .faq-top {
-	background: #325938;
 }
 
 /** price-smb **/
@@ -402,11 +401,6 @@ footer li a:hover{
 
 /** function **/
 
-.function ul li {
-	width: 20%;
-	padding-left: 40px;	
-	margin-top: 40px;
-}
 .function ul li div {
 	padding: 16px;
 	background: #F8F9F9;
@@ -740,11 +734,6 @@ form .btn {
 		border-radius: 48px;
 	}
 
-	.function ul li {
-		width: 33.33%;
-		padding-left: 16px;	
-		margin-top: 16px;
-	}
 	.function ul li div {
 		padding: 16px;
 	}
