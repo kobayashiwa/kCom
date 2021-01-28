@@ -395,6 +395,9 @@ footer li a:hover{
 .head-enterprise h1 {
 	font-size: 3.2rem;
 }
+.head-enterprise h1 span {
+	font-size: 1.5rem;
+}
 @media (max-width: 1000px) {
 	.head-enterprise h1 {
 		font-size: 2.5rem;
