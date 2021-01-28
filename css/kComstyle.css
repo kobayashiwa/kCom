@@ -304,6 +304,11 @@ footer li a:hover{
 	text-decoration: underline;
 }
 
+/** head-smb **/
+.head-smb {
+	background: #4C428C;
+}
+
 
 
 
@@ -331,12 +336,7 @@ footer li a:hover{
 
 
 /** worry **/
-.voice {
-	align-items: flex-start;
-	margin-bottom: 16px;
-	width: fit-content;
-	max-width: 1160px;
-}
+
 .avatar {
 	width: 48px;
 	margin-right: 16px;
