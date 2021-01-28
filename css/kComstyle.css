@@ -56,13 +56,6 @@ main {
 	padding-top: 78px;
 	background: #D9042B;
 }
-.scroll {
-	position: fixed;
-	width: 80px;
-	z-index: 997;
-    top: 45vh;
-    left: 40px;
-}
 .scroll img {
 	text-align: center;
 }
@@ -73,19 +66,10 @@ main {
 	.textBox h3 br {
 		display: none;
 	}
-	.scroll {
-		width: 40px;
-		left: 24px;
-	}
 }
 @media (max-width: 700px) {
 	.arrow img {
 		height: 64px;
-	}
-	.scroll {
-		width: 10px;
-		top: 65vh;
-		left: 12px;
 	}
 	.scroll img {
 		width: 10px;
