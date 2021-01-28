@@ -310,7 +310,6 @@ footer li a:hover{
 
 /** logoWrap **/
 .logoWrap {
-	background: #5FA0D9;
 }
 
 /** feature-smb **/
@@ -409,12 +408,7 @@ footer li a:hover{
 /** recommend **/
 
 
-}
-.is-selected {
-	opacity: unset;
-	margin-top: 0;
-	transform: none;
-}
+
 .carousel-cell .shadow-box {
 	width: 380px;
 	padding: 48px 32px 32px 32px;
@@ -757,9 +751,7 @@ form .btn {
 		width: 100%;
 	}
 
-	.is-selected {
-		opacity: unset;
-	}
+
 	.flickity-prev-next-button.previous {
 		position: absolute;
 		left: -24vw;
