@@ -60,9 +60,6 @@ main {
 	main {
 		padding-top: 71px;
 	}
-	.textBox h3 br {
-		display: none;
-	}
 }
 @media (max-width: 700px) {
 	.arrow img {
