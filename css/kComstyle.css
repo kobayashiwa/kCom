@@ -333,45 +333,10 @@ footer li a:hover{
 
 
 
-/** Typo **/
-
-.heading p {
-	font-size: 18px;
-	text-align: center;
-}
 
 /** top **/
-.top {
-	margin: 0 auto;
-}
-.smb-top {
-	text-align: center;
-}
-.smb-top .cover {
-	margin: 0 auto;
-	width: 100%;
-	position: relative;
-	z-index: 996;	
-}
-.cover-container {
-	max-width: 1160px;
-	margin: -80px auto -60px auto;
-	position: relative;
-	z-index: 100;
-}
-.smb-top .cover img {
-	width: 100%;
-}
-.enter-top .container {
-	padding-bottom: 0;
-}
-.enter-top {
-	margin-top: -40px;
-}
-.enter-top .cover .container {
-	padding: 0 0 0 80px;
-	align-items: flex-start;
-}
+
+
 .enter-top .textBox {
 	padding: 0;
 	max-width: 240px;
@@ -859,9 +824,6 @@ form .btn {
 	}
 
 	/** top **/
-	.cover-container {
-		margin: -20px auto -60px auto;
-	}
 	.enter-top .screenBox img {
 		padding-left: 24px;
 	}
@@ -952,35 +914,8 @@ form .btn {
 	.intro h3 {
 		font-size: 20px;
 	}
-	.heading p {
-		font-size: 14px;
-		text-align: left;
-		padding-left: 16px;
-	}
 
 	/** top **/
-	.smb-top .cover {
-		margin: 0 auto 40px 0;	
-	}
-	.cover-container {
-		position: relative;	
-		margin: -40px auto -60px auto;
-	}
-	.smb-top .cover img {
-		width: 600px;
-		position: relative;
-		left: -40px;
-	}
-	.enter-top {
-		margin-top: -30px;
-	}
-	.enter-top .cover .container {
-		flex-direction: column;
-	}
-	.enter-top .cover .container {
-		padding: 0;
-		align-items: unset;
-	}
 	.enter-top .textBox {
 		padding: 0;
 		max-width: unset;
