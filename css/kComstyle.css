@@ -56,11 +56,6 @@ main {
 	padding-top: 78px;
 	background: #D9042B;
 }
-.notes {
-	padding-top: 16px;
-	font-size: 12px;
-	font-weight: normal;
-}
 .scroll {
 	position: fixed;
 	width: 80px;
