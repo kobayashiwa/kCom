@@ -131,6 +131,9 @@ main {
 .introduction h2 {
 	font-size: 1.5rem;
 }
+.heading h2 {
+	font-size: 2rem;
+}
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
