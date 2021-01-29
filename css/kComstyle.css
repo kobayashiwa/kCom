@@ -32,13 +32,13 @@ ul, li {
 }
 @media (max-width: 1000px) {
 	body {
-		font-size: 15px;
+		font-size: 14px;
 	}	
 }
 @media (max-width: 700px) {
 	p {
 		font-weight: normal;
-		line-height: 180%;
+		line-height: 160%;
 	}
 }
 
@@ -63,9 +63,6 @@ main {
 }
 .line-4 {
 	line-height: 1.4;
-}
-.line-6 {
-	line-height: 1.6;
 }
 .line-8 {
 	line-height: 1.8;
@@ -133,14 +130,26 @@ main {
 .switch-link:hover {
 	text-decoration: none;
 }
+.introduction h2 {
+	font-size: 1.5rem;
+}
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
+	}
+	.introduction h2 {
+		font-size: 1.2rem;
 	}
 }
 @media (max-width: 700px) {
 	.container {
 		width: calc(100% - 32px);
+	}
+	.introduction h2 {
+		font-size: 1rem;
+	}
+	.introduction h2 br {
+		display: none;
 	}
 }
 
