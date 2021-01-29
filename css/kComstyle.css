@@ -124,6 +124,9 @@ main {
 	transition:200ms ease all;
 	
 }
+.switch-link {
+	font-size: 0.75rem;
+}
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
