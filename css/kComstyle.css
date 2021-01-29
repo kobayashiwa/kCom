@@ -124,7 +124,9 @@ main {
 	transition:200ms ease all;
 	
 }
-.switch-link a {
+.switch-link {
+	margin-top: 1rem;
+	display: inline-block;
 	font-size: 0.75rem;
 	text-decoration: underline;
 }
