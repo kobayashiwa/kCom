@@ -83,10 +83,15 @@ main {
 .btn-top a {
 	padding: 1rem 3rem;
 	background: #E44C6F;
+	border-radius: 4px;
+}
+.btn-top a {
 	color: #fff;
 	font-size: 0.8rem;
 	font-weight: 700;
-	border-radius: 4px;
+}
+.btn-top a::after {
+	content: url(../images/btn-arrow-white.svg);
 }
 @media (max-width: 1000px) {
 	main {
