@@ -72,7 +72,7 @@ main {
 }
 .patent {
 	font-weight: 700;
-	padding: 1.5rem 0 0 0;
+	padding: 1.5rem 0 2.5rem 0;
 }
 .patent::before {
 	content: url(../images/check-patent.svg);
