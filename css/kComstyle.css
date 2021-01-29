@@ -70,6 +70,9 @@ main {
 .line-8 {
 	line-height: 1.8;
 }
+.patent {
+	font-weight: 700;
+}
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
@@ -429,7 +432,7 @@ footer li a:hover{
 		font-size: 7.5vw;
 	}
 	.head-enterprise h1 span {
-		font-size: 1rem;
+		font-size: 1.2rem;
 	}
 }
 
