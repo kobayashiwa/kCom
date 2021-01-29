@@ -81,6 +81,7 @@ main {
 	padding-right: 0.4rem;
 }
 .btn-top {
+	padding: 1rem 3rem;
 	background: #E44C6F;
 }
 @media (max-width: 1000px) {
