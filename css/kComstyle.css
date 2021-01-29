@@ -119,13 +119,13 @@ main {
 	left: 1.5rem;
 	transition:200ms ease all;	
 }
-.switch-link {
+.switch-link a {
 	margin-top: 1rem;
 	display: inline-block;
 	font-size: 0.75rem;
 	text-decoration: underline;
 }
-.switch-link:hover {
+.switch-link a:hover {
 	text-decoration: none;
 }
 .introduction h2 {
@@ -173,6 +173,9 @@ main {
 	}
 	.btn-top a::after {
 		left: 0.5rem;
+	}
+	.switch-link {
+		text-align: center;
 	}
 }
 
