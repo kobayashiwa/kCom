@@ -70,6 +70,16 @@ main {
 .line-8 {
 	line-height: 1.8;
 }
+.patent {
+	font-weight: 700;
+	padding: 1.5rem 0 2.5rem 0;
+}
+.patent::before {
+	content: url(../images/check-patent.svg);
+	position: relative;
+	top: 4px;
+	padding-right: 0.4rem;
+}
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
@@ -429,7 +439,7 @@ footer li a:hover{
 		font-size: 7.5vw;
 	}
 	.head-enterprise h1 span {
-		font-size: 1rem;
+		font-size: 1.2rem;
 	}
 }
 
