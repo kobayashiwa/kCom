@@ -130,6 +130,9 @@ main {
 	font-size: 0.75rem;
 	text-decoration: underline;
 }
+.switch-link:hover {
+	text-decoration: none;
+}
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
