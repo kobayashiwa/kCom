@@ -479,9 +479,13 @@ footer li a:hover{
 	}
 	.mv-smb-wrap-img {
 		width: 100%;
+		max-width: 480px;
+		height: 50vw;
+		overflow: hidden;
 		position: relative;
 		top: 0;
-		left: 0;
+		left: 50%;
+		transform: translate(-50%, 0);
 	}
 	.head-smb h1 {
 		font-size: 2.5rem;
