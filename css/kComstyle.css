@@ -165,6 +165,12 @@ main {
 		padding-right: 1.6rem;
 		background-size: 100%;
 	}
+	.btn-top a {
+		padding: 0.7rem 2rem;
+	}
+	.btn-top a::after {
+		left: 0.5rem;
+	}
 }
 
 /** header **/
