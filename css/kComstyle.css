@@ -149,6 +149,7 @@ main {
 	}
 	.introduction h2 {
 		font-size: 1rem;
+		padding: 0 1rem;
 	}
 	.introduction h2 br {
 		display: none;
