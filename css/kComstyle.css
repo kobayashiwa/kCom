@@ -82,11 +82,13 @@ main {
 }
 .btn-top {
 	max-width: 240px;
-	padding: 1rem 3rem;
+	
 	background: #E44C6F;
 	border-radius: 4px;
 }
 .btn-top a {
+	display: inline-block;
+	padding: 1rem 3rem;
 	color: #fff;
 	font-size: 0.8rem;
 	font-weight: 700;
