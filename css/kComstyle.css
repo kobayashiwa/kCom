@@ -81,22 +81,35 @@ main {
 	padding-right: 0.4rem;
 }
 .btn-top {
-	max-width: 240px;
-	
-	background: #E44C6F;
-	border-radius: 4px;
+	max-width: 240px;	
 }
 .btn-top a {
 	display: inline-block;
 	padding: 1rem 3rem;
 	color: #fff;
+	background: #E44C6F;
+	border: 1px solid #E44C6F;
+	border-radius: 4px;
 	font-size: 0.8rem;
 	font-weight: 700;
+	transition:200ms ease all;
+}
+.btn-top a:hover {
+	background: #fff;
+	color: #E44C6F;
+	border: 1px solid #E44C6F;
 }
 .btn-top a::after {
 	content: url(../images/btn-arrow-white.svg);
 	position: relative;
 	left: 1.5rem;
+	transition:200ms ease all;
+}
+.btn-top a:hover::after {
+	content: url(../images/btn-arrow-color.svg);
+	position: relative;
+	left: 2rem;
+	
 }
 @media (max-width: 1000px) {
 	main {
