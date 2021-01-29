@@ -511,7 +511,8 @@ footer li a:hover{
 }
 
 /** logoWrap **/
-.logoWrap {
+.logoWrap h2 {
+	font-size: 1.2rem;
 }
 
 /** feature-smb **/
