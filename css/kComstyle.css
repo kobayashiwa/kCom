@@ -588,6 +588,16 @@ footer li a:hover{
 		flex-direction: column;
 		text-align: center;
 	}
+	.mv-enterprise-img {
+		width: 100%;
+		max-width: 480px;
+		height: 50vw;
+		overflow: hidden;
+		position: relative;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
 	.head-enterprise h1 {
 		font-size: 7.5vw;
 	}
