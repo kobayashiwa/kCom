@@ -76,16 +76,21 @@ main {
 }
 .patent::before {
 	content: url(../images/check-patent.svg);
+	display: inline-block;
+	width: 16px;
+	height: 16px;
 	position: relative;
 	top: 4px;
-	padding-right: 0.4rem;
+	padding-right: 1.6rem;
+	background-size: 100%;
 }
 .btn-top {
-	max-width: 240px;	
+	max-width: 260px;
+	transition:200ms ease all;
 }
 .btn-top a {
 	display: inline-block;
-	padding: 1rem 3rem;
+	padding: 1rem 2.5rem;
 	color: #fff;
 	background: #E44C6F;
 	border: 1px solid #E44C6F;
@@ -98,17 +103,25 @@ main {
 	background: #fff;
 	color: #E44C6F;
 	border: 1px solid #E44C6F;
+	transition:200ms ease all;
 }
 .btn-top a::after {
 	content: url(../images/btn-arrow-white.svg);
+	display: inline-block;
+	width: 11px;
+	height: 15px;
 	position: relative;
-	left: 1.5rem;
+	left: 1rem;
 	transition:200ms ease all;
 }
 .btn-top a:hover::after {
 	content: url(../images/btn-arrow-color.svg);
+	display: inline-block;
+	width: 11px;
+	height: 15px;
 	position: relative;
-	left: 2rem;
+	left: 1.5rem;
+	transition:200ms ease all;
 	
 }
 @media (max-width: 1000px) {
