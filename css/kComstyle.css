@@ -84,6 +84,7 @@ main {
 	padding: 1rem 3rem;
 	background: #E44C6F;
 	color: #fff;
+	border-radius: 4px;
 }
 @media (max-width: 1000px) {
 	main {
