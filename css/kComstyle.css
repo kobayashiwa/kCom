@@ -138,6 +138,9 @@ main {
 	.introduction h2 {
 		font-size: 1.2rem;
 	}
+	.patent {
+		padding: 1rem 0 2rem 0;
+	}
 }
 @media (max-width: 700px) {
 	.container {
