@@ -82,7 +82,6 @@ main {
 	background-size: 100%;
 }
 .btn-top {
-	max-width: 260px;
 	transition:200ms ease all;
 }
 .btn-top a {
