@@ -50,7 +50,7 @@ main {
 	max-width: 1024px;
 	width: 85vw;
 	margin: 0 auto;
-	padding: 40px 0;
+	padding: 2.5rem 0;
 }
 .flex {
 	display: flex;
@@ -118,8 +118,7 @@ main {
 	height: 15px;
 	position: relative;
 	left: 1.5rem;
-	transition:200ms ease all;
-	
+	transition:200ms ease all;	
 }
 .switch-link {
 	margin-top: 1rem;
@@ -144,6 +143,7 @@ main {
 @media (max-width: 700px) {
 	.container {
 		width: calc(100% - 32px);
+		padding: 2rem 0;
 	}
 	.introduction h2 {
 		font-size: 1rem;
@@ -410,11 +410,27 @@ footer li a:hover{
 	background-image: url(../images/smb-mv-bg.jpg);
 	background-size: cover;
 }
+.mvWrap {
+	position: relative;
+}
+.mv-smb-wrap-text {
+	width: 50%;
+}
+.mv-smb-wrap-img {
+	width: 60%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+.mv-smb-wrap-img img {
+	width: 100%;
+}
 .head-smb h1 {
 	font-size: 4rem;
 }
 .head-smb h1 span {
 	font-size: 1.5rem;
+	display: inline-block;
 }
 .head-smb h1 span span {
 	color: #E9446A;
@@ -484,6 +500,7 @@ footer li a:hover{
 }
 .head-enterprise h1 span {
 	font-size: 1.5rem;
+	display: inline-block;
 }
 .head-enterprise h1 span span {
 	color: #E9446A;
