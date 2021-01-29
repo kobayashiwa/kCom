@@ -80,7 +80,8 @@ main {
 	top: 4px;
 	padding-right: 0.4rem;
 }
-.btn-top a {
+.btn-top {
+	max-width: 240px;
 	padding: 1rem 3rem;
 	background: #E44C6F;
 	border-radius: 4px;
@@ -92,6 +93,8 @@ main {
 }
 .btn-top a::after {
 	content: url(../images/btn-arrow-white.svg);
+	position: relative;
+	left: 1.5rem;
 }
 @media (max-width: 1000px) {
 	main {
