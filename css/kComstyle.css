@@ -118,8 +118,7 @@ main {
 	height: 15px;
 	position: relative;
 	left: 1.5rem;
-	transition:200ms ease all;
-	
+	transition:200ms ease all;	
 }
 .switch-link {
 	margin-top: 1rem;
@@ -409,6 +408,15 @@ footer li a:hover{
 .head-smb {
 	background-image: url(../images/smb-mv-bg.jpg);
 	background-size: cover;
+}
+.mv-smb-wrap-text {
+	width: 50%;
+}
+.mv-smb-wrap-img {
+	width: 50%;
+}
+.mv-smb-wrap-img img {
+	width: 100%;
 }
 .head-smb h1 {
 	font-size: 4rem;
