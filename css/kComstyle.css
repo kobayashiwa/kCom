@@ -540,6 +540,9 @@ footer li a:hover{
 }
 
 /** head-enterprise **/
+.head-enterprise .container{
+	padding: 0;
+}
 .head-enterprise .mvWrap {
 	position: relative;
 }
