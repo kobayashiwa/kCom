@@ -430,6 +430,7 @@ footer li a:hover{
 }
 .head-smb h1 span {
 	font-size: 1.5rem;
+	display: inline-block;
 }
 .head-smb h1 span span {
 	color: #E9446A;
@@ -499,6 +500,7 @@ footer li a:hover{
 }
 .head-enterprise h1 span {
 	font-size: 1.5rem;
+	display: inline-block;
 }
 .head-enterprise h1 span span {
 	color: #E9446A;
