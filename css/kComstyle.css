@@ -77,6 +77,7 @@ main {
 	content: url(../images/check-patent.svg);
 	position: relative;
 	top: 4px;
+	padding-right: 0.4rem;
 }
 @media (max-width: 1000px) {
 	main {
