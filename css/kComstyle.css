@@ -73,6 +73,11 @@ main {
 .patent {
 	font-weight: 700;
 }
+.patent::before {
+	content: url(../images/check-patent.svg);
+	position: relative;
+	top: 4px;
+}
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
