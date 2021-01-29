@@ -82,7 +82,6 @@ main {
 	background-size: 100%;
 }
 .btn-top {
-	max-width: 260px;
 	transition:200ms ease all;
 }
 .btn-top a {
@@ -139,6 +138,9 @@ main {
 	.introduction h2 {
 		font-size: 1.2rem;
 	}
+	.patent {
+		padding: 1rem 0 2rem 0;
+	}
 }
 @media (max-width: 700px) {
 	.container {
@@ -150,6 +152,27 @@ main {
 	}
 	.introduction h2 br {
 		display: none;
+	}
+	.patent {
+		font-size: 0.8rem;
+		padding: 0.5rem 0 1rem 0;
+		text-align: center;
+	}
+	.patent::before {
+		content: url(../images/check-patent.svg);
+		display: inline-block;
+		width: 14px;
+		height: 14px;
+		position: relative;
+		top: 4px;
+		padding-right: 1.6rem;
+		background-size: 100%;
+	}
+	.btn-top a {
+		padding: 0.7rem 2rem;
+	}
+	.btn-top a::after {
+		left: 0.5rem;
 	}
 }
 
@@ -410,11 +433,14 @@ footer li a:hover{
 	background-image: url(../images/smb-mv-bg.jpg);
 	background-size: cover;
 }
-.mvWrap {
+.head-smb .container{
+	padding: 0;
+}
+.head-smb .mvWrap {
 	position: relative;
 }
 .mv-smb-wrap-text {
-	width: 50%;
+	width: 100%;
 }
 .mv-smb-wrap-img {
 	width: 60%;
@@ -444,6 +470,16 @@ footer li a:hover{
 	}
 }
 @media (max-width: 700px) {
+	.mvWrap {
+		flex-direction: column;
+		text-align: center;
+	}
+	.mv-smb-wrap-img {
+		width: 100%;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
 	.head-smb h1 {
 		font-size: 2.5rem;
 	}
@@ -495,6 +531,21 @@ footer li a:hover{
 }
 
 /** head-enterprise **/
+.head-enterprise .mvWrap {
+	position: relative;
+}
+.mv-enterprise-wrap-text {
+	width: 100%;
+}
+.mv-enterprise-wrap-img {
+	width: 65%;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+}
+.mv-enterprise-wrap-img img {
+	width: 100%;
+}
 .head-enterprise h1 {
 	font-size: 3.2rem;
 }
