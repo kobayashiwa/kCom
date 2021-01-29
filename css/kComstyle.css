@@ -80,9 +80,10 @@ main {
 	top: 4px;
 	padding-right: 0.4rem;
 }
-.btn-top {
+.btn-top a {
 	padding: 1rem 3rem;
 	background: #E44C6F;
+	color: #fff;
 }
 @media (max-width: 1000px) {
 	main {
