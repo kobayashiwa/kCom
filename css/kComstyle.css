@@ -414,7 +414,7 @@ footer li a:hover{
 	position: relative;
 }
 .mv-smb-wrap-text {
-	width: 50%;
+	width: 100%;
 }
 .mv-smb-wrap-img {
 	width: 60%;
@@ -495,6 +495,21 @@ footer li a:hover{
 }
 
 /** head-enterprise **/
+.head-enterprise .mvWrap {
+	position: relative;
+}
+.mv-enterprise-wrap-text {
+	width: 100%;
+}
+.mv-enterprise-wrap-img {
+	width: 65%;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+}
+.mv-enterprise-wrap-img img {
+	width: 100%;
+}
 .head-enterprise h1 {
 	font-size: 3.2rem;
 }
