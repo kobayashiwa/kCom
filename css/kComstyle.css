@@ -514,6 +514,9 @@ footer li a:hover{
 }
 
 /** logoWrap **/
+.logoWrap .container {
+	padding: 1.5rem 0;
+}
 .logoWrap h2 {
 	font-size: 1.2rem;
 }
@@ -527,6 +530,7 @@ footer li a:hover{
 }
 .logo-list ul {
 	justify-content: center;
+	margin-top: 0.3rem;
 }
 .logo-list li {
 	height: 80px;
