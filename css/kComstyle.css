@@ -131,6 +131,9 @@ main {
 .introduction h2 {
 	font-size: 1.5rem;
 }
+.heading {
+	text-align: center;
+}
 .heading h2 {
 	font-size: 2rem;
 }
@@ -181,9 +184,6 @@ main {
 	.switch-link {
 		text-align: center;
 		margin-bottom: 1.5rem;
-	}
-	.heading {
-		text-align: center;
 	}
 	.heading h2 {
 		font-size: 1.5rem;
@@ -513,6 +513,9 @@ footer li a:hover{
 /** logoWrap **/
 .logoWrap h2 {
 	font-size: 1.2rem;
+}
+.logoWrap h2 span {
+	font-size: 3.5rem;
 }
 
 /** feature-smb **/
