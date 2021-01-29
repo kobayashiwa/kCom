@@ -131,6 +131,12 @@ main {
 .introduction h2 {
 	font-size: 1.5rem;
 }
+.heading {
+	text-align: center;
+}
+.heading h2 {
+	font-size: 2rem;
+}
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
@@ -178,6 +184,9 @@ main {
 	.switch-link {
 		text-align: center;
 		margin-bottom: 1.5rem;
+	}
+	.heading h2 {
+		font-size: 1.5rem;
 	}
 }
 
@@ -475,7 +484,7 @@ footer li a:hover{
 	.head-smb .container{
 		padding: 0;
 	}
-	.mvWrap {
+	.head-smb .mvWrap {
 		flex-direction: column;
 		text-align: center;
 	}
@@ -502,7 +511,11 @@ footer li a:hover{
 }
 
 /** logoWrap **/
-.logoWrap {
+.logoWrap h2 {
+	font-size: 1.2rem;
+}
+.logoWrap h2 span {
+	font-size: 3.5rem;
 }
 
 /** feature-smb **/
@@ -540,9 +553,6 @@ footer li a:hover{
 }
 
 /** head-enterprise **/
-.head-enterprise .container{
-	padding: 0;
-}
 .head-enterprise .mvWrap {
 	position: relative;
 }
@@ -577,6 +587,23 @@ footer li a:hover{
 	}
 }
 @media (max-width: 700px) {
+	.head-enterprise .container{
+		padding: 1rem 0 0 0;
+	}
+	.head-enterprise .mvWrap {
+		flex-direction: column;
+		text-align: center;
+	}
+	.mv-enterprise-wrap-img {
+		width: 100%;
+		max-width: 480px;
+		height: 50vw;
+		overflow: hidden;
+		position: relative;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
 	.head-enterprise h1 {
 		font-size: 7.5vw;
 	}
