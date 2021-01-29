@@ -525,8 +525,12 @@ footer li a:hover{
 	font-size: 0.9rem;
 	font-weight: 300;
 }
+.logo-list ul {
+	justify-content: center;
+}
 .logo-list li {
 	height: 80px;
+	margin: 0 1.5rem;
 }
 .logo-list li img {
 	height: 100%;
