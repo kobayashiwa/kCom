@@ -137,6 +137,9 @@ main {
 .heading h2 {
 	font-size: 2rem;
 }
+.heading p {
+	text-align: center;
+}
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
@@ -516,6 +519,14 @@ footer li a:hover{
 }
 .logoWrap h2 span {
 	font-size: 3.5rem;
+}
+@media (max-width: 700px) {
+	.logoWrap h2 {
+		font-size: 0.8rem;
+	}
+	.logoWrap h2 span {
+		font-size: 2.5rem;
+	}	
 }
 
 /** feature-smb **/
