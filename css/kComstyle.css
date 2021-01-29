@@ -409,11 +409,17 @@ footer li a:hover{
 	background-image: url(../images/smb-mv-bg.jpg);
 	background-size: cover;
 }
+.mvWrap {
+	position: relative;
+}
 .mv-smb-wrap-text {
 	width: 50%;
 }
 .mv-smb-wrap-img {
-	width: 50%;
+	width: 60%;
+	position: absolute;
+	top: 0;
+	left: 50%;
 }
 .mv-smb-wrap-img img {
 	width: 100%;
