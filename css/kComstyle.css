@@ -539,6 +539,12 @@ footer li a:hover{
 .logo-list li img {
 	height: 100%;
 }
+@media (max-width: 1000px) {
+	.logo-list li {
+		height: 60px;
+		margin: 0 1.2rem;
+	}	
+}
 @media (max-width: 700px) {
 	.logoWrap h2 {
 		font-size: 0.8rem;
