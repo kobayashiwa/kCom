@@ -584,6 +584,9 @@ footer li a:hover{
 /** function-smb **/
 .function-smb {
 }
+.function-smb-list-wrap {
+	width: 50%;
+}
 .function-smb-text {
 	width: calc(100% - 168px);
 }
