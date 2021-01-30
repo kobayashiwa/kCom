@@ -718,6 +718,9 @@ footer li a:hover{
 .price-enterprise-box {
 	width: 50%;
 }
+.price-enterprise-box li p {
+	width: 50%;
+}
 
 
 
