@@ -561,6 +561,15 @@ footer li a:hover{
 /** feature-smb **/
 .feature-smb {
 }
+.feature-smb-text {
+	width: 50%;
+}
+.feature-smb-img {
+	width: 50%;
+}
+.feature-smb-img img {
+	width: 100%;
+}
 
 /** trouble **/
 .trouble {
