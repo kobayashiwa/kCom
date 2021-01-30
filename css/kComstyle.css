@@ -584,6 +584,15 @@ footer li a:hover{
 /** function-smb **/
 .function-smb {
 }
+.function-smb-text {
+	width: calc(100% - 168px);
+}
+.function-smb-img {
+	width: 168px;
+}
+.function-smb-img img {
+	width: 100%;
+}
 
 /** btnWrap **/
 .btnWrap {
