@@ -576,6 +576,10 @@ footer li a:hover{
 	background: #46555F;
 	color: #fff;
 }
+.trouble-list {
+	background: #fff;
+	color: #46555F;
+}
 
 /** function-smb **/
 .function-smb {
