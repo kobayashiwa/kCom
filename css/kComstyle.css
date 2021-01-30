@@ -534,6 +534,7 @@ footer li a:hover{
 }
 .logo-list li {
 	height: 80px;
+	width: 20%;
 	margin: 0 1.5rem;
 }
 .logo-list li img {
@@ -541,8 +542,8 @@ footer li a:hover{
 }
 @media (max-width: 1000px) {
 	.logo-list li {
-		height: 60px;
-		margin: 0 1.2rem;
+		height: 56px;
+		margin: 0 0.8rem;
 	}	
 }
 @media (max-width: 700px) {
