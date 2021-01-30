@@ -687,9 +687,29 @@ footer li a:hover{
 /** feature-enterprise **/
 .feature-enterprise {
 }
+.feature-enterprise-list {
+	width: 50%;
+}
+.feature-enterprise-img {
+	max-width: 388px;
+	width: 100%;
+}
+.feature-enterprise-img img {
+	max-width: 100%;
+}
 
 /** function-enterprise **/
 .function-enterprise {
+}
+.function-enterprise-list {
+	width: 33.33%;
+}
+.function-enterprise-img {
+	max-width: 64px;
+	width: 100%;
+}
+.function-enterprise-text {
+	width: calc(100% - 64px);
 }
 
 /** price-enterprise **/
