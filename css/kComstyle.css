@@ -701,6 +701,16 @@ footer li a:hover{
 /** function-enterprise **/
 .function-enterprise {
 }
+.function-enterprise-list {
+	width: 33.33%;
+}
+.function-enterprise-img {
+	max-width: 64px;
+	width: 100%;
+}
+.function-enterprise-text {
+	width: calc(100% - 64px);
+}
 
 /** price-enterprise **/
 .price-enterprise {
