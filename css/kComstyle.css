@@ -529,21 +529,20 @@ footer li a:hover{
 	font-weight: 300;
 }
 .logo-list ul {
+	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 0.3rem;
 }
 .logo-list li {
-	height: 80px;
-	width: 20%;
-	margin: 0 1.5rem;
+	width: 25%;
+	padding: 0 1.5rem;
 }
 .logo-list li img {
-	height: 100%;
+	width: 100%;
 }
 @media (max-width: 1000px) {
 	.logo-list li {
-		height: 56px;
-		margin: 0 0.8rem;
+		padding: 0 0.8rem;
 	}	
 }
 @media (max-width: 700px) {
@@ -552,7 +551,11 @@ footer li a:hover{
 	}
 	.logoWrap h2 span {
 		font-size: 2.5rem;
-	}	
+	}
+	.logo-list li {
+		width: 33.33%;
+		padding: 0 0.5rem;
+	}
 }
 
 /** feature-smb **/
