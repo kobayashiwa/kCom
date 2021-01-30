@@ -54,6 +54,7 @@ main {
 }
 .flex {
 	display: flex;
+	flex-wrap: wrap;
 }
 .gray {
 	background: #F5F7F8;
@@ -529,7 +530,6 @@ footer li a:hover{
 	font-weight: 300;
 }
 .logo-list ul {
-	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 0.3rem;
 }
