@@ -740,13 +740,16 @@ footer li a:hover{
 /** function-smb **/
 .function-smb {
 }
+.function-smb-wrap {
+	margin: -0.75rem 0 1.75rem 0;
+}
 .function-smb-list-wrap {
 	width: 50%;
-	padding: 0 0.75rem;
+	padding: 0.75rem;
 }
 .function-smb-list {
 	background: #fff;
-	padding: 1.5rem 2rem;
+	padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 	border-radius: 1rem;
 	align-items: center;
 }
@@ -756,14 +759,27 @@ footer li a:hover{
 }
 .function-smb-img {
 	width: 168px;
+	position: relative;
 }
 .function-smb-img img {
 	width: 100%;
 }
 .function-smb h3 {
 	background: #058DC7;
+	border-radius: 1rem 1rem 0 1rem;
+	padding: 0.5rem 1.5rem;
 	color: #fff;
 	width: max-content;
+	position: absolute;
+	top: -0.5rem;
+	left: -1rem;
+	font-size: 0.9rem;
+}
+.function-smb h3 span {
+	font-size: 1.5rem;
+	display: inline-block;
+	padding-right: 0.5rem;
+	font-weight: 300;
 }
 .function-smb h4 {
 	font-size: 1.1rem;
@@ -773,12 +789,37 @@ footer li a:hover{
 	font-size: 0.9rem;
 	line-height: 160%;
 }
+@media (max-width: 1000px) {
+	.function-smb-wrap {
+		flex-direction: column;
+	}
+	.function-smb-list-wrap {
+		width: 100%;
+	}
+}
+@media (max-width: 700px) {
+	.function-smb-list-wrap {
+		padding: 0.5rem;
+	}
+	.function-smb-list {
+		flex-direction: column;
+	}
+	.function-smb-text {
+		width: 100%;
+		padding:0.5rem 0 0 0 ;
+	}
+	.function-smb h3 {
+		left: -3.5rem;
+	}
+}
 
 /** btnWrap **/
 .btnWrap {
 }
 .bnr {
 	background: #E9446A;
+	max-width: 800px;
+	margin: 0 auto;
 }
 .bnr-text {
 	color:  #fff;
@@ -880,9 +921,18 @@ footer li a:hover{
 /** feature-enterprise **/
 .feature-enterprise {
 }
+.feature-enterprise-wrap {
+	justify-content: center;
+}
 .feature-enterprise-list-wrap {
-	width: 50%;
-	padding: 0.75rem;
+	width: 45%;
+	margin: 0.75rem;
+	padding: 2rem;
+	background: #F5F7F8;
+	border-radius: 1rem;
+}
+.feature-enterprise-list {
+	
 }
 .feature-enterprise-img {
 	max-width: 388px;
@@ -899,11 +949,13 @@ footer li a:hover{
 .function-enterprise {
 }
 .function-enterprise-list-wrap {
-	width: 33.33%;
-	padding: 0.75rem;
+	width: 30%;
+	margin: 0.5rem;
+	border-radius: 1rem;
+	background: #fff;
 }
 .function-enterprise-list {
-	background: #fff;
+	padding: 1rem 2rem;	
 }
 .function-enterprise-img {
 	max-width: 64px;
@@ -919,12 +971,17 @@ footer li a:hover{
 /** price-enterprise **/
 .price-enterprise {
 }
+.price-enterprise-wrap {
+	justify-content: center;
+}
 .price-enterprise-box-wrap {
-	width: 50%;
-	padding: 0.75rem;
+	width: 45%;
+	margin: 0.75rem;
+	padding: 2rem;
+	background: #fff;
+	border-radius: 1rem;
 }
 .price-enterprise-box {
-	background: #fff;
 }
 .price-other h3 {
 	background: #46555F;
