@@ -134,6 +134,7 @@ main {
 }
 .heading {
 	text-align: center;
+	padding-bottom: 1.5rem;
 }
 .heading h2 {
 	font-size: 2rem;
@@ -563,13 +564,16 @@ footer li a:hover{
 }
 .feature-smb-text {
 	width: 50%;
-	padding-left: 4rem;
+	padding-left: 3rem;
 }
 .feature-smb-img {
 	width: 50%;
 }
 .feature-smb-img img {
 	width: 100%;
+}
+.feature-smb h3 {
+	font-size: 1.5rem;
 }
 
 /** trouble **/
@@ -612,6 +616,16 @@ footer li a:hover{
 /** benefits-top **/
 .benefits-top {
 }
+.benefits-text {
+	width: 50%;
+}
+.benefits-img {
+	width: 50%;
+}
+.benefits-img img {
+	width: 100%;
+}
+
 
 /** faq-top **/
 .faq-top {
