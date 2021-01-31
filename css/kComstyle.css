@@ -562,6 +562,9 @@ footer li a:hover{
 /** feature-smb **/
 .feature-smb {
 }
+.feature-smb-list {
+	margin-bottom: 2.5rem;
+}
 .feature-smb-text {
 	width: 50%;
 	padding-left: 3rem;
@@ -574,6 +577,12 @@ footer li a:hover{
 }
 .feature-smb h3 {
 	font-size: 1.5rem;
+	padding-bottom: 1rem;
+}
+@media (max-width: 1000px) {
+	.feature-smb h3 br {
+		display: none;
+	}
 }
 
 /** trouble **/
@@ -584,6 +593,9 @@ footer li a:hover{
 .trouble-list {
 	background: #fff;
 	color: #46555F;
+}
+.trouble h3 {
+	font-size: 1.3rem;
 }
 
 /** function-smb **/
@@ -600,6 +612,11 @@ footer li a:hover{
 }
 .function-smb-img img {
 	width: 100%;
+}
+.function-smb h3 {
+	background: #058DC7;
+	color: #fff;
+	width: max-content;
 }
 
 /** btnWrap **/
@@ -633,6 +650,9 @@ footer li a:hover{
 
 /** price-smb **/
 .price-smb {
+}
+.price-smb h3 {
+	font-size: 1.5rem;
 }
 
 /** head-enterprise **/
