@@ -193,6 +193,12 @@ main {
 	.heading h2 {
 		font-size: 1.3rem;
 	}
+	.arrow {
+		height: 32px;
+	}
+	.arrow img {
+		height: 100%;
+	}
 }
 
 /** header **/
@@ -564,6 +570,7 @@ footer li a:hover{
 }
 .feature-smb-list {
 	margin-bottom: 2.5rem;
+	align-items: center;
 }
 .feature-smb-text {
 	width: 50%;
@@ -575,15 +582,31 @@ footer li a:hover{
 .feature-smb-img img {
 	width: 100%;
 }
+.feature-smb h2 br {
+	display: none;
+}
 .feature-smb h3 {
 	font-size: 1.5rem;
 	padding-bottom: 1rem;
 }
 @media (max-width: 1000px) {
+	.feature-smb h2 br {
+		display: block;
+	}
+	.feature-smb h3 {
+		font-size: 1.2rem;
+		padding-bottom: 0.5rem;
+	}
 	.feature-smb h3 br {
 		display: none;
 	}
 }
+@media (max-width: 700px) {
+	.feature-smb-list {
+		flex-direction: column;
+	}
+}
+
 
 /** trouble **/
 .trouble {
@@ -732,6 +755,9 @@ footer li a:hover{
 .feature-enterprise-img img {
 	max-width: 100%;
 }
+.feature-enterprise h3 {
+	font-size: 1.2rem;
+}
 
 /** function-enterprise **/
 .function-enterprise {
@@ -746,6 +772,9 @@ footer li a:hover{
 .function-enterprise-text {
 	width: calc(100% - 64px);
 }
+.function-enterprise h3 {
+	font-size: 1rem;
+}
 
 /** price-enterprise **/
 .price-enterprise {
@@ -755,6 +784,9 @@ footer li a:hover{
 }
 .price-enterprise-box li p {
 	width: 50%;
+}
+.price-enterprise h3 {
+	font-size: 0.9rem;
 }
 
 
