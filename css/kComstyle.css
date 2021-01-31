@@ -574,6 +574,7 @@ footer li a:hover{
 }
 .feature-smb h3 {
 	font-size: 1.5rem;
+	padding-bottom: 1rem;
 }
 @media (max-width: 1000px) {
 	.feature-smb h3 br {
@@ -608,6 +609,11 @@ footer li a:hover{
 }
 .function-smb-img img {
 	width: 100%;
+}
+.function-smb h3 {
+	background: #058DC7;
+	color: #fff;
+	width: max-content;
 }
 
 /** btnWrap **/
