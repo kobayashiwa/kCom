@@ -592,6 +592,10 @@ footer li a:hover{
 	.feature-smb h2 br {
 		display: block;
 	}
+	.feature-smb h3 {
+		font-size: 1.2rem;
+		padding-bottom: 0.5rem;
+	}
 	.feature-smb h3 br {
 		display: none;
 	}
@@ -774,6 +778,9 @@ footer li a:hover{
 }
 .price-enterprise-box li p {
 	width: 50%;
+}
+.price-enterprise h3 {
+	font-size: 0.9rem;
 }
 
 
