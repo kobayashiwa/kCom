@@ -762,6 +762,9 @@ footer li a:hover{
 .function-enterprise-text {
 	width: calc(100% - 64px);
 }
+.function-enterprise h3 {
+	font-size: 1rem;
+}
 
 /** price-enterprise **/
 .price-enterprise {
