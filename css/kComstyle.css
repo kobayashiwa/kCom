@@ -747,9 +747,12 @@ footer li a:hover{
 .function-smb-list {
 	background: #fff;
 	padding: 1.5rem 2rem;
+	border-radius: 1rem;
+	align-items: center;
 }
 .function-smb-text {
 	width: calc(100% - 168px);
+	padding-left: 1.5rem;
 }
 .function-smb-img {
 	width: 168px;
@@ -761,6 +764,14 @@ footer li a:hover{
 	background: #058DC7;
 	color: #fff;
 	width: max-content;
+}
+.function-smb h4 {
+	font-size: 1.1rem;
+	padding-bottom: 0.2rem;
+}
+.function-smb-text p {
+	font-size: 0.9rem;
+	line-height: 160%;
 }
 
 /** btnWrap **/
@@ -869,8 +880,9 @@ footer li a:hover{
 /** feature-enterprise **/
 .feature-enterprise {
 }
-.feature-enterprise-list {
+.feature-enterprise-list-wrap {
 	width: 50%;
+	padding: 0.75rem;
 }
 .feature-enterprise-img {
 	max-width: 388px;
@@ -886,8 +898,11 @@ footer li a:hover{
 /** function-enterprise **/
 .function-enterprise {
 }
-.function-enterprise-list {
+.function-enterprise-list-wrap {
 	width: 33.33%;
+	padding: 0.75rem;
+}
+.function-enterprise-list {
 	background: #fff;
 }
 .function-enterprise-img {
@@ -904,8 +919,11 @@ footer li a:hover{
 /** price-enterprise **/
 .price-enterprise {
 }
-.price-enterprise-box {
+.price-enterprise-box-wrap {
 	width: 50%;
+	padding: 0.75rem;
+}
+.price-enterprise-box {
 	background: #fff;
 }
 .price-other h3 {
