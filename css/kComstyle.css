@@ -747,6 +747,7 @@ footer li a:hover{
 .function-smb-list {
 	background: #fff;
 	padding: 1.5rem 2rem;
+	border-radius: 1rem;
 }
 .function-smb-text {
 	width: calc(100% - 168px);
