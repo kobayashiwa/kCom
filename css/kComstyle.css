@@ -705,6 +705,7 @@ footer li a:hover{
 @media (max-width: 1000px) {
 	.trouble-list {
 		margin: 0 auto 1rem auto;
+		border-radius: 2rem 2rem 2rem 0px;
 	}
 	.trouble-img {
 		width: 15%;
@@ -721,6 +722,7 @@ footer li a:hover{
 		display: none;
 	}
 	.trouble h4 {
+		font-size: 0.9rem;
 		font-weight: 300;
 	}
 }
@@ -872,6 +874,7 @@ footer li a:hover{
 }
 .function-enterprise-list {
 	width: 33.33%;
+	background: #fff;
 }
 .function-enterprise-img {
 	max-width: 64px;
@@ -889,6 +892,7 @@ footer li a:hover{
 }
 .price-enterprise-box {
 	width: 50%;
+	background: #fff;
 }
 .price-enterprise-box li p {
 	width: 50%;
