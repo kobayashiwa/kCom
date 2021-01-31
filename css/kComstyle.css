@@ -180,6 +180,9 @@ main {
 	left: 1.5rem;
 	transition:200ms ease all;	
 }
+.attention {
+	color: #E44C6F;
+}
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
