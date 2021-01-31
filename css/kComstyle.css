@@ -819,6 +819,7 @@ footer li a:hover{
 .bnr {
 	background: #E9446A;
 	max-width: 800px;
+	margin: 0 auto;
 }
 .bnr-text {
 	color:  #fff;
@@ -970,13 +971,17 @@ footer li a:hover{
 /** price-enterprise **/
 .price-enterprise {
 }
-.price-enterprise-box-wrap {
-	width: 50%;
-	padding: 0.75rem;
+.price-enterprise-wrap {
+	justify-content: center;
 }
-.price-enterprise-box {
+.price-enterprise-box-wrap {
+	width: 45%;
+	margin: 0.75rem;
+	padding: 2rem;
 	background: #fff;
 	border-radius: 1rem;
+}
+.price-enterprise-box {
 }
 .price-other h3 {
 	background: #46555F;
