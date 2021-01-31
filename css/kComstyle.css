@@ -675,6 +675,12 @@ footer li a:hover{
 	color: #46555F;
 	margin-bottom: 1.5rem;
 }
+.trouble-img {
+	width: 20%;
+}
+.trouble-text {
+	width: 80%;
+}
 .trouble h3 {
 	font-size: 1.3rem;
 }
@@ -706,6 +712,9 @@ footer li a:hover{
 }
 .bnr {
 	background: #E9446A;
+}
+.bnr-text {
+	color:  #fff;
 }
 
 /** case-top **/
