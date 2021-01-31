@@ -742,7 +742,7 @@ footer li a:hover{
 }
 .function-smb-list-wrap {
 	width: 50%;
-	padding: 0 0.75rem;
+	padding: 0.75rem;
 }
 .function-smb-list {
 	background: #fff;
@@ -763,12 +763,20 @@ footer li a:hover{
 }
 .function-smb h3 {
 	background: #058DC7;
+	border-radius: 1rem 1rem 0 1rem;
+	padding: 0.5rem 1.5rem;
 	color: #fff;
 	width: max-content;
 	position: relative;
 	top: 1rem;
 	left: -1rem;
-
+	font-size: 0.9rem;
+}
+.function-smb h3 span {
+	font-size: 1.5rem;
+	display: inline-block;
+	padding-right: 0.5rem;
+	font-weight: 300;
 }
 .function-smb h4 {
 	font-size: 1.1rem;
