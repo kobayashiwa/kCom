@@ -683,6 +683,7 @@ footer li a:hover{
 }
 .trouble-text {
 	width: 80%;
+	padding: 2rem 2rem 2rem 0.5rem;
 }
 .trouble h3 {
 	font-size: 1.3rem;
