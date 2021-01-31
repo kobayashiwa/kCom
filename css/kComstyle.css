@@ -674,6 +674,7 @@ footer li a:hover{
 	background: #fff;
 	color: #46555F;
 	margin-bottom: 1.5rem;
+	align-items: center;
 }
 .trouble-img {
 	width: 20%;
