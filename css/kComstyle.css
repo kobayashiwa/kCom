@@ -191,7 +191,7 @@ main {
 		margin-bottom: 1.5rem;
 	}
 	.heading h2 {
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 	}
 	.arrow {
 		height: 32px;
@@ -604,6 +604,20 @@ footer li a:hover{
 @media (max-width: 700px) {
 	.feature-smb-list {
 		flex-direction: column;
+		width: 100%;
+		padding: 0 5%;	
+	}
+	.feature-smb-text {
+		width: 100%;
+		padding-left: 0;
+	}
+	.feature-smb-img {
+		width: 100%;
+		margin-bottom: 0.8rem;
+	}
+	.feature-smb h3 {
+		font-size: 1.2rem;
+		padding-bottom: 0.5rem;
 	}
 }
 
