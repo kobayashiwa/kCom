@@ -672,12 +672,14 @@ footer li a:hover{
 .trouble-list {
 	max-width: 800px;
 	background: #fff;
+	border-radius: 3rem 3rem 3rem 0px;
 	color: #46555F;
 	margin-bottom: 1.5rem;
 	align-items: center;
 }
 .trouble-img {
 	width: 20%;
+	text-align: center;
 }
 .trouble-text {
 	width: 80%;
