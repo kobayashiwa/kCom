@@ -672,6 +672,11 @@ footer li a:hover{
 	background: #46555F;
 	color: #fff;
 }
+.trouble p {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
 .trouble-list {
 	max-width: 800px;
 	background: #fff;
@@ -893,6 +898,10 @@ footer li a:hover{
 .price-enterprise-box {
 	width: 50%;
 	background: #fff;
+}
+.price-other h3 {
+	background: #46555F;
+	color: #fff;
 }
 .price-enterprise-box li p {
 	width: 50%;
