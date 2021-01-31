@@ -756,6 +756,7 @@ footer li a:hover{
 }
 .function-smb-img {
 	width: 168px;
+	position: relative;
 }
 .function-smb-img img {
 	width: 100%;
@@ -764,6 +765,10 @@ footer li a:hover{
 	background: #058DC7;
 	color: #fff;
 	width: max-content;
+	position: relative;
+	top: 1rem;
+	left: -1rem;
+
 }
 .function-smb h4 {
 	font-size: 1.1rem;
