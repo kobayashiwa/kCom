@@ -142,6 +142,44 @@ main {
 .heading p {
 	text-align: center;
 }
+.btn-more-blk {
+	text-align: center;
+	transition:200ms ease all;
+}
+.btn-more-blk a {
+	display: inline-block;
+	padding: 1rem 2.5rem;
+	color: #1a1a1a;
+	border: 1px solid #1a1a1a;
+	border-radius: 4px;
+	font-size: 0.8rem;
+	font-weight: 700;
+	transition:200ms ease all;
+}
+.btn-more-blk a:hover {
+	background: #1a1a1a;
+	color: #fff;
+	border: 1px solid #1a1a1a;
+	transition:200ms ease all;
+}
+.btn-more-blk a::after {
+	content: url(../images/btn-arrow-blk.svg);
+	display: inline-block;
+	width: 11px;
+	height: 15px;
+	position: relative;
+	left: 1rem;
+	transition:200ms ease all;
+}
+.btn-more-blk a:hover::after {
+	content: url(../images/btn-arrow-white.svg);
+	display: inline-block;
+	width: 11px;
+	height: 15px;
+	position: relative;
+	left: 1.5rem;
+	transition:200ms ease all;	
+}
 @media (max-width: 1000px) {
 	main {
 		padding-top: 71px;
@@ -191,13 +229,17 @@ main {
 		margin-bottom: 1.5rem;
 	}
 	.heading h2 {
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 	}
 	.arrow {
 		height: 32px;
 	}
 	.arrow img {
 		height: 100%;
+	}
+	.btn-more-blk a {
+		padding: 0.8rem 2rem;
+		font-weight: 300;
 	}
 }
 
@@ -604,6 +646,20 @@ footer li a:hover{
 @media (max-width: 700px) {
 	.feature-smb-list {
 		flex-direction: column;
+		width: 100%;
+		padding: 0 5%;	
+	}
+	.feature-smb-text {
+		width: 100%;
+		padding-left: 0;
+	}
+	.feature-smb-img {
+		width: 100%;
+		margin-bottom: 0.8rem;
+	}
+	.feature-smb h3 {
+		font-size: 1.2rem;
+		padding-bottom: 0.5rem;
 	}
 }
 
@@ -614,8 +670,10 @@ footer li a:hover{
 	color: #fff;
 }
 .trouble-list {
+	max-width: 800px;
 	background: #fff;
 	color: #46555F;
+	margin-bottom: 1.5rem;
 }
 .trouble h3 {
 	font-size: 1.3rem;
