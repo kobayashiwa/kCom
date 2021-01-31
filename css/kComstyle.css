@@ -751,6 +751,7 @@ footer li a:hover{
 }
 .function-smb-text {
 	width: calc(100% - 168px);
+	padding-left: 1.5rem;
 }
 .function-smb-img {
 	width: 168px;
@@ -909,8 +910,11 @@ footer li a:hover{
 /** price-enterprise **/
 .price-enterprise {
 }
-.price-enterprise-box {
+.price-enterprise-box-wrap {
 	width: 50%;
+	padding: 0.75rem;
+}
+.price-enterprise-box {
 	background: #fff;
 }
 .price-other h3 {
