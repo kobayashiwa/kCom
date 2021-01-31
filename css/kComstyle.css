@@ -670,6 +670,7 @@ footer li a:hover{
 	color: #fff;
 }
 .trouble-list {
+	max-width: 800px;
 	background: #fff;
 	color: #46555F;
 }
