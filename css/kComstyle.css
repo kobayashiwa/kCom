@@ -748,6 +748,7 @@ footer li a:hover{
 	background: #fff;
 	padding: 1.5rem 2rem;
 	border-radius: 1rem;
+	align-items: center;
 }
 .function-smb-text {
 	width: calc(100% - 168px);
@@ -763,6 +764,14 @@ footer li a:hover{
 	background: #058DC7;
 	color: #fff;
 	width: max-content;
+}
+.function-smb h4 {
+	font-size: 1.1rem;
+	padding-bottom: 0.2rem;
+}
+.function-smb-text p {
+	font-size: 0.9rem;
+	line-height: 160%;
 }
 
 /** btnWrap **/
