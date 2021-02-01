@@ -901,14 +901,15 @@ footer li a:hover{
 .benefits-top {
 }
 .benefits-wrap {
-	max-width: 720px;
-	margin: 0 auto;
+	max-width: 630px;
+	margin: -1.5rem auto 0 auto;
 }
 .benefits-wrap li {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1.5rem 0;
 	border-bottom: 1px solid #E4E7EB;
+	flex-wrap: nowrap;
 }
 .benefits-text {
 	width: 50%;
@@ -919,12 +920,31 @@ footer li a:hover{
 .benefits-img img {
 	width: 100%;
 }
+.benefits-wrap h3 br {
+	display: none;
+}
 .benefits-wrap h4 {
 	color: #E9446A;
 	font-size: 1.5rem;
+	text-align: right;
 }
 .benefits-wrap h4 span {
 	font-size: 3rem;
+}
+@media (max-width: 700px) {
+	.benefits-wrap h3 {
+		font-size: 0.9rem;
+	}
+	.benefits-wrap h3 br {
+		display: block;
+	}
+	.benefits-wrap h4 {
+		color: #E9446A;
+		font-size: 0.8rem;
+	}
+	.benefits-wrap h4 span {
+		font-size: 2rem;
+	}
 }
 
 
