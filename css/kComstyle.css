@@ -904,6 +904,12 @@ footer li a:hover{
 	max-width: 720px;
 	margin: 0 auto;
 }
+.benefits-wrap li {
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem 0;
+	border-bottom: 1px solid #E4E7EB;
+}
 .benefits-text {
 	width: 50%;
 }
@@ -915,6 +921,10 @@ footer li a:hover{
 }
 .benefits-wrap h4 {
 	color: #E9446A;
+	font-size: 1.5rem;
+}
+.benefits-wrap h4 span {
+	font-size: 3rem;
 }
 
 
