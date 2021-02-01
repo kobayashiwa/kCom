@@ -822,13 +822,14 @@ footer li a:hover{
 	margin: 0 auto;
 	border-radius: 1rem;
 	padding: 1.5rem 3rem;
+	align-items: center;
 }
 .bnr-icon {
 	width: 20%;
 	padding-right: 1rem;
 }
 .bnr-icon img {
-	width: 100%;
+	width: 60%;
 }
 .bnr-text {
 	width: 80%;
