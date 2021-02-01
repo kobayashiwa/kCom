@@ -889,7 +889,7 @@ footer li a:hover{
 		right: 1.5rem;
 	}
 	.bnr:hover::after {
-		right: 10rem;
+		right: 1rem;
 	}
 }
 
@@ -914,6 +914,9 @@ footer li a:hover{
 .benefits-text {
 	width: 50%;
 }
+.benefits-text h3 {
+	text-align: right;
+}
 .benefits-img {
 	width: 50%;
 }
@@ -931,7 +934,16 @@ footer li a:hover{
 .benefits-wrap h4 span {
 	font-size: 3rem;
 }
+.note {
+	max-width: 630px;
+	margin: 0 auto;
+	font-size: 0.75rem;
+	margin-top: 1.5rem;
+}
 @media (max-width: 700px) {
+	.benefits-wrap li {
+		padding: 1rem 0;
+	}
 	.benefits-wrap h3 {
 		font-size: 0.9rem;
 	}
@@ -950,6 +962,10 @@ footer li a:hover{
 
 /** faq-top **/
 .faq-top {
+}
+.faq-wrap {
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 /** price-smb **/
