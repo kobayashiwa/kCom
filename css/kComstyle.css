@@ -814,7 +814,11 @@ footer li a:hover{
 }
 
 /** btnWrap **/
-.btnWrap {
+.btnWrap .switch-link {
+	text-align: center;
+}
+.btnWrap .switch-link a{
+	color: #E9446A;
 }
 .bnr {
 	background: #E9446A;
@@ -858,7 +862,8 @@ footer li a:hover{
 	transition:200ms ease all;
 }
 .bnr:hover {
-	transform: scale(1.05,1.05);
+	background: #e75577;
+	transform: scale(1.02,1.02);
 }
 .bnr:hover::after {
 	right: 2.5rem;
@@ -969,6 +974,9 @@ footer li a:hover{
 	margin: -1rem auto 0 auto;
 	padding: 0 1rem;
 }
+.faq-wrap li {
+	border-bottom: 1px solid #E4E7EB;
+}
 .faq-wrap h3 {
 	font-size: 1rem;
 	position: relative;
@@ -987,9 +995,9 @@ footer li a:hover{
 	position: relative;
 	padding-left: 1.7rem;
 	padding-bottom: 1.5rem;
-	border-bottom: 1px solid #E4E7EB;
+	
 }
-.faq-wrap .answer:last-child {
+.faq-wrap li:last-child {
 	border-bottom: none;
 }
 .faq-wrap .answer::before {
@@ -1007,7 +1015,9 @@ footer li a:hover{
 	.faq-wrap .answer {
 		font-size: 0.9rem;
 		padding-bottom: 1rem;
-		border-bottom: 1px solid #E4E7EB;
+	}
+	.faq-wrap li:last-child {
+		border-bottom: none;
 	}
 }
 
