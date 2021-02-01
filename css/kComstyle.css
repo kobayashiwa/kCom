@@ -825,6 +825,7 @@ footer li a:hover{
 	padding: 2rem 3rem;
 	align-items: center;
 	position: relative;
+	transition:200ms ease all;
 }
 .bnr-icon {
 	width: 20%;
@@ -855,44 +856,11 @@ footer li a:hover{
 	transform: translate(0, -50%);
 	transition:200ms ease all;
 }
-
-
-
-
-.btn-top a {
-	display: inline-block;
-	padding: 1rem 2.5rem;
-	color: #fff;
-	background: #E44C6F;
-	border: 1px solid #E44C6F;
-	border-radius: 4px;
-	font-size: 0.8rem;
-	font-weight: 700;
-	transition:200ms ease all;
+.bnr:hover {
+	transform: scale(1.05,1.05);
 }
-.btn-top a:hover {
-	background: #fff;
-	color: #E44C6F;
-	border: 1px solid #E44C6F;
-	transition:200ms ease all;
-}
-.btn-top a::after {
-	content: url(../images/btn-arrow-white.svg);
-	display: inline-block;
-	width: 11px;
-	height: 15px;
-	position: relative;
-	left: 1rem;
-	transition:200ms ease all;
-}
-.btn-top a:hover::after {
-	content: url(../images/btn-arrow-color.svg);
-	display: inline-block;
-	width: 11px;
-	height: 15px;
-	position: relative;
-	left: 1.5rem;
-	transition:200ms ease all;	
+.bnr:hover::after {
+	right: 2.5rem;
 }
 
 /** case-top **/
@@ -901,6 +869,9 @@ footer li a:hover{
 
 /** benefits-top **/
 .benefits-top {
+}
+.benefits-wrap {
+	max-width: 720px;
 }
 .benefits-text {
 	width: 50%;
