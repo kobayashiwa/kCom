@@ -903,6 +903,7 @@ footer li a:hover{
 .benefits-wrap {
 	max-width: 630px;
 	margin: -1.5rem auto 0 auto;
+	padding: 0 1rem;
 }
 .benefits-wrap li {
 	justify-content: space-between;
@@ -964,8 +965,50 @@ footer li a:hover{
 .faq-top {
 }
 .faq-wrap {
-	max-width: 800px;
-	margin: 0 auto;
+	max-width: 720px;
+	margin: -1rem auto 0 auto;
+	padding: 0 1rem;
+}
+.faq-wrap h3 {
+	font-size: 1rem;
+	position: relative;
+	padding-left: 1.7rem;
+	margin: 1.5rem 0 1rem 0;
+}
+.faq-wrap h3::before {
+	content: "Q.";
+	position: absolute;
+	font-size: 1.15rem;
+	top: 0;
+	left: 0;
+}
+.faq-wrap .answer {
+	font-size: 1rem;
+	position: relative;
+	padding-left: 1.7rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid #E4E7EB;
+}
+.faq-wrap .answer:last-child {
+	border-bottom: none;
+}
+.faq-wrap .answer::before {
+	content: "A.";
+	position: absolute;
+	font-size: 1.15rem;
+	top: 0;
+	left: 0;
+}
+@media (max-width: 700px) {
+	.faq-wrap h3 {
+		font-size: 1rem;
+		margin: 1rem 0 0.6rem 0;
+	}
+	.faq-wrap .answer {
+		font-size: 0.9rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid #E4E7EB;
+	}
 }
 
 /** price-smb **/
