@@ -841,6 +841,7 @@ footer li a:hover{
 .bnr-heading {
 	font-size: 1.5rem;
 	font-weight: 700;
+	padding-bottom: 0.4rem;
 }
 .bnr-lead {
 	font-size: 0.8rem;
@@ -862,6 +863,35 @@ footer li a:hover{
 .bnr:hover::after {
 	right: 2.5rem;
 }
+@media (max-width: 700px) {
+	.bnr {
+		padding: 1.5rem 2rem;
+		border-radius: 0.75rem;
+	}
+	.bnr-icon {
+		display: none;
+	}
+	.bnr-text {
+		width: 85%;
+	}
+	.bnr-heading {
+		font-size: 1.1rem;
+	}
+	.bnr-lead {
+		font-size: 0.75rem;
+		line-height: 150%;
+	}
+	.bnr-lead span {
+		display: none;
+	}
+	.bnr::after {
+		content: url(../images/btn-arrow-white.svg);
+		right: 1.5rem;
+	}
+	.bnr:hover::after {
+		right: 10rem;
+	}
+}
 
 /** case-top **/
 .case-top {
@@ -872,6 +902,7 @@ footer li a:hover{
 }
 .benefits-wrap {
 	max-width: 720px;
+	margin: 0 auto;
 }
 .benefits-text {
 	width: 50%;
