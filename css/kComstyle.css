@@ -1200,6 +1200,9 @@ footer li a:hover{
 /** function-enterprise **/
 .function-enterprise {
 }
+.function-enterprise .container {
+	max-width: 1200px;
+}
 .function-enterprise-wrap {
 	justify-content: center;
 }
