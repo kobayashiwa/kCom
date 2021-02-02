@@ -1223,6 +1223,9 @@ footer li a:hover{
 }
 .function-enterprise-img {
 	max-width: 64px;
+}
+.function-enterprise-img img {
+	max-width: 64px;
 	width: 100%;
 }
 .function-enterprise-text {
@@ -1240,6 +1243,17 @@ footer li a:hover{
 @media (max-width: 1000px) {
 	.function-enterprise-list-wrap {
 		width: 45%;
+		margin: 0.3rem;
+	}
+	.function-enterprise h3 br {
+		display: none;
+	}
+	.function-enterprise-img {
+		max-width: 56px;
+	}
+	.function-enterprise-text {
+		width: calc(100% - 56px);
+		padding-left: 1rem;
 	}
 }
 
