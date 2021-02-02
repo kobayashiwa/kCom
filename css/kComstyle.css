@@ -1226,6 +1226,10 @@ footer li a:hover{
 .function-enterprise h3 {
 	font-size: 1rem;
 }
+.function-enterprise h4 {
+	font-size: 0.9rem;
+	font-weight: 300;
+}
 @media (max-width: 1000px) {
 	.function-enterprise-list-wrap {
 		width: 45%;
