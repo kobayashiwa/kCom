@@ -1024,8 +1024,52 @@ footer li a:hover{
 /** price-smb **/
 .price-smb {
 }
+.price-smb .container{
+	padding: 2rem 0 0 0;
+}
+.price-smb-wrap {
+	max-width: 630px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
 .price-smb h3 {
 	font-size: 1.5rem;
+	text-align: center;
+	color: #E9446A;
+}
+.price-smb h3 span {
+	font-size: 5rem;
+	letter-spacing: -0.1rem;
+	display: inline-block;
+	padding: 0 0.5rem;
+}
+.price-smb-wrap p {
+	font-size: 0.8rem;
+	font-weight: 700;
+	margin: 0.5rem 0;
+}
+.price-smb-wrap .note {
+	font-size: 0.75rem;
+	font-weight: 300;
+}
+@media (max-width: 1000px) {
+	.price-smb h2 {
+		font-size: 1.5rem;
+	}
+	.price-smb h3 {
+		font-size: 1rem;
+	}
+	.price-smb h3 span {
+		font-size: 4rem;
+	}
+}
+@media (max-width: 700px) {
+	.price-smb h2 {
+		font-size: 1.2rem;
+	}
+	.price-smb h3 span {
+		font-size: 3rem;
+	}
 }
 
 /** head-enterprise **/
@@ -1105,9 +1149,6 @@ footer li a:hover{
 	background: #F5F7F8;
 	border-radius: 1rem;
 }
-.feature-enterprise-list {
-	
-}
 .feature-enterprise-img {
 	max-width: 388px;
 	width: 100%;
@@ -1117,10 +1158,50 @@ footer li a:hover{
 }
 .feature-enterprise h3 {
 	font-size: 1.2rem;
+	padding-bottom: 1rem;
+}
+.feature-enterprise-list p {
+	font-size: 0.9rem;
+	padding-top: 1rem;
+}
+@media (max-width: 1000px) {
+	.feature-enterprise h3 {
+		padding-bottom: 0.8rem;
+	}
+	.feature-enterprise h3 br {
+		display: none;
+	}
+	.feature-enterprise-list p {
+		padding-top: 0.8rem;
+		line-height: 160%;
+	}
+}
+@media (max-width: 700px){
+	.feature-enterprise h2 br {
+		display: none;
+	}
+	.feature-enterprise-list {
+		flex-direction: column;
+	}
+	.feature-enterprise-list-wrap {
+		width: 100%;
+		text-align: center;
+		padding: 1.5rem;
+		margin: 0.5rem 0;
+	}
+	.feature-enterprise-img {
+		margin: 0 auto;
+	}
+	.feature-enterprise h3 br {
+		display: block;
+	}
 }
 
 /** function-enterprise **/
 .function-enterprise {
+}
+.function-enterprise-wrap {
+	justify-content: center;
 }
 .function-enterprise-list-wrap {
 	width: 30%;
@@ -1129,7 +1210,7 @@ footer li a:hover{
 	background: #fff;
 }
 .function-enterprise-list {
-	padding: 1rem 2rem;	
+	padding: 1rem 2rem 1rem 1.5rem;	
 }
 .function-enterprise-img {
 	max-width: 64px;
@@ -1137,9 +1218,15 @@ footer li a:hover{
 }
 .function-enterprise-text {
 	width: calc(100% - 64px);
+	padding-left: 1rem;
 }
 .function-enterprise h3 {
 	font-size: 1rem;
+}
+@media (max-width: 1000px) {
+	.function-enterprise-list-wrap {
+		width: 45%;
+	}
 }
 
 /** price-enterprise **/
