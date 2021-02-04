@@ -29,7 +29,7 @@
                 <li><a class="nav-link" href="price/price_enterprise.html">価格</a></li>
                 <li><a class="link-store" href="index.html">10店舗以下の店舗さま</a></li>
                 <li><a class="btn-login" href="https://biz.kutikomi.com/users/sign_in" target="_blank">ログイン</a></li>
-                <li><a class="btn-head" href="contact/contact.html">お問い合わせ</a></li>
+                <li><a class="btn-head" href="enterprise.html#contact-form-section">お問い合わせ</a></li>
               </ul>
             </nav>
         </header>
@@ -251,21 +251,21 @@
             <!-- function-enterprise -->
 
             <!-- btnWrap -->
-            <section class="btnWrap">
-              <div class="container">
-                <div class="bnr">
-                  <a href="#">
-                    <div class="bnr-img"><img src="###"></div>
+          <section class="btnWrap">
+            <div class="container">
+              <a href="#contact-form-section">
+                <div class="bnr flex">
+                  <div class="bnr-cover"><img src="images/bnr-cover.png"></div>
                     <div class="bnr-text">
                       <p class="bnr-heading">導入の検討・ご相談はこちら</p>
-                      <p>11店舗以上の多店舗経営のチェーン店さまは、こちらからお問い合わせください。弊社担当より、ご連絡させていただきます。</p>
+                      <p class="bnr-lead">11店舗以上の多店舗経営のチェーン店さまは、こちらからお問い合わせください。<span>弊社担当より、ご連絡させていただきます。</span></p>
                     </div>
-                    <div class="bnr-arrow"><img src="###"></div>
-                  </a>
-                </div>
-              </div>
-            </section>
-            <!-- btnWrap -->
+                  </div>
+                </a>
+                <p class="switch-link line-4"><a href="index.html">10店舗以下の店舗さまはこちら</a></p>
+            </div>
+          </section>
+          <!-- btnWrap -->
 
             <!-- case-top -->
           <section class="case-top gray">
@@ -348,20 +348,20 @@
                                 <h3>サービス別に契約すると...</h3>
                                 <ul>
                                     <li class="flex">
-                                        <p class="left">Googleマイビジネスの管理ツール</p>
-                                        <p class="right">200,000円／月額</p>
+                                        <p class="left">Googleマイビジネスの<br>管理ツール</p>
+                                        <p class="right">200,000円<br>／月額</p>
                                     </li>
                                     <li class="flex">
                                         <p class="left">NPS®調査ツール</p>
-                                        <p class="right">100,000円／月額</p>
+                                        <p class="right">100,000円<br>／月額</p>
                                     </li>
                                     <li class="flex">
                                         <p class="left">アンケート調査ツール</p>
-                                        <p class="right">100,000円／月額</p>
+                                        <p class="right">100,000円<br>／月額</p>
                                     </li>
                                     <li class="total flex">
                                         <p class="left">合計</p>
-                                        <p class="right"><span>400,000円／月額</span>（20店舗の場合）</p>
+                                        <p class="right">400,000円／月額<span>（20店舗の場合）</span></p>
                                     </li>
                                 </ul>
                             </div>
@@ -370,13 +370,13 @@
                             <div class="price-enterprise-box price-kcom">
                                 <h3>口コミコムを使えば</h3>
                                 <ul>
-                                    <li class="flex">
-                                        <p class="left">まとめてできて、1ヶ月あたり</p>
-                                        <p class="right"><span>4,000</span>円／店舗</p>
+                                    <li class="flex kcom-price">
+                                        <p class="left">まとめてできて、<br>1ヶ月あたり</p>
+                                        <p class="right"><span>4,000</span>円<br>／店舗</p>
                                     </li>
                                     <li class="total flex">
                                         <p class="left">合計</p>
-                                        <p class="right"><span>80,000円／月額</span>（20店舗の場合）</p>
+                                        <p class="right">80,000円／月額<span>（20店舗の場合）</span></p>
                                     </li>
                                 </ul>
                                 <h4>月間で<span>320,000</span>円もお得！</h4>
@@ -388,22 +388,56 @@
             </section>
             <!-- price-enterprise -->
 
-            <!-- btnWrap -->
-            <section class="btnWrap">
+            <!-- contact -->
+            <section id="contact-form-section" class="gray">
                 <div class="container">
-                  <div class="bnr">
-                    <a href="#">
-                      <div class="bnr-img"><img src="###"></div>
-                      <div class="bnr-text">
-                        <p class="bnr-heading">導入の検討・ご相談はこちら</p>
-                        <p>11店舗以上の多店舗経営のチェーン店さまは、こちらからお問い合わせください。弊社担当より、ご連絡させていただきます。</p>
-                      </div>
-                      <div class="bnr-arrow"><img src="###"></div>
-                    </a>
-                  </div>
+                    <div class="heading">
+                        <h2>お問い合わせはこちら</h2>
+                        <p>店舗数が多い場合にはまずは一度ご連絡ください。</p>
+                        <div class="arrow item" data-aos="fade-down" data-aos-delay="300"><img src="images/arrow-heading.svg"></div>
+                    </div>
+                    <div id="formWrapper">
+                        <form class="" action="https://docs.google.com/forms/u/3/d/e/1FAIpQLScDBSToQzR2jStQF_yA-cvMQ3GfdayBSN2xyK8xHBYMqjHZMA/formResponse" method="post" name="myForm" target="dummyIframe">
+                            <div>
+                                <label for="CompanyName">会社名</label>
+                                <input type="text" id="CompanyName" name="entry.1159373385" placeholder="会社名を入力してください" required>
+                            </div>
+                            <div>
+                                <label for="UserName">お名前</label>
+                                <input type="text" id="UserName" name="entry.585981000" placeholder="お名前を入力してください" required>
+                            </div>
+                            <div>
+                                <label for="email">メールアドレス</label>
+                                <input type="email" id="email" name="entry.1256016132" placeholder="メールアドレスを入力してください"  required>
+                            </div>
+                            <div>
+                                <label for="email">電話番号</label>
+                                <input type="tel" id="tel" name="entry.1280571130" placeholder="電話番号を入力してください" required>
+                            </div>
+                            <div class="radio">
+                                <label for="store">店舗数</label>
+                                <div class="flex">
+                                    <input type="radio" class="radio-input" name="entry.2132510867" value="10 〜 30店舗" id="store10" required><label for="store10">10 〜 30店舗</label>
+                                    <input type="radio" class="radio-input" name="entry.2132510867" value="30 〜 50店舗" id="store30" required><label for="store30">30 〜 50店舗</label>
+                                    <input type="radio" class="radio-input" name="entry.2132510867" value="50店舗以上" id="store50" required><label for="store50">50店舗以上</label>
+                                </div>
+                            </div>
+                            <div>
+                              <label for="content">お問い合わせ内容</label>
+                              <textarea id="content" name="entry.478542307" placeholder="お気軽にお問い合わせください" required></textarea>
+                            </div>
+                            <div class="submit">
+                                <button class="button btn enterpriseSubmit" type="submit" onclick="submitForm()">送信する</button>
+                            </div>
+                        </form>
+                          <iframe name="dummyIframe" style="display:none;"></iframe>
+                    </div>
+                    <div id="thxMessage" style="display:none;">
+                        <p>お問い合わせありがとうございました。<br>近日中に弊社担当よりご連絡させていただきます。<br>回答まで今しばらくお待ちください。</p>
+                    </div>
                 </div>
-              </section>
-              <!-- btnWrap -->
+            </section>
+            <!-- contact -->
 
             </main>
             <!-- main -->
