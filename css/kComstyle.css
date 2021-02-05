@@ -584,6 +584,7 @@ footer li a:hover{
 .logo-list li {
 	width: 25%;
 	padding: 0 1.5rem;
+	display: flex;
 }
 .logo-list li img {
 	width: 100%;
