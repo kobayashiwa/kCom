@@ -1605,7 +1605,7 @@ form .btn {
 #case article {
 	max-width: 1080px;
 	width: 85vw;
-	margin: 0 auto;
+	margin: -60px auto 0 auto;
 }
 .profile {
 	width:  240px;
