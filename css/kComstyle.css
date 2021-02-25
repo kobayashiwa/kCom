@@ -1567,6 +1567,9 @@ form .btn {
 	#contact-form-section .container {
 		padding: 2rem 0;
 	}
+	#contact-form-section .heading {
+		margin-bottom: 0;
+	}
 	#contact-form-section .heading-tit {
 		font-size: 0.8rem;
 	}
