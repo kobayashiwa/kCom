@@ -1372,6 +1372,9 @@ li.kcom-price p span{
 }
 
 /** contact-form-section **/
+#contact-form-section .container {
+	max-width: 800px;
+}
 #contact-form-section form {
 	max-width: 720px;
 	margin: -40px auto 0 auto;
@@ -1551,6 +1554,11 @@ form .btn {
 		flex-direction: column;
 		align-items: flex-start;
 	}
+}
+
+/** case **/
+#case {
+	background-color: #000;
 }
 
 /** about **/
