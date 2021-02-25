@@ -1376,6 +1376,9 @@ li.kcom-price p span{
 	max-width: 800px;
 	padding: 4rem 0;
 }
+#contact-form-section .heading-tit {
+	font-size: 2.5rem;
+}
 #contact-form-section form {
 	max-width: 720px;
 	margin: -40px auto 0 auto;
@@ -1560,6 +1563,9 @@ form .btn {
 /** case **/
 .case-top {
 	background: hsl(214, 97%, 23%, 0.1);
+}
+#case article {
+	background: hsl(214, 97%, 23%, 0.2);
 }
 
 
