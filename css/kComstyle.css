@@ -1589,6 +1589,7 @@ form .btn {
 	background: hsl(214, 97%, 23%, 0.4);
 }
 .case-cover {
+	margin: 0 auto;
 	max-width: 1080px;
 }
 .case-cover img {
