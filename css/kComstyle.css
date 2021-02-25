@@ -1385,6 +1385,10 @@ li.kcom-price p span{
 	max-width: 720px;
 	margin: -40px auto 0 auto;
 }
+#contact-form-section h1 {
+	font-size: 1.5rem;
+	text-align: left;
+}
 input, button, textarea, select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
