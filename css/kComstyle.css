@@ -1607,11 +1607,18 @@ form .btn {
 	width: 85vw;
 	margin: 0 auto;
 }
-.interview {
-}
 .profile {
+	width:  240px;
 	background: hsl(214, 97%, 23%, 0.3);
 }
+.interview {
+	margin-right: 56px;
+  width: calc(100% - 296px);
+}
+.inner-interview {
+	width: 100%;
+}
+
 
 
 /** about **/
