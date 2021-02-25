@@ -1596,10 +1596,16 @@ form .btn {
 	background-image: url(../images/case-pizza-cover.png);
 	background-size: cover;
 }
+.case-cover span {
+	display: none;
+}
 .case-cover img {
 	width: 100%;
 }
 #case article {
+	max-width: 1080px;
+	width: 85vw;
+	margin: 0 auto;
 }
 .interview {
 }
