@@ -1388,6 +1388,7 @@ li.kcom-price p span{
 #contact-form-section h1 {
 	font-size: 1.5rem;
 	text-align: left;
+	margin-bottom: 1rem;
 }
 input, button, textarea, select {
 	-webkit-appearance: none;
@@ -1574,6 +1575,9 @@ form .btn {
 }
 .interview {
 	background: hsl(214, 97%, 23%, 0.2);
+}
+.profile {
+	background: hsl(214, 97%, 23%, 0.3);
 }
 
 
