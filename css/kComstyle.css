@@ -1564,6 +1564,9 @@ form .btn {
 	box-shadow: none;
 }
 @media (max-width: 700px) {
+	#contact-form-section .container {
+		padding: 2rem 0;
+	}
 	#contact-form-section form {
 		padding: 8px;
 	}
@@ -1580,7 +1583,6 @@ form .btn {
 #case article {
 }
 .interview {
-	background: hsl(214, 97%, 23%, 0.2);
 }
 .profile {
 	background: hsl(214, 97%, 23%, 0.3);
