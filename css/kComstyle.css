@@ -1618,6 +1618,9 @@ form .btn {
 	height: 120px;
 	background: #fff;
 }
+.profile-logo img {
+	width: 100%;
+}
 .interview {
 	margin-right: 56px;
 	width: calc(100% - 296px);
