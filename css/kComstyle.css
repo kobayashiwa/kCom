@@ -1612,6 +1612,11 @@ form .btn {
 	background: hsl(214, 97%, 23%, 0.3);
 	margin-top: -60px;
 }
+.profile-logo {
+	width: 120px;
+	height: 120px;
+	background: #fff;
+}
 .interview {
 	margin-right: 56px;
 	width: calc(100% - 296px);
