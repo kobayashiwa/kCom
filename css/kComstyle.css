@@ -1588,6 +1588,12 @@ form .btn {
 	height: 480px;
 	background: hsl(214, 97%, 23%, 0.4);
 }
+.case-cover {
+	max-width: 1080px;
+}
+.case-cover img {
+	width: 100%;
+}
 #case article {
 }
 .interview {
