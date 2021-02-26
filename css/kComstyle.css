@@ -1735,11 +1735,27 @@ form .btn {
 	}
 	.profile {
 		width:  100%;
+		margin-top: -50px;
 	}
 	.profile-logo {
 		margin: 0 0 1.5rem 0;
 		width: 100px;
 		height: 100px;
+	}
+	.profile-data {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.profile-data dl {
+		width: 50%;
+	}
+	.interviewee {
+		padding-top: 1rem;
+		width: 50%;
+		border-bottom: 1px solid #E4E7EB;
+	}
+	.profile dl dt {
+		padding-bottom: 0.5rem;
 	}
 	.interview {
 		width: 100%;
