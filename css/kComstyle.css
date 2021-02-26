@@ -1633,12 +1633,14 @@ form .btn {
 .profile dl dd {
 	width: 70%;
 }
+.interviewee {
+	width:  100%;
+	height:  600px;
+	background: hsl(214, 97%, 23%, 0.4);
+}
 .interview {
 	margin-right: 56px;
 	width: calc(100% - 296px);
-}
-.inner-interview {
-	width: 100%;
 }
 #case figure img {
 	width: 100%;
