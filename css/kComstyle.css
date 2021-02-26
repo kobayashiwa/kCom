@@ -1724,6 +1724,12 @@ form .btn {
 	article {
 		flex-direction: column-reverse;
 	}
+	.profile {
+		width:  100%;
+	}
+	.interview {
+		width: 100%;
+	}
 }
 @media (max-width: 700px) {
 	.case-top {
