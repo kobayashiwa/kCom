@@ -1676,10 +1676,11 @@ form .btn {
 #case .company-name::before {
 	border-top: 1px solid #1a1a1a;
 	content: "";
-	width: 2rem;
-	margin-right: 1rem; 
+	width: 1.5rem;
+	margin-right: 0.5rem; 
 }
 #case .case_description {
+	margin: 1.5rem 0 2rem 0;
 	background: #fff;
 	border: 1px solid #E4E7EB;
 }
