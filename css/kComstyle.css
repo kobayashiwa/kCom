@@ -1649,6 +1649,9 @@ form .btn {
 	font-size: 0.75rem;
 	font-weight: 700;
 }
+.interviewee-name span {
+	font-size: 1rem;
+}
 .interview {
 	margin-right: 56px;
 	width: calc(100% - 296px);
