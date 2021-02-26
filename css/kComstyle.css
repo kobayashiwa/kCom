@@ -1682,7 +1682,7 @@ form .btn {
 	margin-right: 0.5rem; 
 }
 #case .case_description {
-	margin: 1.5rem 0 2rem 0;
+	margin: 1.5rem 0 3rem 0;
 	padding: 1.5rem 2rem;
 	background: #fff;
 	border: 1px solid #E4E7EB;
@@ -1693,11 +1693,18 @@ form .btn {
 	width: 100%;
 }
 #case h2 {
+	margin: 0 0 1.5rem 0;
+	padding: 0.2rem 0 0 1.2rem;
+	border-left: 4px solid #E9446A;
 	font-size: 1.5rem;
 }
 @media (max-width: 1000px) {
 	.case-top {
 		background-image: none;
+		height: 400px;
+	}
+	.case-cover {
+		height: 400px;
 	}
 }
 
