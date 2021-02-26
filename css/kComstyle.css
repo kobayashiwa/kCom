@@ -1681,6 +1681,7 @@ form .btn {
 }
 #case .case_description {
 	background: #fff;
+	border: 1px solid #E4E7EB;
 }
 #case figure img {
 	width: 100%;
