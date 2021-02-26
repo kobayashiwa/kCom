@@ -1635,6 +1635,7 @@ form .btn {
 .interviewee {
 	width:  100%;
 	border-top: 1px solid #E4E7EB;
+	padding-top: 1.5rem;
 }
 .interviewee-thum {
 	width: 80px;
