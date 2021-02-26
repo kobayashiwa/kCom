@@ -1653,7 +1653,7 @@ form .btn {
 	font-size: 1rem;
 }
 .interview {
-	margin-right: 56px;
+	margin: 2rem 3.5rem 0 0;
 	width: calc(100% - 296px);
 }
 #case h1 {
