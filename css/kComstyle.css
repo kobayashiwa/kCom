@@ -1627,6 +1627,7 @@ form .btn {
 }
 .profile dl dt {
 	width: 30%;
+	padding-bottom: 0.75rem;
 }
 .profile dl dd {
 	width: 70%;
