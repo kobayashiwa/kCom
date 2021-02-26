@@ -1707,6 +1707,14 @@ form .btn {
 		height: 400px;
 	}
 }
+@media (max-width: 700px) {
+	.case-top {
+		height: 240px;
+	}
+	.case-cover {
+		height: 240px;
+	}
+}
 
 
 
