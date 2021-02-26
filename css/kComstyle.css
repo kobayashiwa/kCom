@@ -1653,7 +1653,7 @@ form .btn {
 	font-size: 1rem;
 }
 .interview {
-	margin: 6rem 3.5rem 0 0;
+	margin: 5rem 3.5rem 0 0;
 	width: calc(100% - 296px);
 }
 #case h1 {
@@ -1664,8 +1664,10 @@ form .btn {
 	content: url(../images/case-h1.svg);
 	display: inline-block;
 	position: absolute;
-	top: -4rem;
-
+	top: -3.5rem;
+}
+#case .company-name {
+	margin-top: 1rem;
 }
 #case figure img {
 	width: 100%;
