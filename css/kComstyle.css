@@ -1621,6 +1621,9 @@ form .btn {
 .profile-logo img {
 	width: 100%;
 }
+.profile dl {
+	font-size: 0.75rem;
+}
 .interview {
 	margin-right: 56px;
 	width: calc(100% - 296px);
