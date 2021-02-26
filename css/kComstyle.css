@@ -1639,9 +1639,10 @@ form .btn {
 }
 .interviewee-thum {
 	width: 80px;
-	height: 60px;
 	margin-right: 20px;
-	background: hsl(214, 97%, 23%, 0.5);
+}
+.interviewee-thum img {
+	width: 100%;
 }
 .interviewee-name {
 	width: 140px;
