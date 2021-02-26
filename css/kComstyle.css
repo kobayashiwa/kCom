@@ -1594,7 +1594,7 @@ form .btn {
 	margin: 0 auto;
 	max-width: 1080px;
 	height: 480px;
-	background-image: url(../images/case-pizza-cover.png);
+	background-image: url(../images/case-pizza-cover.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -1712,6 +1712,7 @@ form .btn {
 	font-size: 1rem;
 	display: flex;
 	align-items: center; 
+	line-height: 150%;
 }
 #case h3::before {
 	border-top: 1px solid #1a1a1a;
@@ -1767,10 +1768,66 @@ form .btn {
 }
 @media (max-width: 700px) {
 	.case-top {
-		height: 240px;
+		height: 200px;
 	}
 	.case-cover {
-		height: 240px;
+		height: 200px;
+	}
+	.profile-logo {
+		margin: 0 auto 1rem auto;
+		width: 100px;
+		height: 100px;
+	}
+	.profile-data {
+		flex-direction: column;
+	}
+	.profile-data dl {
+		width: 100%;
+	}
+	.profile dl dt {
+		padding-bottom: 0.3rem;
+	}
+	.interviewee {
+		padding-top: 1rem;
+		width: 100%;
+		border-bottom: none;
+	}
+	.interviewee-thum {
+		display: none;
+	}
+	.interviewee-name {
+		width: 100%;
+	}
+	.interview {
+		margin: 3rem 3.5rem 0 0;
+	}
+	#case h1 {
+		font-size: 1.5rem;
+	}
+	#case h1::before{
+		top: -2rem;
+	}
+	#case h2 {
+		margin: 0 0 2rem 0;
+		font-size: 1.2rem;
+	}
+	#case .case_description {
+		margin: 1rem 0 2rem 0;
+		padding: 1.5rem;
+		font-size: 0.9rem;
+		font-weight: 300;
+	}
+	.interview p {
+		margin-bottom: 1.5rem;
+		line-height: 180%;
+	}
+	#case figure {
+		margin: 0 auto 1rem auto;
+		width: 100%;
+	}
+	#case figcaption {
+		padding: 0.5rem 0;
+		text-align: left;
 	}
 }
 
