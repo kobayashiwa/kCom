@@ -1696,6 +1696,11 @@ form .btn {
 #case figure img {
 	width: 100%;
 }
+#case figcaption {
+	padding: 1rem 0;
+	font-size: 0.75rem;
+	text-align: center;
+}
 #case h2 {
 	margin: 0 0 2.5rem 0;
 	padding: 0.2rem 0 0 1.2rem;
