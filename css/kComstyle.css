@@ -1659,6 +1659,10 @@ form .btn {
 #case h1 {
 	font-size: 2rem;
 }
+#case h1::before{
+	content: url(../images/case-h1.svg);
+	display: inline-block;
+}
 #case figure img {
 	width: 100%;
 }
