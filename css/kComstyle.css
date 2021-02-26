@@ -1669,6 +1669,7 @@ form .btn {
 #case .company-name {
 	margin-top: 1rem;
 	font-weight: 700;
+	font-size: 0.75rem;
 	display: flex;
 	align-items: center; 
 }
