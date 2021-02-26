@@ -1646,7 +1646,7 @@ form .btn {
 }
 .interviewee-name {
 	width: 140px;
-	background: hsl(214, 97%, 23%, 0.6);
+	font-weight: 700;
 }
 .interview {
 	margin-right: 56px;
