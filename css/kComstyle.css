@@ -1635,7 +1635,16 @@ form .btn {
 .interviewee {
 	width:  100%;
 	border-top: 1px solid #E4E7EB;
-	background: hsl(214, 97%, 23%, 0.4);
+}
+.interviewee-thum {
+	width: 50%;
+	height: 60px;
+	background: hsl(214, 97%, 23%, 0.5);
+}
+.interviewee-name {
+	width: 50%;
+	height: 60px;
+	background: hsl(214, 97%, 23%, 0.6);
 }
 .interview {
 	margin-right: 56px;
