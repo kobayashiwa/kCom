@@ -1689,6 +1689,10 @@ form .btn {
 	font-size: 0.9rem;
 	font-weight: 700;
 }
+#case figure {
+	margin: 0 auto 2rem auto;
+	width: 90%;
+}
 #case figure img {
 	width: 100%;
 }
@@ -1726,6 +1730,11 @@ form .btn {
 	}
 	.profile {
 		width:  100%;
+	}
+	.profile-logo {
+		margin: 0 0 1.5rem 0;
+		width: 100px;
+		height: 100px;
 	}
 	.interview {
 		width: 100%;
