@@ -1692,6 +1692,9 @@ form .btn {
 #case figure img {
 	width: 100%;
 }
+#case h2 {
+	font-size: 1.5rem;
+}
 @media (max-width: 1000px) {
 	.case-top {
 		background-image: none;
