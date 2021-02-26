@@ -1710,6 +1710,9 @@ form .btn {
 	width: 1.5rem;
 	margin-right: 0.5rem; 
 }
+.interview p {
+	margin-bottom: 2rem;
+}
 @media (max-width: 1000px) {
 	.case-top {
 		background-image: none;
