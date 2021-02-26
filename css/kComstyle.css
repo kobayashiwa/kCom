@@ -1669,6 +1669,14 @@ form .btn {
 #case .company-name {
 	margin-top: 1rem;
 	font-weight: 700;
+	display: flex;
+	align-items: center; 
+}
+#case .company-name::before {
+	border-top: 1px solid #1a1a1a;
+	content: "";
+	width: 2rem;
+	margin-right: 1rem; 
 }
 #case figure img {
 	width: 100%;
