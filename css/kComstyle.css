@@ -1681,6 +1681,7 @@ form .btn {
 }
 #case .case_description {
 	margin: 1.5rem 0 2rem 0;
+	padding: 1.5rem 2rem;
 	background: #fff;
 	border: 1px solid #E4E7EB;
 	font-size: 0.9rem;
