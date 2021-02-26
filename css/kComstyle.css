@@ -1653,15 +1653,19 @@ form .btn {
 	font-size: 1rem;
 }
 .interview {
-	margin: 2rem 3.5rem 0 0;
+	margin: 6rem 3.5rem 0 0;
 	width: calc(100% - 296px);
 }
 #case h1 {
 	font-size: 2rem;
+	position: relative;
 }
 #case h1::before{
 	content: url(../images/case-h1.svg);
 	display: inline-block;
+	position: absolute;
+	top: -4rem;
+
 }
 #case figure img {
 	width: 100%;
