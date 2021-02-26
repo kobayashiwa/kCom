@@ -1722,6 +1722,10 @@ form .btn {
 .interview p {
 	margin-bottom: 2rem;
 }
+.interview-note {
+	font-size: 0.75rem;
+	color: rgba(26, 26, 26, 0.6);
+}
 @media (max-width: 1000px) {
 	.case-top {
 		background-image: none;
