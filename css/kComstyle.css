@@ -1624,6 +1624,7 @@ form .btn {
 .profile dl {
 	font-size: 0.75rem;
 	font-weight: 700;
+	margin-bottom: 0.75rem;
 }
 .profile dl dt {
 	width: 30%;
