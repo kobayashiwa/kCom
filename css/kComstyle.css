@@ -1642,7 +1642,7 @@ form .btn {
 	background: hsl(214, 97%, 23%, 0.5);
 }
 .interviewee-name {
-	width: 50%;
+	width: 140px;
 	height: 60px;
 	background: hsl(214, 97%, 23%, 0.6);
 }
