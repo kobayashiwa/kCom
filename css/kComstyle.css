@@ -1613,7 +1613,7 @@ form .btn {
 	margin-top: -60px;
 }
 .profile-logo {
-	margin: 0 auto;
+	margin: 0 auto 1.5rem auto;
 	width: 120px;
 	height: 120px;
 	background: #fff;
