@@ -1625,6 +1625,12 @@ form .btn {
 	font-size: 0.75rem;
 	font-weight: 700;
 }
+.profile dl dt {
+	width: 30%;
+}
+.profile dl dd {
+	width: 70%;
+}
 .interview {
 	margin-right: 56px;
 	width: calc(100% - 296px);
