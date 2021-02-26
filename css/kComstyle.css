@@ -1588,6 +1588,7 @@ form .btn {
 	height: 480px;
 	background-image: url(../images/case-pizza-cover-bg.png);
 	background-size: cover;
+	background-position: center;
 }
 .case-cover {
 	margin: 0 auto;
@@ -1595,6 +1596,7 @@ form .btn {
 	height: 480px;
 	background-image: url(../images/case-pizza-cover.png);
 	background-size: cover;
+	background-position: center;
 }
 .case-cover span {
 	display: none;
