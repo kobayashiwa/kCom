@@ -1942,6 +1942,10 @@ form .btn {
 .case-index .heading p {
 	text-align: left;
 }
+.case-list {
+	background: #111111;
+	height: 100px;
+}
 
 
 /** about **/
