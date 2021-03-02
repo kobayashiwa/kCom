@@ -1683,6 +1683,9 @@ form .btn {
 #case .cover-pizzahut {
 	background-image: url(../images/case-pizza-cover.jpg);
 }
+#case .back-regina {
+	background-image: url(../images/case-regina-cover-bg.png);
+}
 #case .case-cover span {
 	display: none;
 }
