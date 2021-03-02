@@ -1925,6 +1925,12 @@ form .btn {
 	}
 }
 
+/** case-index **/
+.case-index {
+	background-color: #101010;
+	height: 100px;
+}
+
 
 
 /** about **/
