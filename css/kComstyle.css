@@ -1927,7 +1927,7 @@ form .btn {
 
 /** case-index **/
 .case-index .heading {
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 .case-index .heading-tit {
 	font-size: 2.5rem;
@@ -1943,8 +1943,15 @@ form .btn {
 	text-align: left;
 }
 .case-list {
-	background: #111111;
+}
+.case-content {
+	width: 33.33%;
+	padding: 0 1.5rem 1.5rem 0;
+}
+.case-content-detail {
+	width: 100%;
 	height: 100px;
+	background: #131313;
 }
 
 
