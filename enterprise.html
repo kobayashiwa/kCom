@@ -29,7 +29,7 @@
                 <li><a class="nav-link" href="price/price_enterprise.html">価格</a></li>
                 <li><a class="link-store" href="index.html">10店舗以下の店舗さま</a></li>
                 <li><a class="btn-login" href="https://biz.kutikomi.com/users/sign_in" target="_blank">ログイン</a></li>
-                <li><a class="btn-head" href="enterprise.html#contact-form-section">お問い合わせ</a></li>
+                <li><a class="btn-head" href="contact/contact.html">お問い合わせ</a></li>
               </ul>
             </nav>
         </header>
@@ -63,23 +63,23 @@
             <!-- introduction -->
 
             <!-- logoWrap -->
-            <section class="logoWrap">
-              <div class="container">
-                <div class="heading">
-                  <h2>ご利用店舗数<span>7,000</span>店舗以上</h2>
-                  <h3>お客様の声を大切にする企業さまにご利用されています。</h3>
-                </div>
-                <div class="logo-list">
-                  <ul class="flex">
-                    <li><img src="images/pizzahut.png" alt="ピザハット"></li>
-                    <li><img src="images/subway.png" alt="サブウェイ"></li>
-                    <li><img src="images/keihan.png" alt="京阪"></li>
-                    <li><img src="images/regina.png" alt="レジーナクリニック"></li>
-                  </ul>
-                </div>
+          <section class="logoWrap">
+            <div class="container">
+              <div class="heading">
+                <h2>ご利用店舗数<span>7,000</span>店舗以上</h2>
+                <h3>お客様の声を大切にする企業さまにご利用されています。</h3>
               </div>
-            </section>
-            <!-- logoWrap -->
+              <div class="logo-list">
+                <ul class="flex">
+                    <li><img src="images/pizzahut.svg" alt="ピザハット"></li>
+                    <li><img src="images/yomiuri.svg" alt="よみうりランド"></li>
+                    <li><img src="images/regina.svg" alt="レジーナクリニック"></li>
+                    <li><img src="images/loft.svg" alt="LOFT"></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <!-- logoWrap -->
 
             <!-- movie-kcom -->
             <section class="movie-kcom gray">
@@ -253,7 +253,7 @@
             <!-- btnWrap -->
           <section class="btnWrap">
             <div class="container">
-              <a href="#contact-form-section">
+              <a href="contact/contact.html">
                 <div class="bnr flex">
                   <div class="bnr-cover"><img src="images/bnr-cover.png"></div>
                     <div class="bnr-text">
@@ -388,56 +388,22 @@
             </section>
             <!-- price-enterprise -->
 
-            <!-- contact -->
-            <section id="contact-form-section" class="gray">
-                <div class="container">
-                    <div class="heading">
-                        <h2>お問い合わせはこちら</h2>
-                        <p>店舗数が多い場合にはまずは一度ご連絡ください。</p>
-                        <div class="arrow item" data-aos="fade-down" data-aos-delay="300"><img src="images/arrow-heading.svg"></div>
+            <!-- btnWrap -->
+          <section class="btnWrap">
+            <div class="container">
+              <a href="contact/contact.html">
+                <div class="bnr flex">
+                  <div class="bnr-cover"><img src="images/bnr-cover.png"></div>
+                    <div class="bnr-text">
+                      <p class="bnr-heading">導入の検討・ご相談はこちら</p>
+                      <p class="bnr-lead">11店舗以上の多店舗経営のチェーン店さまは、こちらからお問い合わせください。<span>弊社担当より、ご連絡させていただきます。</span></p>
                     </div>
-                    <div id="formWrapper">
-                        <form class="" action="https://docs.google.com/forms/u/3/d/e/1FAIpQLScDBSToQzR2jStQF_yA-cvMQ3GfdayBSN2xyK8xHBYMqjHZMA/formResponse" method="post" name="myForm" target="dummyIframe">
-                            <div>
-                                <label for="CompanyName">会社名</label>
-                                <input type="text" id="CompanyName" name="entry.1159373385" placeholder="会社名を入力してください" required>
-                            </div>
-                            <div>
-                                <label for="UserName">お名前</label>
-                                <input type="text" id="UserName" name="entry.585981000" placeholder="お名前を入力してください" required>
-                            </div>
-                            <div>
-                                <label for="email">メールアドレス</label>
-                                <input type="email" id="email" name="entry.1256016132" placeholder="メールアドレスを入力してください"  required>
-                            </div>
-                            <div>
-                                <label for="email">電話番号</label>
-                                <input type="tel" id="tel" name="entry.1280571130" placeholder="電話番号を入力してください" required>
-                            </div>
-                            <div class="radio">
-                                <label for="store">店舗数</label>
-                                <div class="flex">
-                                    <input type="radio" class="radio-input" name="entry.2132510867" value="10 〜 30店舗" id="store10" required><label for="store10">10 〜 30店舗</label>
-                                    <input type="radio" class="radio-input" name="entry.2132510867" value="30 〜 50店舗" id="store30" required><label for="store30">30 〜 50店舗</label>
-                                    <input type="radio" class="radio-input" name="entry.2132510867" value="50店舗以上" id="store50" required><label for="store50">50店舗以上</label>
-                                </div>
-                            </div>
-                            <div>
-                              <label for="content">お問い合わせ内容</label>
-                              <textarea id="content" name="entry.478542307" placeholder="お気軽にお問い合わせください" required></textarea>
-                            </div>
-                            <div class="submit">
-                                <button class="button btn enterpriseSubmit" type="submit" onclick="submitForm()">送信する</button>
-                            </div>
-                        </form>
-                          <iframe name="dummyIframe" style="display:none;"></iframe>
-                    </div>
-                    <div id="thxMessage" style="display:none;">
-                        <p>お問い合わせありがとうございました。<br>近日中に弊社担当よりご連絡させていただきます。<br>回答まで今しばらくお待ちください。</p>
-                    </div>
-                </div>
-            </section>
-            <!-- contact -->
+                  </div>
+                </a>
+                <p class="switch-link line-4"><a href="index.html">10店舗以下の店舗さまはこちら</a></p>
+            </div>
+          </section>
+          <!-- btnWrap -->
 
             </main>
             <!-- main -->
@@ -484,50 +450,6 @@ if ($(this).hasClass("active")) {
 });
 });
 </script>
-
-<script>
-    function submitForm(){
-        var val=document.getElementsByName("entry.1159373385")[0];
-         if (val.value.length == 0) {
-           alert("会社名が入力されていません");
-           val.focus();
-            return;
-            }
-            var val=document.getElementsByName("entry.585981000")[0];
-         if (val.value.length == 0) {
-           alert("お名前が入力されていません");
-           val.focus();
-            return;
-            }
-            var val=document.getElementsByName("entry.1256016132")[0];
-         if (val.value.length == 0) {
-           alert("メールアドレスが入力されていません");
-           val.focus();
-            return;
-            }
-            var val=document.getElementsByName("entry.1280571130")[0];
-         if (val.value.length == 0) {
-           alert("電話番号が入力されていません");
-           val.focus();
-            return;
-            }
-            var val=document.getElementsByName("entry.2132510867")[0];
-         if (val.value.length == 0) {
-           alert("店舗数を選択してください");
-           val.focus();
-            return;
-            }
-            var val=document.getElementsByName("entry.478542307")[0];
-         if (val.value.length == 0) {
-           alert("お問い合わせ内容が入力されていません");
-           val.focus();
-            return;
-            }
-        document.myForm.submit();
-        document.getElementById('formWrapper').style.display = 'none';
-        document.getElementById('thxMessage').style.display = 'block';
-      }
- </script>
 
 </body>
 

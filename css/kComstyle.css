@@ -584,6 +584,7 @@ footer li a:hover{
 .logo-list li {
 	width: 25%;
 	padding: 0 1.5rem;
+	display: flex;
 }
 .logo-list li img {
 	width: 100%;
@@ -1371,9 +1372,29 @@ li.kcom-price p span{
 }
 
 /** contact-form-section **/
+#contact-form-section .container {
+	max-width: 800px;
+	padding: 4rem 0;
+}
+#contact-form-section .heading {
+	margin-bottom: 3rem;
+}
+#contact-form-section .heading-tit {
+	font-size: 2.5rem;
+	font-weight: 700;
+	text-align: left;
+}
+#contact-form-section .heading p {
+	text-align: left;
+}
 #contact-form-section form {
-	max-width: 720px;
-	margin: -40px auto 0 auto;
+	max-width: 800px;
+	margin: 0 auto;
+}
+#contact-form-section h1 {
+	font-size: 1.5rem;
+	text-align: left;
+	margin-bottom: 1rem;
 }
 input, button, textarea, select {
 	-webkit-appearance: none;
@@ -1543,6 +1564,15 @@ form .btn {
 	box-shadow: none;
 }
 @media (max-width: 700px) {
+	#contact-form-section .container {
+		padding: 2rem 0;
+	}
+	#contact-form-section .heading {
+		margin-bottom: 0;
+	}
+	#contact-form-section .heading-tit {
+		font-size: 0.8rem;
+	}
 	#contact-form-section form {
 		padding: 8px;
 	}
@@ -1551,6 +1581,257 @@ form .btn {
 		align-items: flex-start;
 	}
 }
+
+/** case **/
+.case-top {
+	width: 100%;
+	height: 480px;
+	background-image: url(../images/case-pizza-cover-bg.png);
+	background-size: cover;
+	background-position: center;
+}
+.case-cover {
+	margin: 0 auto;
+	max-width: 1080px;
+	height: 480px;
+	background-image: url(../images/case-pizza-cover.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.case-cover span {
+	display: none;
+}
+.case-cover img {
+	width: 100%;
+}
+#case article {
+	max-width: 1080px;
+	width: 85vw;
+	margin: 0 auto;
+}
+.profile {
+	width:  240px;
+	margin-top: -60px;
+}
+.profile-logo {
+	margin: 0 auto 1.5rem auto;
+	width: 120px;
+	height: 120px;
+	background: #fff;
+}
+.profile-logo img {
+	width: 100%;
+}
+.profile dl {
+	font-size: 0.75rem;
+	font-weight: 700;
+	margin-bottom: 0.75rem;
+}
+.profile dl dt {
+	width: 30%;
+	padding-bottom: 0.75rem;
+}
+.profile dl dd {
+	width: 70%;
+}
+.interviewee {
+	width:  100%;
+	border-top: 1px solid #E4E7EB;
+	padding-top: 1.5rem;
+}
+.interviewee-thum {
+	width: 80px;
+	margin-right: 20px;
+}
+.interviewee-thum img {
+	width: 100%;
+}
+.interviewee-name {
+	width: 140px;
+	font-size: 0.75rem;
+	font-weight: 700;
+}
+.interviewee-name span {
+	font-size: 1rem;
+}
+.interview {
+	margin: 5rem 3.5rem 0 0;
+	width: calc(100% - 296px);
+}
+#case h1 {
+	font-size: 2rem;
+	position: relative;
+}
+#case h1::before{
+	content: url(../images/case-h1.svg);
+	display: inline-block;
+	position: absolute;
+	top: -3rem;
+}
+#case .company-name {
+	margin-top: 1rem;
+	font-weight: 700;
+	font-size: 0.75rem;
+	display: flex;
+	align-items: center; 
+}
+#case .company-name::before {
+	border-top: 1px solid #1a1a1a;
+	content: "";
+	width: 1.5rem;
+	margin-right: 0.5rem; 
+}
+#case .case_description {
+	margin: 1.5rem 0 3rem 0;
+	padding: 1.5rem 2rem;
+	background: #fff;
+	border: 1px solid #E4E7EB;
+	font-size: 0.9rem;
+	font-weight: 700;
+}
+#case figure {
+	margin: 0 auto 2rem auto;
+	width: 90%;
+}
+#case figure img {
+	width: 100%;
+}
+#case figcaption {
+	padding: 1rem 0;
+	font-size: 0.75rem;
+	text-align: center;
+}
+#case h2 {
+	margin: 0 0 2.5rem 0;
+	padding: 0.2rem 0 0 1.2rem;
+	border-left: 4px solid #E9446A;
+	font-size: 1.5rem;
+}
+#case h3 {
+	margin: 0 0 1rem 0;
+	font-size: 1rem;
+	display: flex;
+	align-items: center; 
+	line-height: 150%;
+}
+#case h3::before {
+	border-top: 1px solid #1a1a1a;
+	content: "";
+	width: 1.5rem;
+	margin-right: 0.5rem; 
+}
+.interview p {
+	margin-bottom: 2rem;
+}
+.interview-note {
+	font-size: 0.75rem;
+	color: rgba(26, 26, 26, 0.6);
+}
+@media (max-width: 1000px) {
+	.case-top {
+		background-image: none;
+		height: 400px;
+	}
+	.case-cover {
+		height: 400px;
+	}
+	article {
+		flex-direction: column-reverse;
+	}
+	.profile {
+		width:  100%;
+		margin-top: -50px;
+	}
+	.profile-logo {
+		margin: 0 0 1.5rem 0;
+		width: 100px;
+		height: 100px;
+	}
+	.profile-data {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.profile-data dl {
+		width: 50%;
+	}
+	.interviewee {
+		padding-top: 1rem;
+		width: 50%;
+		border-bottom: 1px solid #E4E7EB;
+	}
+	.profile dl dt {
+		padding-bottom: 0.5rem;
+	}
+	.interview {
+		width: 100%;
+	}
+}
+@media (max-width: 700px) {
+	.case-top {
+		height: 200px;
+	}
+	.case-cover {
+		height: 200px;
+	}
+	.profile-logo {
+		margin: 0 auto 1rem auto;
+		width: 100px;
+		height: 100px;
+	}
+	.profile-data {
+		flex-direction: column;
+	}
+	.profile-data dl {
+		width: 100%;
+	}
+	.profile dl dt {
+		padding-bottom: 0.3rem;
+	}
+	.interviewee {
+		padding-top: 1rem;
+		width: 100%;
+		border-bottom: none;
+	}
+	.interviewee-thum {
+		display: none;
+	}
+	.interviewee-name {
+		width: 100%;
+	}
+	.interview {
+		margin: 3rem 3.5rem 0 0;
+	}
+	#case h1 {
+		font-size: 1.5rem;
+	}
+	#case h1::before{
+		top: -2rem;
+	}
+	#case h2 {
+		margin: 0 0 2rem 0;
+		font-size: 1.2rem;
+	}
+	#case .case_description {
+		margin: 1rem 0 2rem 0;
+		padding: 1.5rem;
+		font-size: 0.9rem;
+		font-weight: 300;
+	}
+	.interview p {
+		margin-bottom: 1.5rem;
+		line-height: 180%;
+	}
+	#case figure {
+		margin: 0 auto 1rem auto;
+		width: 100%;
+	}
+	#case figcaption {
+		padding: 0.5rem 0;
+		text-align: left;
+	}
+}
+
+
 
 /** about **/
 #about {
