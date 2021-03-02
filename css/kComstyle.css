@@ -1926,10 +1926,22 @@ form .btn {
 }
 
 /** case-index **/
-.case-index {
-	height: 100px;
+.case-index .heading {
+	margin-bottom: 3rem;
 }
-
+.case-index .heading-tit {
+	font-size: 2.5rem;
+	font-weight: 700;
+	text-align: left;
+}
+.case-index h1 {
+	font-size: 1.5rem;
+	text-align: left;
+	margin-bottom: 1rem;
+}
+.case-index .heading p {
+	text-align: left;
+}
 
 
 /** about **/
