@@ -900,6 +900,87 @@ footer li a:hover{
 /** case-top **/
 .case-top {
 }
+.case-top-wrap {
+	position: relative;
+	margin-bottom: 2rem;
+}
+.case-top-wrap img {
+	width: 100%;
+}
+.case-top .profile-logo {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	max-width: 120px;
+	background: #fff;
+}
+.case-top .profile-logo img{
+	width: 100%;
+}
+.case-top-text {
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	color: #fff;
+}
+.case-top-text h3 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.case-top h4 {
+	margin-top: 1rem;
+	font-weight: 700;
+	font-size: 0.75rem;
+	display: flex;
+	align-items: center; 
+	margin-bottom: 2rem;
+}
+.case-top h4::before {
+	border-top: 1px solid #fff;
+	content: "";
+	width: 1.5rem;
+	margin-right: 0.5rem; 
+}
+@media (max-width: 1000px){
+	.case-top .profile-logo {
+		max-width: 80px;
+	}
+	.case-top-text {
+		top: 40%;
+		left: 5%;
+		color: #fff;
+	}
+	.case-top-text h3 {
+		font-size: 1.5rem;
+	}
+}
+@media (max-width: 700px) {
+	.case-top-text {
+		position: inherit;
+		top: 0;
+		left: 0;
+		color: #1a1a1a;
+	}
+	.case-top-text h3 {
+		font-size: 1rem;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+	.case-top h4 {
+		margin-top: 0.5rem;
+		font-weight: 700;
+		font-size: 0.75rem;
+		display: flex;
+		align-items: center; 
+		margin-bottom: 2rem;
+	}
+	.case-top h4::before {
+		border-top: 1px solid #1a1a1a;
+		content: "";
+		width: 1.5rem;
+		margin-right: 0.5rem; 
+	}
+}
 
 /** benefits-top **/
 .benefits-wrap {
@@ -1583,14 +1664,14 @@ form .btn {
 }
 
 /** case **/
-.case-top {
+#case .case-top {
 	width: 100%;
 	height: 480px;
 	background-image: url(../images/case-pizza-cover-bg.png);
 	background-size: cover;
 	background-position: center;
 }
-.case-cover {
+#case .case-cover {
 	margin: 0 auto;
 	max-width: 1080px;
 	height: 480px;
@@ -1598,10 +1679,10 @@ form .btn {
 	background-size: cover;
 	background-position: center;
 }
-.case-cover span {
+#case .case-cover span {
 	display: none;
 }
-.case-cover img {
+#case .case-cover img {
 	width: 100%;
 }
 #case article {
@@ -1609,52 +1690,52 @@ form .btn {
 	width: 85vw;
 	margin: 0 auto;
 }
-.profile {
+#case .profile {
 	width:  240px;
 	margin-top: -60px;
 }
-.profile-logo {
+#case .profile-logo {
 	margin: 0 auto 1.5rem auto;
 	width: 120px;
 	height: 120px;
 	background: #fff;
 }
-.profile-logo img {
+#case .profile-logo img {
 	width: 100%;
 }
-.profile dl {
+#case .profile dl {
 	font-size: 0.75rem;
 	font-weight: 700;
 	margin-bottom: 0.75rem;
 }
-.profile dl dt {
+#case .profile dl dt {
 	width: 30%;
 	padding-bottom: 0.75rem;
 }
 .profile dl dd {
 	width: 70%;
 }
-.interviewee {
+#case .interviewee {
 	width:  100%;
 	border-top: 1px solid #E4E7EB;
 	padding-top: 1.5rem;
 }
-.interviewee-thum {
+#case .interviewee-thum {
 	width: 80px;
 	margin-right: 20px;
 }
-.interviewee-thum img {
+#case .interviewee-thum img {
 	width: 100%;
 }
-.interviewee-name {
+#case .interviewee-name {
 	width: 140px;
 	font-size: 0.75rem;
 	font-weight: 700;
 }
-.interviewee-name span {
+#case .interviewee-name span {
 	font-size: 1rem;
 }
-.interview {
+#case .interview {
 	margin: 5rem 3.5rem 0 0;
 	width: calc(100% - 296px);
 }
@@ -1720,85 +1801,85 @@ form .btn {
 	width: 1.5rem;
 	margin-right: 0.5rem; 
 }
-.interview p {
+#case .interview p {
 	margin-bottom: 2rem;
 }
-.interview-note {
+#case .interview-note {
 	font-size: 0.75rem;
 	color: rgba(26, 26, 26, 0.6);
 }
 @media (max-width: 1000px) {
-	.case-top {
+	#case .case-top {
 		background-image: none;
 		height: 400px;
 	}
-	.case-cover {
+	#case .case-cover {
 		height: 400px;
 	}
-	article {
+	#case article {
 		flex-direction: column-reverse;
 	}
-	.profile {
+	#case .profile {
 		width:  100%;
 		margin-top: -50px;
 	}
-	.profile-logo {
+	#case .profile-logo {
 		margin: 0 0 1.5rem 0;
 		width: 100px;
 		height: 100px;
 	}
-	.profile-data {
+	#case .profile-data {
 		display: flex;
 		flex-wrap: wrap;
 	}
-	.profile-data dl {
+	#case .profile-data dl {
 		width: 50%;
 	}
-	.interviewee {
+	#case .interviewee {
 		padding-top: 1rem;
 		width: 50%;
 		border-bottom: 1px solid #E4E7EB;
 	}
-	.profile dl dt {
+	#case .profile dl dt {
 		padding-bottom: 0.5rem;
 	}
-	.interview {
+	#case .interview {
 		width: 100%;
 	}
 }
 @media (max-width: 700px) {
-	.case-top {
+	#case .case-top {
 		height: 200px;
 	}
-	.case-cover {
+	#case .case-cover {
 		height: 200px;
 	}
-	.profile-logo {
+	#case .profile-logo {
 		margin: 0 auto 1rem auto;
 		width: 100px;
 		height: 100px;
 	}
-	.profile-data {
+	#case .profile-data {
 		flex-direction: column;
 	}
-	.profile-data dl {
+	#case .profile-data dl {
 		width: 100%;
 	}
-	.profile dl dt {
+	#case .profile dl dt {
 		padding-bottom: 0.3rem;
 	}
-	.interviewee {
+	#case .interviewee {
 		padding-top: 1rem;
 		width: 100%;
 		border-bottom: none;
 	}
-	.interviewee-thum {
+	#case .interviewee-thum {
 		display: none;
 	}
-	.interviewee-name {
+	#case .interviewee-name {
 		width: 100%;
 	}
-	.interview {
+	#case .interview {
 		margin: 3rem 3.5rem 0 0;
 	}
 	#case h1 {
@@ -1817,7 +1898,7 @@ form .btn {
 		font-size: 0.9rem;
 		font-weight: 300;
 	}
-	.interview p {
+	#case .interview p {
 		margin-bottom: 1.5rem;
 		line-height: 180%;
 	}
