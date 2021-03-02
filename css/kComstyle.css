@@ -1686,6 +1686,9 @@ form .btn {
 #case .back-regina {
 	background-image: url(../images/case-regina-cover-bg.png);
 }
+#case .cover-regina {
+	background-image: url(../images/case-regina-cover.jpg);
+}
 #case .case-cover span {
 	display: none;
 }
