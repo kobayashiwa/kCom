@@ -1971,6 +1971,9 @@ form .btn {
 .case-content-text {
 	padding-top: 3rem;
 }
+.case-content-text h2 {
+	font-size: 1rem;
+}
 
 
 
