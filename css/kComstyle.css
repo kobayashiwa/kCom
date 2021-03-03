@@ -2005,30 +2005,29 @@ form .btn {
 /** about **/
 #about {
 	background: #f8f9f9;
-	padding: 80px 5% 40px;
 	font-weight: normal;
 	line-height: 180%;
 }
-#about .container {
-	max-width: 1160px;
-	padding: 80px 5%;
-}
 #about h1 {
-	font-size: 32px;
+	font-size: 2rem;
 	margin-bottom: 48px;
+	line-height: 150%;
+}
+#about h1 br {
+	display: none;
 }
 #about h2 {
-	font-size: 24px;
+	font-size: 1.5rem;
 	margin: 40px 0 12px 0;
 	padding: 0;
 }
 #about h3 {
-	font-size: 16px;
+	font-size: 1rem;
 	margin: 16px 0 12px 0;
 }
 #about .sign {
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 1rem;
 	text-align: right;
 }
 #about p {
@@ -2054,5 +2053,16 @@ form .btn {
 #about dd {
 	width: 70%;
 	padding-left: 32px;
+}
+@media (max-width: 700px) {
+	#about h1 {
+		font-size: 1.5rem;
+	}
+	#about h1 br {
+		display: block;
+	}
+	#about h2 {
+		font-size: 1.2rem;
+	}
 }
 
