@@ -1949,10 +1949,10 @@ form .btn {
 	padding: 0 1.5rem 3rem 0;
 }
 .case-content-detail {
-	position: relative;
 }
 .case-content-cover {
 	width: 100%;
+	position: relative;
 }
 .case-content-cover img {
 	width: 100%;
@@ -1962,7 +1962,7 @@ form .btn {
 	height: 80px;
 	background: #fff;
 	position: absolute;
-	top: 190px;
+	bottom: -40px;
 	left: 16px;
 }
 .case-content-logo img {
