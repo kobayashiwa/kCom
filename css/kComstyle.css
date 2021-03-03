@@ -1942,13 +1942,9 @@ form .btn {
 .case-index .heading p {
 	text-align: left;
 }
-.case-list {
-}
 .case-content {
 	width: 33.33%;
 	padding: 0 1.5rem 3rem 0;
-}
-.case-content-detail {
 }
 .case-content-cover {
 	width: 100%;
@@ -1987,6 +1983,15 @@ form .btn {
 	content: "";
 	width: 1rem;
 	margin-right: 0.5rem; 
+}
+@media (max-width: 700px) {
+	.case-list ul {
+		flex-direction: column;
+	}
+	.case-content {
+		width: 100%;
+		padding: 0 0 3rem 0;
+	}
 }
 
 
