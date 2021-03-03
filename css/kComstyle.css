@@ -1949,9 +1949,11 @@ form .btn {
 	padding: 0 1.5rem 1.5rem 0;
 }
 .case-content-detail {
+}
+.case-content-cover {
 	width: 100%;
 	height: 100px;
-	background: #131313;
+	background: #111;
 }
 
 
