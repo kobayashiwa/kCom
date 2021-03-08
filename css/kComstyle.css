@@ -1208,8 +1208,15 @@ footer li a:hover{
 }
 
 /** movie-kcom **/
-.movie-kcom {
+.movie {
+	text-align:center;
+	width: 560px;
+	height: 315px;
 }
+.movie img {
+	width: 100%;
+}
+
 
 /** feature-enterprise **/
 .feature-enterprise-wrap {
