@@ -507,7 +507,7 @@ if ($(this).hasClass("active")) {
       var id = url.match(/[\/?=]([a-zA-Z0-9_-]{11})[&\?]?/)[1];
       iframe.before('<img src="./images/Movie.png"/>').remove();
       $(this).on('click', function() {
-        $(this).after('<div class="youtube"><iframe src="https://www.youtube.com/embed/'+id+'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>').remove();
+        $(this).after('<div class="movie"><iframe src="https://www.youtube.com/embed/'+id+'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>').remove();
       });
     });
   });
