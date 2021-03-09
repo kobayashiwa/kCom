@@ -1209,7 +1209,7 @@ footer li a:hover{
 
 /** movie-kcom **/
 .movie {
-	text-align:center;
+	margin: 0 auto;
 	width: 560px;
 	height: 315px;
 }
