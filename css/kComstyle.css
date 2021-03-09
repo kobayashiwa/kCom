@@ -1209,12 +1209,45 @@ footer li a:hover{
 
 /** movie-kcom **/
 .movie {
-	text-align:center;
-	width: 560px;
-	height: 315px;
+	margin: 0 auto;
+	position:relative;
+	max-width: 720px;
+	max-height: 405px;
+	width:100%;
+	padding-top:40%;
 }
 .movie img {
-	width: 100%;
+	width:100%;
+}
+.player {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+}
+.thumb{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+}		
+.movie iframe{
+	position:absolute;
+	top: 0;
+	left: 0;
+	max-width: 720px;
+	max-height: 405px;
+	width:100% ;
+	height:100% ;
+	border-radius: 20px;
+}
+.movie video {
+	background: #F5F7F8;
+}
+@media (max-width: 1000px)  {
+	.movie {
+		padding-top:56.25%;
+	}
 }
 
 
