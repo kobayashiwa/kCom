@@ -1216,6 +1216,9 @@ footer li a:hover{
 .movie img {
 	width: 100%;
 }
+.movie iframe {
+	width: 100%;
+}
 
 
 /** feature-enterprise **/
