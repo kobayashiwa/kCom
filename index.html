@@ -81,6 +81,17 @@
           </section>
           <!-- logoWrap -->
 
+          <!-- movie-kcom -->
+          <section class="movie-kcom gray">
+            <div class="container">
+              <div class="movie">
+                <img src="./images/Movie.png" alt="" data-video="vKdiPcuWtZYWteY11MXC9A" class="thumb">
+                <div id="player1" class="player"></div>
+              </div>
+            </div>
+        </section>
+        <!-- movie-kcom -->
+
           <!-- feature-smb -->
           <section class="feature-smb gray">
             <div class="container">
@@ -419,6 +430,7 @@
 
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/aos.js"></script>
+        <script src="https://www.youtube.com/iframe_api"></script>
 
 <script>
     AOS.init({
@@ -443,6 +455,40 @@
     }
   });
 });
+    </script>
+
+<script>
+  //Mobile判定
+  var mobile = false;
+   var ua = navigator.userAgent;
+   if (ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 || ua.indexOf('iPad') > 0 || ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0) {
+     mobile = true;
+   }
+  //Play
+  function onPlayerReady(event) {
+    event.target.playVideo();
+  }
+  $('.thumb').click(function() {
+      //Youtube埋め込み
+      player = new YT.Player('player1', {
+        height: '100%',
+        width: '100%',
+        playerVars: {
+        autoplay: 1,//オートプレイ
+        rel: 0,//関連動画表示オフ
+        modestbranding:1,
+        showinfo:0,
+        playsinline: 0,
+        fs: 1
+        },
+        videoId: 'TzOBBwK9JNY',
+        events: {
+          'onReady': onPlayerReady,
+        }
+      });
+      //サムネイル非表示
+      $('.thumb').hide();
+    });
     </script>
 
 </body>
