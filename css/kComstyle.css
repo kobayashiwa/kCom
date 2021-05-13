@@ -1,3 +1,14 @@
+/*
+Theme Name: kComServiceSite
+Theme URl: テーマのURL
+Author: テーマの作成者
+Description: テーマの説明
+tags: テーマのタグ
+License: テーマのライセンス
+License URl: テーマのライセンスURL
+Version: バージョン
+*/
+
 /** base **/
 html {
 	scroll-behavior: smooth;
@@ -2135,7 +2146,226 @@ form .btn {
 	}
 }
 /** plan **/
-#plan ul.tab{
+
+/*///// frame ///*/
+
+  .inner{
+	max-width: 1024px;
+	margin:auto;
+  }
+  .tabcontent{
+	display: none;
+  }
+  .tabcontent.show{
+	display: block;
+  }
+  .title {
+	margin:1rem auto 4rem;
+	position: relative;
+	padding-bottom: 2.5rem;
+  }
+  .title h3{
+	font-size:2rem;
+	text-align: center;
+	position: relative;
+  }
+  .title:after{
+	content:"";
+	display: block;
+	width:66px;
+	height: 6px;
+	background: #e9446a;
+	position: absolute;
+	bottom:0;
+	left:50%;
+	transform: translateX(-50%);
+  }
+
+
+
+  
+
+
+  
+
+  
+
+
+
+
+  
+  #youtube{
+	text-align: center;
+  }
+  #area01 .inner{
+	position: relative;
+  }
+  #area01 .illustarea{
+	position: absolute;
+	right:0;
+	bottom:0;
+	max-width:300px;
+	padding: 0 3rem;
+	z-index: 9;
+  }
+  #area01 .fukidashi{
+	z-index: 11;
+	margin-right:280px;
+  }
+  ul.review{
+	padding-right:250px;
+	position: relative;
+	z-index: 10;
+  }
+  ul.review li p{
+	padding-left:70px;
+	margin:1.5rem 0;
+	font-size:1.286rem;
+	position: relative;
+  }
+  ul.review li p:before{
+	content:"";
+	display: inline-block;
+	width:62px;
+	height: 46px;
+	background:url(../img/human.png) no-repeat center center;
+	transform:translateY(-50%);
+	position: absolute;
+	left:0;
+	top:50%;
+  }
+  #area02 .flex{
+	display: flex;
+	align-items: center;
+  }
+  #area02 .illustarea{
+	width:280px;
+	padding:0 3rem;
+  }
+  #area02 .textarea {
+	width:calc(100% - 280px);
+  }
+  #area02 .textarea p{
+	font-size:1.286rem;
+  }
+  
+  
+  #area03 .textarea{
+	max-width: 700px;
+	margin:auto;
+  }
+  #area03 .imagearea{
+	position: relative;
+	padding-top:67%;
+	margin-bottom: -8%;
+  }
+  #area03 .imagearea img.ps01{
+	position: absolute;
+	left:0;
+	top:10%;
+	width:25%;
+  }
+  #area03 .imagearea img.ps02{
+	position: absolute;
+	right:0;
+	bottom:0;
+	width:86%;
+  }
+  #area04 .flex{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+  }
+  #area04 .illustarea{
+	width:27%;
+  }
+  #area04 .textarea{
+	width:70%;
+  }
+  #area04 .textarea .fukidashi{
+	margin:0 1em 0 1em;
+	padding:1.3em 2em;
+	border: 1px solid #B2B2B2;
+  }
+  #area04 .textarea .fukidashi:after{
+	background-image:url(../img/toge2.png);
+  }
+  ul.data{
+	font-weight: bold;
+  }
+  ul.data li{
+	display: flex;
+	margin:.3em 0;
+  }
+  ul.data li .ti{
+	display: block;
+	width:70%;
+  }
+  ul.data li .value{
+	display: block;
+	width:30%;
+	color: #e9446a;
+  }
+  ul.merite{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  ul.merite li{
+	width:33.333%;
+	padding:0rem 1.5rem;
+	margin:0rem 0 4em 0;
+	text-align: center;
+  }
+  ul.merite li .thumb{
+	padding:1em 1.5em;
+  }
+  ul.merite li dl dt{
+	font-size:1.429em;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	}
+  
+  ul.qa_list {
+	max-width: 865px;
+	margin:auto;
+  }
+  ul.qa_list li{
+	background:white;
+	border-radius:20px;
+	box-shadow: 0 3px 6px rgba(0,0,0,.16);
+	padding:2rem ;
+	margin:2rem 0;
+  }
+  ul.qa_list li dl dt{
+	font-size:1.286rem;
+	font-weight: bold;
+	padding-left:4rem;
+	position: relative;
+  }
+  ul.qa_list li dl dt:before{
+	content:"";
+	display: inline-block;
+	width:3rem;
+	height:3rem;
+	background:url(../img/icon-q.svg) no-repeat center center;
+	background-size:contain;
+	position: absolute;
+	left:0;
+	top:50%;
+	transform: translateY(-50%);
+  }
+  ul.qa_list li dl dd{
+	padding-left:4rem;
+  }
+  ul.qa_list li dl dd p{
+	font-size:1.143rem;
+	margin:1em 0;
+  }
+  ul.qa_list li dl dd p:nth-last-child(1){
+	margin-bottom: 0;
+  }
+  #plan ul.tab{
 	display: flex;
 	justify-content: center;
   }
@@ -2185,4 +2415,417 @@ form .btn {
   #plan table .normal{
 	font-weight: normal;
   }
+  #btmBtnarea a.mainbtn{
+	padding:1.8rem;
+  }
+  #end .price {
+	font-size:4.07rem;
+	text-align: center;
+	font-weight: bold;
+	margin:3.5rem auto;
+  }
+  #end .price .en{
+	font-size:1.7em;
+	margin:0 .15em;
+  }
+  #end .price .small{
+	font-size:0.7em;
+  }
+  #btmBtnarea a.mainbtn .flex{
+	display: flex;
+	align-items: center;
+  }
+  #btmBtnarea a.mainbtn .imagearea{
+	width:35%;
+  }
+  #btmBtnarea a.mainbtn .textarea{
+	width:65%;
+	font-size:3.07rem;
+  }
+  #btmBtnarea a.mainbtn .yellow{
+	font-size: 1.2em;
+	padding:0 .7em;
+	border-radius: .3em;
+  }
+  #btmBtnarea a.mainbtn p{
+	font-weight: bold;
+	font-size:.45em;
+	line-height: 1.6;
+  }
+  
+  /*////// footer ////////*/
+  #footer{
+   padding:2rem 0 5px ;
+   background:#F5F7F8;
+  }
+  #footer .co-name{
+	font-size:1.143rem;
+	position: relative;
+	padding-bottom:1em;
+  }
+  #footer .co-name:after{
+	content:"";
+	width:40px;
+	border-bottom:1px solid #707070;
+	position: absolute;
+	left:0;
+	bottom:0;
+  }
+  #footer .co-address{
+	font-size: 0.929rem;
+	padding-left:1em;
+  }
+  #footer .copyright{
+	position: relative;
+	margin:1rem auto;
+  }
+  #footer .copyright p{
+	font-size:0.857rem;
+  }
 
+
+  
+@media screen and (max-width:1024px){
+	html{
+	  line-height: 1.6;
+	}
+   
+   .inner{
+	 padding:0 4%;
+   }
+   #keyvisual .inner{
+	 padding:0;
+   }
+   /*/////////////////////////////*/
+   
+   ul.data{
+	 font-size:1.7rem;
+   }
+	 /*//////// 1024 ///////////*/
+   }
+   
+   @media screen and (max-width:769px){
+	 .sp{
+	   display: block;
+	 }
+	 .pc{
+	   display: none;
+	 }
+	 .brsp{
+	   display: inline;
+	 }
+	 .visible768{
+	   display: block;
+	 }
+	 .hidden768{
+	   display: none;
+	 }
+   
+	 /*//////////////////////////*/
+	 .content{
+	   margin:2rem 0;
+	   padding:2rem 0 3rem;
+	   overflow: hidden;
+	 }
+	 .fukidashi{
+	   font-size:1.5rem;
+	 }
+	 .fukidashi:after{
+	   top:40%;
+	 }
+	 .title h3{
+	   font-size:1.5rem;
+	 }
+	 .title.hane{
+	   margin-bottom: 2rem;
+	 }
+	 #topBtnarea{
+	   max-width: 90%;
+	 }
+	 #topBtnarea a.mainbtn{
+	   font-size:1.8rem;
+	 }
+	 #shop p{
+	   font-size:1.6rem;
+	 }
+	 #shop ul li{
+	   margin:1rem;
+	 }
+	 #area01 .illustarea{
+	   position: static;
+	   float: right;
+	   max-width: 30%;
+	   padding:0;
+	 }
+	 #area01 .fukidashi{
+	   margin-top:10%;
+	   margin-right:34%;
+	 }
+	 #area01 .textarea:after{
+	   content:"";
+	   display: block;
+	   height: 1;
+	   clear:both;
+	 }
+	 ul.review{
+	   padding:0;
+	   max-width: 90%;
+	   margin:auto;
+	 }
+   
+	 #area04 .textarea .fukidashi{
+	   padding:1.5rem;
+	 }
+	 ul.data{
+	   font-size:1.3rem;
+	 }
+	 ul.merite li{
+	   padding:0rem .5rem;
+	 }
+	 ul.merite li dl dt{
+	   font-size:1.2rem;
+	 }
+	 #end .price{
+	   font-size:3rem;
+	 }
+	 #btmBtnarea a.mainbtn .textarea{
+	   font-size:2.3rem;
+	 }
+	 /*//////// 769 ///////////*/
+   }
+   @media screen and (max-width:640px){
+   
+	 .visible640{
+	   display: block;
+	 }
+	 .hidden640{
+	   display: none;
+	 }
+	 /*////////////////////////////*/
+	 .accent{
+	   font-size:1.1em;
+	 }
+	 a.mainbtn:after{
+	   font-size:5vw;
+	 }
+	 a.mainbtn{
+	   padding:5vw;
+	 }
+	 .title h3 br {
+		 display: none;
+	 }
+   
+	 #topBtnarea a.mainbtn .pricearea .price{
+	   margin:0;
+	 }
+	 ul.merite li{
+	   width:50%;
+	   padding:0 1.5rem;
+	 }
+	 #area04 .illustarea{
+	   width:35%;
+	 }
+	 #area04 .textarea{
+	   width:65%;
+	 }
+	 ul.data li{
+	   display: block;
+	   }
+	 ul.data li .ti{
+	   width:100%;
+	 }
+	 ul.data li .value{
+	   width:100%;
+	   text-align: right;
+	   font-size:1.2em;
+	 }
+	 ul.qa_list li dl dt{
+	   font-size:1.15rem;
+	 }
+	 ul.qa_list li dl dd p{
+	   font-size:1rem;
+	 }
+	 #end .price{
+	   font-size:7vw;
+	 }
+	 #btmBtnarea a.mainbtn{
+	   padding:4% ;
+	 }
+	 #btmBtnarea a.mainbtn .imagearea{
+	   width:30%;
+	 }
+	 #btmBtnarea a.mainbtn .textarea{
+	   width:70%;
+	   font-size:4.5vw;
+	 }
+	 #btmBtnarea a.mainbtn p{
+	   font-size:.55em;
+	 }
+	 /*//////// 640 ///////////*/
+   }
+   
+   @media screen and (max-width:480px){
+	 .font20{
+	   font-size:1.2rem;
+	 }
+	 .font24{
+	   font-size:1.3rem;
+	 }
+	 .font28{
+	   font-size:1.43rem;
+	 }
+	 .font30{
+	   font-size:1.48rem;
+	 }
+	 .googlemap{
+	   padding-top:110%;
+	 }
+	 .visible480{
+	   display: block;
+	 }
+	 .hidden480{
+	   display: none;
+	 }
+	 /*///////////////////////////*/
+	 html{
+	   font-size:13px;
+	 }
+	 .fukidashi{
+	   font-size:1.2rem;
+	   padding:1em;
+	 }
+	 .fukidashi:after{
+	   background-size: contain;
+	 }
+	 .title h3{
+	   font-size:6vw;
+	 }
+	 .title.hane.hane2 h3{
+	   font-size:1.5rem;
+	 }
+	 #topBtnarea{
+	   max-width:100%;
+	 }
+	 #topBtnarea a.mainbtn .ti{
+	   font-size:1.2em;
+	 }
+	 #topBtnarea a.mainbtn .yellow{
+	   display: block;
+	 }
+	 #topBtnarea a.mainbtn .pricearea {
+	   font-size:1em;
+	 }
+	 #topBtnarea a.mainbtn .pricearea .price{
+	   font-size:1.6em;
+	 }
+	 #topBtnarea a.mainbtn .maru{
+	   font-size:1.2rem;
+	 }
+	 #area01 .fukidashi .uline{
+	   font-size:1.2em;
+	 }
+	 ul.review li p{
+	   font-size:1.1rem;
+	 }
+	 ul.review li p .accent{
+	   display: inline-block;
+	 }
+	 #plan ul.tab li{
+	   font-size:1.15rem;
+	   padding:.8em;
+	   width:50%;
+	 }
+	 #plan table{
+	   font-size:0.9rem;
+	   width:100%;
+	 }
+	 #plan table th,
+	 #plan table td{
+   
+	 }
+	 #plan table tr.price th,
+	 #plan table tr.price td{
+	   font-size:1.05rem;
+	 }
+	 #mall .en{
+	   font-size:1.7em;
+	 }
+	 #shop ul{
+	   display: flex;
+	   flex-wrap:wrap;
+	   justify-content: space-around;
+	 }
+	 #shop ul li{
+	   margin:0;
+	   padding:.5rem 0;
+	   width:40%;
+	   text-align: center;
+	 }
+	 #area01 .fukidashi:after{
+	   width:40px;
+	 }
+	 #area02 .flex{
+	   display: block;
+	   align-items: center;
+	 }
+	 #area02 .illustarea{
+	   width:40%;
+	   margin:auto;
+	   padding:0;
+	 }
+	 #area02 .textarea{
+	   width:100%;
+	 }
+	 #area02 .textarea p{
+	   font-size:1rem;
+	 }
+	 #area03 .imagearea{
+	   padding-top:95%;
+	 }
+	 #area03 .imagearea img.ps01{
+	   top:0;
+	   left:50%;
+	   width:50%;
+	   transform: translateX(-50%);
+	 }
+	 #area03 .imagearea img.ps02{
+	   width:100%;
+	 }
+	 #area04 .flex{
+	 flex-wrap: wrap;
+	 }
+	 #area04 .illustarea{
+	   width:40%;
+	   margin:1rem auto;
+	   order:1;
+	 }
+	 #area04 .textarea{
+	   width:100%;
+	   order:2;
+	 }
+	 #area04 .fukidashi:after{
+	   top:-40px;
+	   left:25%;
+	   transform: rotate(-90deg);
+	 }
+	 ul.merite li{
+	   width:100%;
+	   margin:1rem 0;
+	 }
+	 ul.merite li .thumb{
+	   width:80%;
+	   margin:auto;
+	 }
+	 ul.merite li dl dt{
+	   font-size:1.4rem;
+	 }
+	 #btmBtnarea a.mainbtn p{
+	   margin-top:1em;
+	   font-size:.7em;
+	 }
+   
+   
+	 /*//////// 480 ///////////*/
+   }
+   
+  
