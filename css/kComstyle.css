@@ -2134,4 +2134,55 @@ form .btn {
 		font-size: 1.2rem;
 	}
 }
+/** plan **/
+#plan ul.tab{
+	display: flex;
+	justify-content: center;
+  }
+  #plan ul.tab li{
+	font-size:1.429rem;
+	font-weight: bold;
+	text-align: center;
+	color:white;
+	background:#a7a7a7;
+	border-radius: 10px 10px 0 0;
+	display: block;
+	padding:1em;
+	width:42%;
+	margin:0 1%;
+	cursor: pointer;
+  }
+  #plan ul.tab li.current{
+	background: #e9446a;
+  }
+  
+  #plan table{
+	border:2px solid #707070;
+	border-collapse: collapse;
+	width: 95%;
+	margin:auto;
+  }
+  #plan table th{
+	background:#f5f7f8;
+  }
+  #plan table th,
+  #plan table td{
+	border:1px solid #707070;
+	text-align: center;
+	padding:.3em;
+  }
+  #plan table tr.price th,
+  #plan table tr.price td{
+	font-size:1.286em;
+	font-weight: bold;
+  }
+  #plan table.liteplan tr th{
+	background:#f5f7f8;
+  }
+  #plan table.basicplan tr th{
+	background:#f1efe9;
+  }
+  #plan table .normal{
+	font-weight: normal;
+  }
 
