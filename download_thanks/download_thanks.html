@@ -22,51 +22,15 @@
           
           <!-- download -->
           <section id="contact-form-section" class="gray">
-            <div class="download container flex">
+            <div class="thx container">
               <div class="heading">
-                <h1>すぐにわかる 口コミコム<br>資料ダウンロード</h1>
-                <p>口コミ対策の重要性、口コミコムを用いた改善実績などをPDFで無料ダウンロードいただけます。</p>
+                <h1>資料請求完了</h1>
+                <p>口コミコムの資料をご請求いただきありがとうございます。<br>ご登録されたメールアドレスに資料ダウンロードURLをお送りいたしましたのでご確認ください。</p>
                 <div class="cover"><img src="../images/download-book.png"></div>
               </div>
-              <div id="formWrapper">
-                <form class="" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeo6J8WPbKc5N-uHGN3zccz5VVj252mLLvnNL_tmKZq_eYhYw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-                  <div>
-                    <p>必要事項をご入力の上「送信する」ボタンを押してください。
-                      入力いただいたメールアドレスに資料がダウンロードできるURLをお送りいたします。</p>
-                    <label for="CompanyName">会社名（必須）</label>
-                    <input type="text" id="CompanyName" name="entry.574015133" placeholder="会社名を入力してください" required>
-                  </div>
-                  <div>
-                    <label for="UserName">お名前（必須）</label>
-                    <input type="text" id="UserName" name="entry.232092788" placeholder="お名前を入力してください" required>
-                  </div>
-                  <div>
-                    <label for="email">メールアドレス（必須）</label>
-                    <input type="email" id="email" name="entry.992720012" placeholder="メールアドレスを入力してください"  required>
-                  </div>
-                  <div>
-                    <label for="email">電話番号（必須）</label>
-                    <input type="tel" id="tel" name="entry.1065740956" placeholder="電話番号を入力してください" required>
-                  </div>
-                  <div class="radio">
-                    <label for="store">店舗数（必須）</label>
-                    <div class="flex">
-                        <input type="radio" class="radio-input" name="entry.2002996921" value="10店舗未満" id="store10" required><label for="store10">10店舗未満</label>
-                        <input type="radio" class="radio-input" name="entry.2002996921" value="11 〜 49店舗" id="store30" required><label for="store30">11 〜 49店舗</label>
-                        <input type="radio" class="radio-input" name="entry.2002996921" value="50店舗以上" id="store50" required><label for="store50">50店舗以上</label>
-                      </div>
-                      <div>
-                        <label for="content">お問い合わせ内容</label>
-                        <textarea id="content" name="entry.802638725" placeholder="お気軽にお問い合わせください"></textarea>
-                      </div>
-                      <div class="submit">
-                        <button class="button btn enterpriseSubmit" type="submit" onclick="submitForm()">送信する</button>
-                      </div>
-                    </div>
-                </form>
-                <script type="text/javascript">var submitted = false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='../download_thanks/download_thanks.html';}"></iframe>
-              </div>
+              <div id="thxMessage" style="display:none;">
+                <p>サンクスメッセージ</p>
+            </div>
             </div>
           </section>
           <!-- download -->

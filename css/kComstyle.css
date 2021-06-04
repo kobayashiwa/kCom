@@ -1782,6 +1782,26 @@ form .btn {
 		width: 100%;
 	}
 }
+/** thx **/
+#contact-form-section .thx.container .heading h1 {
+	text-align: center;
+}
+#contact-form-section .thx.container .heading p {
+	text-align: center;
+}
+#contact-form-section .thx.container .heading .cover {
+	width: 280px;
+	margin: 48px auto 0 auto;
+}
+#contact-form-section .thx.container .heading .cover img {
+	width: 100%;
+}
+@media (max-width: 700px) {
+	#contact-form-section .thx.container .heading .cover {
+		width: 200px;
+		margin: 24px auto 0 auto;
+	}
+}
 
 
 
@@ -2235,7 +2255,7 @@ form .btn {
 
 
 
-  
+
   #area03 .imagearea img.ps01{
 	position: absolute;
 	left:0;
