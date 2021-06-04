@@ -1,0 +1,159 @@
+<!doctype html>
+
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>口コミコム</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Googleマップでの集客をもっとカンタンに。"/>
+        <meta property="og:url" content="https://kutikomi.com/"/>
+        <link rel="stylesheet" type="text/css" href="../css/kComstyle.css" />
+    </head>
+
+    <body>
+        <!-- header -->
+        <header class="header">
+          <div class="logo"><a href="enterprise.html"><img src="../images/kComLogo.svg" alt="口コミコム"></a></div>
+      </header>
+      <!-- header -->
+
+        <!-- main -->
+        <main>
+          
+          <!-- download -->
+          <section id="contact-form-section" class="gray">
+            <div class="download container flex">
+              <div class="heading">
+                <h1>すぐにわかる 口コミコム<br>資料ダウンロード</h1>
+                <p>口コミ対策の重要性、口コミコムを用いた改善実績などをPDFで無料ダウンロードいただけます。</p>
+                <div class="cover"><img src="../images/download-book.png"></div>
+              </div>
+              <div id="formWrapper">
+                <form class="" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeo6J8WPbKc5N-uHGN3zccz5VVj252mLLvnNL_tmKZq_eYhYw/formResponse" method="post" name="myForm" target="dummyIframe">
+                  <div>
+                    <p>必要事項をご入力の上「送信する」ボタンを押してください。
+                      入力いただいたメールアドレスに資料がダウンロードできるURLをお送りいたします。</p>
+                    <label for="CompanyName">会社名（必須）</label>
+                    <input type="text" id="CompanyName" name="entry.574015133" placeholder="会社名を入力してください" required>
+                  </div>
+                  <div>
+                    <label for="UserName">お名前（必須）</label>
+                    <input type="text" id="UserName" name="entry.232092788" placeholder="お名前を入力してください" required>
+                  </div>
+                  <div>
+                    <label for="email">メールアドレス（必須）</label>
+                    <input type="email" id="email" name="entry.992720012" placeholder="メールアドレスを入力してください"  required>
+                  </div>
+                  <div>
+                    <label for="email">電話番号（必須）</label>
+                    <input type="tel" id="tel" name="entry.1065740956" placeholder="電話番号を入力してください" required>
+                  </div>
+                  <div class="radio">
+                    <label for="store">店舗数（必須）</label>
+                    <div class="flex">
+                        <input type="radio" class="radio-input" name="entry.2002996921" value="10店舗未満" id="store10" required><label for="store10">10店舗未満</label>
+                        <input type="radio" class="radio-input" name="entry.2002996921" value="11 〜 49店舗" id="store30" required><label for="store30">11 〜 49店舗</label>
+                        <input type="radio" class="radio-input" name="entry.2002996921" value="50店舗以上" id="store50" required><label for="store50">50店舗以上</label>
+                      </div>
+                      <div>
+                        <label for="content">お問い合わせ内容</label>
+                        <textarea id="content" name="entry.802638725" placeholder="お気軽にお問い合わせください"></textarea>
+                      </div>
+                      <div class="submit">
+                        <button class="button btn enterpriseSubmit" type="submit" onclick="submitForm()">送信する</button>
+                      </div>
+                    </div>
+                </form>
+              </div>
+            </div>
+          </section>
+          <!-- download -->
+
+        </main>
+        <!-- main -->
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <ul class="flex">
+                    <li><a href="../privacy_policy/privacy_policy.html">プライバシーポリシー</a></li>
+                    <li><a href="../user_terms/user_terms.html">ご利用規約</a></li>
+                    <li><a href="../faq/faq.html">よくある質問</a></li>
+                    <li><a href="../legal/legal.html">特定商取引法に基づく表記</a></li>
+                    <li><a href="https://mov.am/" target="_blank">運営会社</a></li>
+                </ul>
+                <p>&copy; 2019 mov inc.</p>
+            </div>
+        </footer>
+        <!-- footer -->
+
+<script src="../js/jquery-3.3.1.min.js"></script>
+
+<script>
+    $(function() {
+$(".nav-button").on("click", function() {
+if ($(this).hasClass("active")) {
+  $(this).removeClass("active");
+  $(".nav-wrap")
+    .addClass("close")
+    .removeClass("open");
+} else {
+  $(this).addClass("active");
+  $(".nav-wrap")
+    .addClass("open")
+    .removeClass("close");
+}
+});
+});
+</script>
+
+<script>
+    function submitForm(){
+        var val=document.getElementsByName("entry.1159373385")[0];
+         if (val.value.length == 0) {
+           alert("会社名が入力されていません");
+           val.focus();
+            return;
+            }
+            var val=document.getElementsByName("entry.585981000")[0];
+         if (val.value.length == 0) {
+           alert("お名前が入力されていません");
+           val.focus();
+            return;
+            }
+            var val=document.getElementsByName("entry.1256016132")[0];
+         if (val.value.length == 0) {
+           alert("メールアドレスが入力されていません");
+           val.focus();
+            return;
+            }
+            var val=document.getElementsByName("entry.1280571130")[0];
+         if (val.value.length == 0) {
+           alert("電話番号が入力されていません");
+           val.focus();
+            return;
+            }
+            var val=document.getElementsByName("entry.2132510867")[0];
+         if (val.value.length == 0) {
+           alert("店舗数を選択してください");
+           val.focus();
+            return;
+            }
+            var val=document.getElementsByName("entry.478542307")[0];
+         if (val.value.length == 0) {
+           alert("お問い合わせ内容が入力されていません");
+           val.focus();
+            return;
+            }
+        document.myForm.submit();
+        document.getElementById('formWrapper').style.display = 'none';
+        document.getElementById('thxMessage').style.display = 'block';
+      }
+ </script>
+
+</body>
+
+</html>
+
+
+

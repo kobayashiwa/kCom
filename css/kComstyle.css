@@ -1743,6 +1743,49 @@ form .btn {
 	}
 }
 
+/** download **/
+#contact-form-section .download.container {
+	max-width: 1024px;
+	padding: 4rem 0; 
+}
+#contact-form-section .download.container .heading {
+	width: 50%;
+	padding-right: 63px;
+}
+#contact-form-section .download.container .heading .cover {
+	width: 280px;
+	margin: 48px auto 0 auto;
+}
+#contact-form-section .download.container .heading .cover img {
+	width: 100%;
+}
+#contact-form-section .download.container #formWrapper {
+	width: 50%;
+}
+#contact-form-section .download.container #formWrapper p {
+	font-size: 0.8rem;
+}
+@media (max-width: 700px) {
+	#contact-form-section .download.container {
+		flex-direction: column;
+		padding: 2rem 0;
+	}
+	#contact-form-section .download.container .heading {
+		width: 100%;
+		padding-right: 0;
+	}
+	#contact-form-section .download.container .heading .cover {
+		width: 160px;
+		margin: 24px auto 0 auto;
+	}
+	#contact-form-section .download.container #formWrapper {
+		width: 100%;
+	}
+}
+
+
+
+
 /** case **/
 #case .case-top {
 	width: 100%;
@@ -2189,11 +2232,10 @@ form .btn {
   
 
   
-  #area03 .imagearea{
-	position: relative;
-	padding-top:67%;
-	margin-bottom: -8%;
-  }
+
+
+
+  
   #area03 .imagearea img.ps01{
 	position: absolute;
 	left:0;
