@@ -210,14 +210,23 @@ a.mainbtn .yellow{
 #topBtnarea.Btnarea .bookletarea {
   display: flex;
   margin-top: 24px;
+  align-items: center;
 }
 #topBtnarea.Btnarea .booklet {
   width: 40%;
 }
 #topBtnarea.Btnarea .bookletCopy {
+  font-size: 32px;
+  line-height: 1.5;
   text-align: left;
   padding-left: 24px;
 }
+#topBtnarea.Btnarea .bookletSub {
+  font-size: 18px;
+}
+
+
+
 
 
 
