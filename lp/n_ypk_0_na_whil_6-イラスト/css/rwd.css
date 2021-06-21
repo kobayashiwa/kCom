@@ -53,36 +53,36 @@ ul.data{
   .title.hane{
     margin-bottom: 2rem;
   }
-  #topBtnarea{
+  #topBtnarea, #btmBtnarea {
     max-width: 90%;
   }
-  #topBtnarea a.mainbtn{
+  #topBtnarea a.mainbtn, #btmBtnarea a.mainbtn{
     font-size:1.8rem;
   }
-  #topBtnarea.Btnarea .floatTit{
+  #topBtnarea.Btnarea .floatTit, #btmBtnarea.Btnarea .floatTit{
     padding: 12px 32px;
     top: -20px;
     left: 50%;
     transform: translate(-50%, 0);
   }
-  #topBtnarea.Btnarea .bookletCopy {
+  #topBtnarea.Btnarea .bookletCopy, #btmBtnarea.Btnarea .bookletCopy {
     font-size: 24px;
     line-height: 1.5;
   }
-  #topBtnarea.Btnarea .bookletSub {
+  #topBtnarea.Btnarea .bookletSub, #btmBtnarea.Btnarea .bookletSub {
     font-size: 14px;
   }
-  #topBtnarea.Btnarea .booklet {
+  #topBtnarea.Btnarea .booklet, #btmBtnarea.Btnarea .booklet {
     width: 80%;
   }
-  #topBtnarea.Btnarea .bookletCopy {
+  #topBtnarea.Btnarea .bookletCopy, #btmBtnarea.Btnarea .bookletCopy {
     padding: 0;
     font-size: 20px;
   }
-  #topBtnarea.Btnarea .bookletCopy br {
+  #topBtnarea.Btnarea .bookletCopy br, #btmBtnarea.Btnarea .bookletCopy br {
     display: none;
   }
-  #topBtnarea.Btnarea .bookletSub {
+  #topBtnarea.Btnarea .bookletSub, #btmBtnarea.Btnarea .bookletSub {
     text-align: left;
   }
 
@@ -131,9 +131,6 @@ ul.data{
   #end .price{
     font-size:3rem;
   }
-  #btmBtnarea a.mainbtn .textarea{
-    font-size:2.3rem;
-  }
   /*//////// 769 ///////////*/
 }
 @media screen and (max-width:640px){
@@ -158,12 +155,13 @@ ul.data{
   #topBtnarea a.mainbtn .pricearea .price{
     margin:0;
   }
-  #topBtnarea.Btnarea .floatTit{
+  #topBtnarea.Btnarea .floatTit, #btmBtnarea.Btnarea .floatTit{
     padding: 8px 24px;
     font-size: 18px;
   }
-  #topBtnarea.Btnarea .bookletarea {
+  #topBtnarea.Btnarea .bookletarea, #btmBtnarea.Btnarea .bookletarea {
     flex-direction: column;
+    padding-bottom: 8px;
   }
 
   ul.merite li{
@@ -195,19 +193,6 @@ ul.data{
   }
   #end .price{
     font-size:7vw;
-  }
-  #btmBtnarea a.mainbtn{
-    padding:4% ;
-  }
-  #btmBtnarea a.mainbtn .imagearea{
-    width:30%;
-  }
-  #btmBtnarea a.mainbtn .textarea{
-    width:70%;
-    font-size:4.5vw;
-  }
-  #btmBtnarea a.mainbtn p{
-    font-size:.55em;
   }
   /*//////// 640 ///////////*/
 }

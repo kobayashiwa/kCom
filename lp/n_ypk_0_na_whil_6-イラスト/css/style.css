@@ -153,18 +153,18 @@ a.mainbtn .yellow{
 #keyvisual{
   background:#fff;
 }
-#topBtnarea{
+#topBtnarea, #btmBtnarea {
   max-width: 750px;
   margin:auto;
 }
-#topBtnarea a.mainbtn {
+#topBtnarea a.mainbtn, #btmBtnarea a.mainbtn {
   font-size:2.143rem;
   text-align: center;
 }
-#topBtnarea.Btnarea {
+#topBtnarea.Btnarea, #btmBtnarea.Btnarea {
   position: relative;
 }
-#topBtnarea.Btnarea .floatTit{
+#topBtnarea.Btnarea .floatTit, #btmBtnarea.Btnarea .floatTit{
   background-color: #fff625;
   border-radius: 2rem 2rem 0 2rem;
   width: fit-content;
@@ -176,21 +176,21 @@ a.mainbtn .yellow{
   left: 50%;
   transform: translate(-50%, 0);
 }
-#topBtnarea.Btnarea .bookletarea {
+#topBtnarea.Btnarea .bookletarea, #btmBtnarea.Btnarea .bookletarea {
   display: flex;
   margin-top: 24px;
   align-items: center;
 }
-#topBtnarea.Btnarea .booklet {
+#topBtnarea.Btnarea .booklet, #btmBtnarea.Btnarea .booklet {
   width: 40%;
 }
-#topBtnarea.Btnarea .bookletCopy {
+#topBtnarea.Btnarea .bookletCopy, #btmBtnarea.Btnarea .bookletCopy {
   font-size: 32px;
   line-height: 1.5;
   text-align: left;
   padding-left: 24px;
 }
-#topBtnarea.Btnarea .bookletSub {
+#topBtnarea.Btnarea .bookletSub, #btmBtnarea.Btnarea .bookletSub {
   font-size: 18px;
 }
 #mall{
@@ -444,9 +444,6 @@ ul.qa_list li dl dd p:nth-last-child(1){
 #plan table .normal{
   font-weight: normal;
 }
-#btmBtnarea a.mainbtn{
-  padding:1.8rem;
-}
 #end .price {
   font-size:4.07rem;
   text-align: center;
@@ -459,27 +456,6 @@ ul.qa_list li dl dd p:nth-last-child(1){
 }
 #end .price .small{
   font-size:0.7em;
-}
-#btmBtnarea a.mainbtn .flex{
-  display: flex;
-  align-items: center;
-}
-#btmBtnarea a.mainbtn .imagearea{
-  width:35%;
-}
-#btmBtnarea a.mainbtn .textarea{
-  width:65%;
-  font-size:3.07rem;
-}
-#btmBtnarea a.mainbtn .yellow{
-  font-size: 1.2em;
-  padding:0 .7em;
-  border-radius: .3em;
-}
-#btmBtnarea a.mainbtn p{
-  font-weight: bold;
-  font-size:.45em;
-  line-height: 1.6;
 }
 
 /*////// footer ////////*/
