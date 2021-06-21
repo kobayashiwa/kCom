@@ -164,6 +164,9 @@ a.mainbtn .yellow{
 #topBtnarea.Btnarea, #btmBtnarea.Btnarea {
   position: relative;
 }
+#btmBtnarea.Btnarea {
+  padding-top: 2rem;
+}
 #topBtnarea.Btnarea .floatTit, #btmBtnarea.Btnarea .floatTit{
   background-color: #fff625;
   border-radius: 2rem 2rem 0 2rem;
