@@ -209,6 +209,7 @@ a.mainbtn .yellow{
 }
 #topBtnarea.Btnarea .bookletarea {
   display: flex;
+  margin-top: 24px;
 }
 #topBtnarea.Btnarea .booklet {
   width: 40%;
