@@ -207,6 +207,9 @@ a.mainbtn .yellow{
   left: 50%;
   transform: translate(-50%, 0);
 }
+#topBtnarea.Btnarea .bookletarea {
+  display: flex;
+}
 
 
 
