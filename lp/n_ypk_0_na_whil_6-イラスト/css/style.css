@@ -210,6 +210,10 @@ a.mainbtn .yellow{
 #topBtnarea.Btnarea .bookletarea {
   display: flex;
 }
+#topBtnarea.Btnarea .booklet {
+  width: 40%;
+}
+
 
 
 
