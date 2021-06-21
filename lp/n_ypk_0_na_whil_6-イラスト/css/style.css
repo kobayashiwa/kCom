@@ -194,6 +194,7 @@ a.mainbtn .yellow{
 #topBtnarea.Btnarea .floatTit{
   background-color: #fff625;
   color: #e9446a;
+  display: inline-block;
 }
 
 
