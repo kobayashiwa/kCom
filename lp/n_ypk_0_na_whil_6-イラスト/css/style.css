@@ -191,12 +191,21 @@ a.mainbtn .yellow{
   color: #e9446a;
 }
 
+#topBtnarea.Btnarea {
+  position: relative;
+}
+
 #topBtnarea.Btnarea .floatTit{
   background-color: #fff625;
   border-radius: 2rem 2rem 0 2rem;
+  width: fit-content;
   padding: 16px 48px;
   color: #e9446a;
   display: inline-block;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 
