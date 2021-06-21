@@ -161,40 +161,9 @@ a.mainbtn .yellow{
   font-size:2.143rem;
   text-align: center;
 }
-#topBtnarea a.mainbtn .yellow{
-  display: inline-block;
-  background:#f6fea9;
-  border-radius:3em;
-  padding:0 1em;
-  margin:0 .5rem;
-  color: #e9446a;
-  font-size:1.2em;
-}
-#topBtnarea a.mainbtn .yellow sub{
-  font-size:0.8rem;
-}
-#topBtnarea a.mainbtn .pricearea{
-  font-size:1.5em;
-}
-#topBtnarea a.mainbtn .pricearea .price{
-  font-size:1.8em;
-  margin:0 10px;
-}
-#topBtnarea a.mainbtn .pricearea .small{
-  font-size:.7em;
-}
-#topBtnarea a.mainbtn .maru{
-  display: inline-block;
-  background:white;
-  border-radius:3em;
-  padding:0 1em;
-  color: #e9446a;
-}
-
 #topBtnarea.Btnarea {
   position: relative;
 }
-
 #topBtnarea.Btnarea .floatTit{
   background-color: #fff625;
   border-radius: 2rem 2rem 0 2rem;
@@ -224,15 +193,6 @@ a.mainbtn .yellow{
 #topBtnarea.Btnarea .bookletSub {
   font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
 #mall{
   text-align: center;
   font-size:2.143rem;

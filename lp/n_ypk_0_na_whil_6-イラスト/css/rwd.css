@@ -72,6 +72,19 @@ ul.data{
   #topBtnarea.Btnarea .bookletSub {
     font-size: 14px;
   }
+  #topBtnarea.Btnarea .booklet {
+    width: 80%;
+  }
+  #topBtnarea.Btnarea .bookletCopy {
+    padding: 0;
+    font-size: 20px;
+  }
+  #topBtnarea.Btnarea .bookletCopy br {
+    display: none;
+  }
+  #topBtnarea.Btnarea .bookletSub {
+    text-align: left;
+  }
 
 
 
@@ -145,6 +158,14 @@ ul.data{
   #topBtnarea a.mainbtn .pricearea .price{
     margin:0;
   }
+  #topBtnarea.Btnarea .floatTit{
+    padding: 8px 24px;
+    font-size: 18px;
+  }
+  #topBtnarea.Btnarea .bookletarea {
+    flex-direction: column;
+  }
+
   ul.merite li{
     width:50%;
     padding:0 1.5rem;
