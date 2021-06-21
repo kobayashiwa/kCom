@@ -190,6 +190,15 @@ a.mainbtn .yellow{
   padding:0 1em;
   color: #e9446a;
 }
+
+#topBtnarea.Btnarea {
+  background-color: #999;
+}
+
+
+
+
+
 #mall{
   text-align: center;
   font-size:2.143rem;
