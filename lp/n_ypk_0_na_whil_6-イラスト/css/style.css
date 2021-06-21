@@ -214,6 +214,9 @@ a.mainbtn .yellow{
 #topBtnarea.Btnarea .booklet {
   width: 40%;
 }
+#topBtnarea.Btnarea .bookletCopy {
+  text-align: left;
+}
 
 
 
