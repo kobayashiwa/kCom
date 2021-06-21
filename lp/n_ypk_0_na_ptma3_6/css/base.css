@@ -33,8 +33,6 @@ a img {
   transition: .5s ease-in-out;
 }
 a:hover img {
-  -webkit-filter: brightness(130%);
-  filter: brightness(130%);
 	transform: scale(1.05);
 }
 html,body{
