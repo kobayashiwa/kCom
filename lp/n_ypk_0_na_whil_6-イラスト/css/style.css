@@ -193,6 +193,7 @@ a.mainbtn .yellow{
 
 #topBtnarea.Btnarea .floatTit{
   background-color: #fff625;
+  border-radius: 2rem 2rem 0 2rem;
   padding: 16px 48px;
   color: #e9446a;
   display: inline-block;
