@@ -1832,6 +1832,12 @@ form .btn {
 #case .cover-regina {
 	background-image: url(../images/case-regina-cover.jpg);
 }
+#case .back-wideleisure {
+	background-image: url(../images/case-wideleisure-cover-bg.png);
+}
+#case .cover-wideleisure {
+	background-image: url(../images/case-wideleisure-cover.jpg);
+}
 #case .case-cover span {
 	display: none;
 }
