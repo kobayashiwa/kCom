@@ -2091,16 +2091,17 @@ form .btn {
 .case-index .heading p {
 	text-align: left;
 }
+/** 3列で使用
 .case-content {
 	width: 50%;
 	padding: 0 2rem 3rem 0;
 }
-/** 3列で使用
+**/
 .case-content {
 	width: 33.33%;
 	padding: 0 1.5rem 3rem 0;
 }
-**/
+
 .case-content-cover {
 	width: 100%;
 	position: relative;
