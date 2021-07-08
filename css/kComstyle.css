@@ -589,7 +589,7 @@ footer li a:hover{
 	font-weight: 300;
 }
 .logo-list ul {
-	justify-content: center;
+	justify-content: start;
 	margin-top: 0.3rem;
 }
 .logo-list li {
