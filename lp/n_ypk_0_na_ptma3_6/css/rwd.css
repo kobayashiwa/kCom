@@ -360,3 +360,10 @@ ul.data{
 
   /*//////// 480 ///////////*/
 }
+@media (min-width: 751px) {
+  a[href*="tel:"] {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  }
+  }
