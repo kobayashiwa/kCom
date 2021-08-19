@@ -37,6 +37,10 @@
                     <input type="text" id="CompanyName" name="entry.574015133" placeholder="会社名を入力してください" required>
                   </div>
                   <div>
+                    <label for="CompanyURL">URL（必須）</label>
+                    <input type="text" id="CompanyURL" name="entry.1019628258" placeholder="会社ホームページのURLを入力してください" required>
+                  </div>
+                  <div>
                     <label for="UserName">お名前（必須）</label>
                     <input type="text" id="UserName" name="entry.232092788" placeholder="お名前を入力してください" required>
                   </div>
@@ -49,20 +53,40 @@
                     <input type="tel" id="tel" name="entry.1065740956" placeholder="電話番号を入力してください" required>
                   </div>
                   <div class="radio">
+                    <label for="purpose">活用目的（必須）</label>
+                    <div class="flex">
+                      <input type="radio" class="radio-input" name="entry.1666716318" value="自社導入" id="in-house" required><label for="in-house">自社導入</label>
+                      <input type="radio" class="radio-input" name="entry.1666716318" value="パートナー" id="partner" required><label for="partner">パートナー</label>
+                    </div>
+                  </div>
+                  <div>
+                    <label for="officer">役職（必須）</label>
+                    <input type="text" id="officer" name="entry.699077274" placeholder="おなたの役職を入力してください" required>
+                  </div>
+                  <div class="radio">
+                    <label for="timing">導入予定時期（必須）</label>
+                    <div class="flex">
+                      <input type="radio" class="radio-input" name="entry.766426758" value="すぐにでも" id="timing-now" required><label for="timing-now">すぐにでも</label>
+                      <input type="radio" class="radio-input" name="entry.766426758" value="1ヶ月以内" id="timing-1" required><label for="timing-1">1ヶ月以内</label>
+                      <input type="radio" class="radio-input" name="entry.766426758" value="1〜3ヶ月以内" id="timing-1-3" required><label for="timing-1-3">1〜3ヶ月以内</label>
+                      <input type="radio" class="radio-input" name="entry.766426758" value="3ヶ月〜" id="timing-3" required><label for="timing-3">3ヶ月〜</label>
+                    </div>
+                  </div>
+                  <div class="radio">
                     <label for="store">店舗数（必須）</label>
                     <div class="flex">
-                        <input type="radio" class="radio-input" name="entry.2002996921" value="10店舗未満" id="store10" required><label for="store10">10店舗未満</label>
-                        <input type="radio" class="radio-input" name="entry.2002996921" value="11 〜 30店舗" id="store30" required><label for="store30">11 〜 30店舗</label>
-                        <input type="radio" class="radio-input" name="entry.2002996921" value="31店舗以上" id="store50" required><label for="store50">31店舗以上</label>
-                      </div>
-                      <div>
-                        <label for="content">お問い合わせ内容</label>
-                        <textarea id="content" name="entry.802638725" placeholder="お気軽にお問い合わせください"></textarea>
-                      </div>
-                      <div class="submit">
-                        <button class="button btn enterpriseSubmit" type="submit" onclick="submitForm()">送信する</button>
-                      </div>
+                      <input type="radio" class="radio-input" name="entry.2002996921" value="10店舗未満" id="store10" required><label for="store10">10店舗未満</label>
+                      <input type="radio" class="radio-input" name="entry.2002996921" value="11 〜 30店舗" id="store30" required><label for="store30">11 〜 30店舗</label>
+                      <input type="radio" class="radio-input" name="entry.2002996921" value="31店舗以上" id="store50" required><label for="store50">31店舗以上</label>
                     </div>
+                  </div>
+                  <div>
+                    <label for="content">お問い合わせ内容</label>
+                    <textarea id="content" name="entry.802638725" placeholder="お気軽にお問い合わせください"></textarea>
+                  </div>
+                  <div class="submit">
+                    <button class="button btn enterpriseSubmit" type="submit" onclick="submitForm()">送信する</button>
+                  </div>
                 </form>
                 <script type="text/javascript">var submitted = false;</script>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='../download_thanks/download_thanks.html';}"></iframe>
